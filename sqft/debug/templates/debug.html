@@ -1,0 +1,122 @@
+<html><head><title>debug map</title>
+<script type="text/javascript" src="/public/js/jquery-1.3.min.js"></script>
+<script type="text/javascript" src="/public/js/sqft.js"></script>    
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key={{ gmaps_key }}" type="text/javascript"></script>
+<script src="http://www.google.com/jsapi?key={{ gmaps_key }}"></script>
+<script type="text/javascript">
+google.load("maps","2", {"other_params":"sensor=false"});
+function hexify(n) {
+    var s = Math.round(255*n).toString(16);
+    console.log(n, s);
+    return s.length == 1 ? "0" + s : s;
+}
+
+function makeline(border, levels, color, opacity) {
+    return new GPolygon.fromEncoded({
+        polylines: [{
+            points: border,
+            levels: levels,
+            color: color,
+            opacity: 1,
+            weight: 4,
+            numLevels: 4,
+            zoomFactor: 32
+        }],
+        fill: true,
+        color: color,
+        opacity: opacity,
+        outline: true
+    });
+}
+
+function handle_click(markers, id, emptyF, fullF) {
+    $(id).click(function(event) {
+        if (!markers.length) { emptyF(); }
+        else                 { fullF(); }
+    });
+}
+
+marker_db = {}
+function make_bits(id, url, make_marker_function) {
+    $(id).click(function(event) {
+        //if there's no array yet, make one
+        if (!marker_db[id])
+            marker_db[id] = [];
+        //if it's already loaded, unload:
+        else if (marker_db[id].length > 0) {
+            $.each(marker_db[id], function() { map.removeOverlay(this); });
+            marker_db[id] = [];
+            return;
+        }
+
+        //otherwise, load the url, populate the marker array, and add it to the map
+        $.getJSON(url, function(data) {
+            $.each(data, function(idx) {
+                var mark = make_marker_function(this);
+                marker_db[id].push(mark);
+                map.addOverlay(mark);
+            });
+        });
+    });
+}
+
+function init() {
+    map = new google.maps.Map2($("#map")[0]);
+    map.addControl(new google.maps.LargeMapControl());
+    map.setCenter(new google.maps.LatLng(39.30, -76.6),13);
+
+    //clear all checkboxes
+    $("input[type=checkbox]").each(function() {$(this).attr("checked", false);})
+
+    make_bits("#hoods", "/debug/hoods", function(foo) {
+        var m =  makeline(foo[1], foo[2], "#0000ff", foo[3] * .8);
+        console.log(foo[0], m.getArea());
+        return m;
+    });
+
+    make_bits("#crimes", "/debug/crimes", function(foo) {
+        return new GMarker(new GLatLng(foo[0], foo[1], {'title': foo[2]}));
+    });
+
+    make_bits("#zhoods", "/debug/zhoods", function(foo) {
+        return makeline(foo[1], foo[2], "#ff0000", .2);
+    });
+
+    make_bits("#stops", "/debug/transit_stops", function(foo) {
+        return new GMarker(new GLatLng(foo[1], foo[2], {'title': foo[0]}));
+    });
+
+    make_bits("#parks", "/debug/parks", function(foo) {
+        return makeline(foo[1], foo[2], "#00gg00", .4);
+    });
+
+    make_bits("#centers", "/debug/centers", function(foo) {
+        return new GMarker(new GLatLng(foo[0], foo[1]));
+    });
+
+    make_bits("#schools", "/debug/schools", function(foo) {
+        return new GMarker(new GLatLng(foo[1], foo[2], {'title': foo[0]}));
+    });
+
+    make_bits("#markets", "/debug/markets", function(foo) {
+        return new GMarker(new GLatLng(foo[1], foo[2], {'title': foo[0]}));
+    });
+};
+google.setOnLoadCallback(init);
+</script>
+
+</head>
+<body>
+<div id="controls" style="width: 100px; float:right;">
+<input id="crimes" type="checkbox" name="crimes" value="crimes">Crimes</input><br>
+<input id="zhoods" type="checkbox" name="zhoods" value="zhoods">Zillow Hoods</input><br>
+<input id="hoods" type="checkbox" name="hoods" value="hoods">Hoods</input><br>
+<input id="stops" type="checkbox" name="stops" value="stops">Bus Stops</input><br>
+<input id="parks" type="checkbox" name="parks" value="parks">Parks</input><br>
+<input id="centers" type="checkbox" name="centers" value="centers">hood centers</input><br>
+<input id="schools" type="checkbox", name="schools" value="schools">Schools</input><br>
+<input id="markets" type="checkbox", name="markets" value="markets">Markets</input><br>
+</div>
+<div id="map" style="width: 90%; height: 100%; background-color: red">
+</div>
+</body></html>

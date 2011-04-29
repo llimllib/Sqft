@@ -1,0 +1,2306 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor> </LastAuthor>
+  <Created>2009-05-10T14:30:27Z</Created>
+  <Version>11.5606</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13290</WindowHeight>
+  <WindowWidth>24795</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>105</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="principallist">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="204" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Width="52.5"/>
+   <Column ss:Width="282.75"/>
+   <Column ss:Width="191.25"/>
+   <Column ss:Index="5" ss:Width="63.75"/>
+   <Column ss:Index="8" ss:Width="90.75"/>
+   <Column ss:Width="105"/>
+   <Row>
+    <Cell><Data ss:Type="String">schoolnum</Data></Cell>
+    <Cell><Data ss:Type="String">schoolname</Data></Cell>
+    <Cell><Data ss:Type="String">schooladdress</Data></Cell>
+    <Cell><Data ss:Type="String">zip</Data></Cell>
+    <Cell><Data ss:Type="String">phone</Data></Cell>
+    <Cell><Data ss:Type="String">area</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Principal Firstname</Data></Cell>
+    <Cell><Data ss:Type="String">Principal Lastname</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Steuart Hill Academic Academy Middle</Data></Cell>
+    <Cell><Data ss:Type="String">30 S. Gilmor Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21223</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1387</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Marsha         </Data></Cell>
+    <Cell><Data ss:Type="String">Powell              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">Langston Hughes Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">5011 Arbutus Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-7827</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Gloria         </Data></Cell>
+    <Cell><Data ss:Type="String">Pulley              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">Cecil Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">2000 Cecil Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6385</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Roxanne        </Data></Cell>
+    <Cell><Data ss:Type="String">Forr                </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">City Springs Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">100 S. Caroline Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21231</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9165</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Rhonda         </Data></Cell>
+    <Cell><Data ss:Type="String">Richetta            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">James McHenry Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">31 S. Schroeder Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21223</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1621</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Judith         </Data></Cell>
+    <Cell><Data ss:Type="String">Dixon               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">Eutaw-Marshburn Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1624 Eutaw Place   </Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0779</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Marilyn        </Data></Cell>
+    <Cell><Data ss:Type="String">Jackson             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">Lakeland Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2921 Stranden Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21230</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1406</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Jacqueline     </Data></Cell>
+    <Cell><Data ss:Type="String">Ferris              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">Tench Tilghman Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">600 N. Patterson Park Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21205</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9247</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Jael</Data></Cell>
+    <Cell><Data ss:Type="String">Yon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">Stadium School Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1300 Gorsuch Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-2682</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Ron</Data></Cell>
+    <Cell><Data ss:Type="String">Shelley</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">Johnston Square Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1101 Valley Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21202</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1477</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Laura</Data></Cell>
+    <Cell><Data ss:Type="String">Lyde</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">Hilton Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">3301 Carlisle Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0634</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Sonya          </Data></Cell>
+    <Cell><Data ss:Type="String">Goodwyn             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">George Washington Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">800 Scott Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21230</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1445</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Susan          </Data></Cell>
+    <Cell><Data ss:Type="String">Burgess             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">Wolfe Street Academy Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">245 S. Wolfe Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21231</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9140</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Mark</Data></Cell>
+    <Cell><Data ss:Type="String">Gaither</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">Westside Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">2235 N. Fulton Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0628</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Cecelia</Data></Cell>
+    <Cell><Data ss:Type="String">King (Acting)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">Dr. Rayner Browne Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1000 N. Montford Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9239</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Lisa           </Data></Cell>
+    <Cell><Data ss:Type="String">Eason</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">Commodore John Rodgers Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">100 N. Chester Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21231</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9300</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Lily           </Data></Cell>
+    <Cell><Data ss:Type="String">Mc Elveen           </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">William Pinderhughes Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1200 N. Fremont Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0761</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Brenda         </Data></Cell>
+    <Cell><Data ss:Type="String">Hubbard             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew A. Henson Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1600 N. Payson Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0776</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Carla          </Data></Cell>
+    <Cell><Data ss:Type="String">Robinson Bragg      </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">Coldstream Park Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1400 Exeter Hall Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6443</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Edwin   </Data></Cell>
+    <Cell><Data ss:Type="String">Saunders</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="String">Charles Carroll Barrister Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1327 Washington Boulevard</Data></Cell>
+    <Cell><Data ss:Type="Number">21230</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-5973</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Bridget        </Data></Cell>
+    <Cell><Data ss:Type="String">Dean                </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">Harlem Park Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1401 W. Lafayette Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0633</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Joyce</Data></Cell>
+    <Cell><Data ss:Type="String">Akintillo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="String">Harford Heights Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1919 N. Broadway</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9341</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Nancy</Data></Cell>
+    <Cell><Data ss:Type="String">Faulkner            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="String">Dallas F. Nicholas Sr. Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">201 E. 21St. Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-4525</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Iris           </Data></Cell>
+    <Cell><Data ss:Type="String">Murdock             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String">Hamilton Middle</Data></Cell>
+    <Cell><Data ss:Type="String">5609 Sefton Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21214</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6370</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">TBD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">Garrison Middle</Data></Cell>
+    <Cell><Data ss:Type="String">3910 Barrington Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21207</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0735</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Isiah          </Data></Cell>
+    <Cell><Data ss:Type="String">Hemphill            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="String">Montebello Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2040 E. 32nd St</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-235-4801</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Camille</Data></Cell>
+    <Cell><Data ss:Type="String">Bell     </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">Federal Hill Prep Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1040 William Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21230</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1207</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Sharon         </Data></Cell>
+    <Cell><Data ss:Type="String">VanDyke             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">Chinquapin Middle</Data></Cell>
+    <Cell><Data ss:Type="String">900 Woodbourne Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21212</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6424</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Andre </Data></Cell>
+    <Cell><Data ss:Type="String">Parson</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">Hampstead Hill Academy Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">500 S. Linwood Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21224</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9146</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew</Data></Cell>
+    <Cell><Data ss:Type="String">Hornbeck</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String">Northeast Middle</Data></Cell>
+    <Cell><Data ss:Type="String">5001 Moravia Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21206</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9220</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Wanda          </Data></Cell>
+    <Cell><Data ss:Type="String">Young               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">Abbottston Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1300 Gorsuch Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-2685</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Angela         </Data></Cell>
+    <Cell><Data ss:Type="String">Lewis Faltz         </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell><Data ss:Type="String">Waverly Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">3400 Ellerslie Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6394</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Michelle</Data></Cell>
+    <Cell><Data ss:Type="String">Ferris</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell><Data ss:Type="String">Margaret Brent Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">100 E. 26Th Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6509</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Jacqueline     </Data></Cell>
+    <Cell><Data ss:Type="String">Waters Scofield     </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="String">Barclay Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2900 Barclay Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6387</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Jenny      </Data></Cell>
+    <Cell><Data ss:Type="String">Heinbaugh</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="String">Hampden Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">3608 Chestnut Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21211</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6004</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Margaret</Data></Cell>
+    <Cell><Data ss:Type="String">Shipley</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="String">Lombard Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1601 E. Lombard Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21231</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9261</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">Valerie        </Data></Cell>
+    <Cell><Data ss:Type="String">Hooper              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="String">Dr. Nathan A. Pitts-Ashburton Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">3935 Hilton Rd</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0636</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Lucy           </Data></Cell>
+    <Cell><Data ss:Type="String">Miller              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">Gwynns Falls Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">2700 Gwynns Falls Parkway</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0638</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Hartavia       </Data></Cell>
+    <Cell><Data ss:Type="String">Johnson             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="String">John Eager Howard Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">2011 Linden Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0837</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Erma           </Data></Cell>
+    <Cell><Data ss:Type="String">Jefferson           </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="String">Edgecombe Circle Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2835 Virginia Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0550</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Herbert        </Data></Cell>
+    <Cell><Data ss:Type="String">Miller              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell><Data ss:Type="String">Rosemont Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2777 Prestman Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0574</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Dwayne</Data></Cell>
+    <Cell><Data ss:Type="String">Wheeler</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell><Data ss:Type="String">Liberty Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">3901 Maine Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21207</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0571</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Beverly        </Data></Cell>
+    <Cell><Data ss:Type="String">Woolford            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell><Data ss:Type="String">Mount Royal Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">121 McMechen Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0864</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Carolyn        </Data></Cell>
+    <Cell><Data ss:Type="String">Freeland            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell><Data ss:Type="String">Edgewood Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1900 Edgewood Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0532</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Carol</Data></Cell>
+    <Cell><Data ss:Type="String">Green</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell><Data ss:Type="String">Sarah M. Roach Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">3434 Old Frederick Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21229</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0511</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Sheila         </Data></Cell>
+    <Cell><Data ss:Type="String">Hale                </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">Calverton Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1100 Whitmore Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0581</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Tanya     </Data></Cell>
+    <Cell><Data ss:Type="String">Green</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="String">Francis Scott Key Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1425 E. Fort Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21230</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1503</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Mary           </Data></Cell>
+    <Cell><Data ss:Type="String">Booker              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell><Data ss:Type="String">William H. Lemmel Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2801 N. Dukeland Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0664</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Quianna        </Data></Cell>
+    <Cell><Data ss:Type="String">Cooke               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">West Baltimore Middle</Data></Cell>
+    <Cell><Data ss:Type="String">201 North Bend Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21229</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0700</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Eugene</Data></Cell>
+    <Cell><Data ss:Type="String">Chong Qui</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="String">North Bend Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">181 North Bend Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21229</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0376</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Patricia</Data></Cell>
+    <Cell><Data ss:Type="String">Burrell</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="String">William Paca Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">200 N. Lakewood Ave.</Data></Cell>
+    <Cell><Data ss:Type="Number">21224</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9148</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Stacey</Data></Cell>
+    <Cell><Data ss:Type="String">Place</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell><Data ss:Type="String">Thomas Johnson Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">100 E. Heath Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21230</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1575</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">James          </Data></Cell>
+    <Cell><Data ss:Type="String">Dendinger      </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="String">Fort Worthington Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">2701 E. Oliver Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9161</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">1 - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Shaylin        </Data></Cell>
+    <Cell><Data ss:Type="String">Todd                </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell><Data ss:Type="String">Lakewood Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">2625 Federal Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9158</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - K.</Data></Cell>
+    <Cell><Data ss:Type="String">Iris           </Data></Cell>
+    <Cell><Data ss:Type="String">Harris              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell><Data ss:Type="String">Windsor Hills Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">4001 Alto Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0595</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Carmen         </Data></Cell>
+    <Cell><Data ss:Type="String">Holmes              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">88</Data></Cell>
+    <Cell><Data ss:Type="String">Lyndhurst Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">621 Wildwood Parkway</Data></Cell>
+    <Cell><Data ss:Type="Number">21229</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0503</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Tanya          </Data></Cell>
+    <Cell><Data ss:Type="String">Wilson              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell><Data ss:Type="String">Rognel Heights Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">4300 Sidehill Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21229</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0528</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Ivy            </Data></Cell>
+    <Cell><Data ss:Type="String">Hill                </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="String">Franklin Square Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1400 W. Lexington Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21223</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0795</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Terry          </Data></Cell>
+    <Cell><Data ss:Type="String">Patton              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell><Data ss:Type="String">Collington Square Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1409 N. Collington Ave.</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9198</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">D Andrea         </Data></Cell>
+    <Cell><Data ss:Type="String">Chapman               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">98</Data></Cell>
+    <Cell><Data ss:Type="String">Samuel F. B. Morse Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">424 S. Pulaski Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21223</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1355</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Michael        </Data></Cell>
+    <Cell><Data ss:Type="String">Cheatham             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">Moravia Park Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">6201 Frankford Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21206</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9096</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Barbara        </Data></Cell>
+    <Cell><Data ss:Type="String">Sawyer              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="String">Gilmor Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1311 N. Gilmor Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-462-2700</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Ledonnis</Data></Cell>
+    <Cell><Data ss:Type="String">Hernandez</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">122</Data></Cell>
+    <Cell><Data ss:Type="String">Samuel Coleridge-Taylor Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">507 W. Preston Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21201</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0783</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Sandra         </Data></Cell>
+    <Cell><Data ss:Type="String">Graves              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">124</Data></Cell>
+    <Cell><Data ss:Type="String">Bay-Brook Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">4301 Tenth Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21225</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1357</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Ann            </Data></Cell>
+    <Cell><Data ss:Type="String">Custis              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">125</Data></Cell>
+    <Cell><Data ss:Type="String">Furman L. Templeton Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1200 N. Pennsylvania Ave.</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-462-9560</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Kenneth</Data></Cell>
+    <Cell><Data ss:Type="String">Cherry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell><Data ss:Type="String">Booker T. Washington Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1301 Mcculloh Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-7734</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">William</Data></Cell>
+    <Cell><Data ss:Type="String">Bailey</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">133</Data></Cell>
+    <Cell><Data ss:Type="String">Paul Laurence Dunbar Middle</Data></Cell>
+    <Cell><Data ss:Type="String">500 N. Caroline Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21205</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9296</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Mark</Data></Cell>
+    <Cell><Data ss:Type="String">Bongiovanni</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">134</Data></Cell>
+    <Cell><Data ss:Type="String">Walter P. Carter Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">820 E. 43Rd Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21212</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6271</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Deborah        </Data></Cell>
+    <Cell><Data ss:Type="String">Barton              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">138</Data></Cell>
+    <Cell><Data ss:Type="String">Harriet Tubman Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1807 Harlem Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1362</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Sollers</Data></Cell>
+    <Cell><Data ss:Type="String">Kimberly</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">142</Data></Cell>
+    <Cell><Data ss:Type="String">Robert W. Coleman Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">2400 Windsor Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0764</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Brenda         </Data></Cell>
+    <Cell><Data ss:Type="String">Allen               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">144</Data></Cell>
+    <Cell><Data ss:Type="String">James Mosher Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">2400 W. Mosher Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0506</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Cascelia       </Data></Cell>
+    <Cell><Data ss:Type="String">Spears              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">145</Data></Cell>
+    <Cell><Data ss:Type="String">Alexander Hamilton Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">800 Poplar Grove Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0520</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Charlotte      </Data></Cell>
+    <Cell><Data ss:Type="String">Jackson             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="String">Bentalou Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">220 N. Bentalou Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21223</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1385</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Nikia</Data></Cell>
+    <Cell><Data ss:Type="String">Carter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">157</Data></Cell>
+    <Cell><Data ss:Type="String">George G. Kelson Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">701 Gold Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0800</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Federico       </Data></Cell>
+    <Cell><Data ss:Type="String">Adams               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">159</Data></Cell>
+    <Cell><Data ss:Type="String">Cherry Hill Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">801 Bridgeview Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21225</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1392</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Tifini</Data></Cell>
+    <Cell><Data ss:Type="String">Stewart</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">160</Data></Cell>
+    <Cell><Data ss:Type="String">Dr. Carter Godwin Woodson Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2501 Seabury Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21225</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1366</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Patrick        </Data></Cell>
+    <Cell><Data ss:Type="String">Harris              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">162</Data></Cell>
+    <Cell><Data ss:Type="String">Diggs-Johnson Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1300 Herkimer Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21223</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1572</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Esther</Data></Cell>
+    <Cell><Data ss:Type="String">Wallace</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">163</Data></Cell>
+    <Cell><Data ss:Type="String">Patapsco Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">844 Roundview Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21225</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1400</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Marvin         </Data></Cell>
+    <Cell><Data ss:Type="String">Darden              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">164</Data></Cell>
+    <Cell><Data ss:Type="String">Arundel Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2400 Round Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21225</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1379</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew</Data></Cell>
+    <Cell><Data ss:Type="String">Carpenter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">177</Data></Cell>
+    <Cell><Data ss:Type="String">George W. F. McMechen Middle/High</Data></Cell>
+    <Cell><Data ss:Type="String">4411 Garrison Boulevard</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0980</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Gwendolyn      </Data></Cell>
+    <Cell><Data ss:Type="String">Mc Clain Brooks     </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">178</Data></Cell>
+    <Cell><Data ss:Type="String">Excel Academy @ Francis M. Wood High</Data></Cell>
+    <Cell><Data ss:Type="String">1001 W. Saratoga Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21223</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1290</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Angela         </Data></Cell>
+    <Cell><Data ss:Type="String">Seaton              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">181</Data></Cell>
+    <Cell><Data ss:Type="String">Southside Academy High</Data></Cell>
+    <Cell><Data ss:Type="String">2700 Seamon Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21225</Data></Cell>
+    <Cell><Data ss:Type="String">410-545-3528</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Denise         </Data></Cell>
+    <Cell><Data ss:Type="String">Gordon              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">201</Data></Cell>
+    <Cell><Data ss:Type="String">Dickey Hill Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">5025 Dickey Hill Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21207</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0610</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Joyce          </Data></Cell>
+    <Cell><Data ss:Type="String">Hughes              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">203</Data></Cell>
+    <Cell><Data ss:Type="String">Maree G. Farring Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">300 Pontiac Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21225</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1404</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 6.</Data></Cell>
+    <Cell><Data ss:Type="String">Linda          </Data></Cell>
+    <Cell><Data ss:Type="String">Brewster            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">204</Data></Cell>
+    <Cell><Data ss:Type="String">Mary E. Rodman Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">3510 W. Mulberry Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21229</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0508</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Jerome         </Data></Cell>
+    <Cell><Data ss:Type="String">Butler              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">205</Data></Cell>
+    <Cell><Data ss:Type="String">Woodhome Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">7300 Moyer Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21234</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6398</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Christine      </Data></Cell>
+    <Cell><Data ss:Type="String">Skowrunski          </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">206</Data></Cell>
+    <Cell><Data ss:Type="String">Furley Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">4633 Furley Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21206</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9094</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Barbara        </Data></Cell>
+    <Cell><Data ss:Type="String">Meyers              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">207</Data></Cell>
+    <Cell><Data ss:Type="String">Curtis Bay Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">4301 West Bay Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21225</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1397</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 6.</Data></Cell>
+    <Cell><Data ss:Type="String">Barbara        </Data></Cell>
+    <Cell><Data ss:Type="String">Pryor               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">209</Data></Cell>
+    <Cell><Data ss:Type="String">Winston Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1101 Winston Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21212</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6356</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Eldon          </Data></Cell>
+    <Cell><Data ss:Type="String">Thomas              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell><Data ss:Type="String">Hazelwood Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">4517 Hazelwood Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21206</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9098</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Sidney         </Data></Cell>
+    <Cell><Data ss:Type="String">Twiggs              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">211</Data></Cell>
+    <Cell><Data ss:Type="String">Gardenville Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">5300 Belair Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21206</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6382</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Tammie</Data></Cell>
+    <Cell><Data ss:Type="String">McIntire-Miller</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">212</Data></Cell>
+    <Cell><Data ss:Type="String">Garrett Heights Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2800 Ailsa Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21214</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6361</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Betty</Data></Cell>
+    <Cell><Data ss:Type="String">Ross</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">213</Data></Cell>
+    <Cell><Data ss:Type="String">Govans Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">5801 York Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21212</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6396</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Linda          </Data></Cell>
+    <Cell><Data ss:Type="String">Taylor              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">214</Data></Cell>
+    <Cell><Data ss:Type="String">Guilford Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">4520 York Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21212</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6358</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Sheilah        </Data></Cell>
+    <Cell><Data ss:Type="String">Myers               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">215</Data></Cell>
+    <Cell><Data ss:Type="String">Highlandtown Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">3223 E. Pratt Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21224</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9381</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Nancy</Data></Cell>
+    <Cell><Data ss:Type="String">Fagan</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">217</Data></Cell>
+    <Cell><Data ss:Type="String">Belmont Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1406 N. Ellamont Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0579</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Mary Fay          </Data></Cell>
+    <Cell><Data ss:Type="String">La Martina          </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">219</Data></Cell>
+    <Cell><Data ss:Type="String">Yorkwood Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">5931 Yorkwood Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21239</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6364</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Deborah        </Data></Cell>
+    <Cell><Data ss:Type="String">Sharpe              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">220</Data></Cell>
+    <Cell><Data ss:Type="String">Morrell Park Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2601 Tolley Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21230</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-3426</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Sean</Data></Cell>
+    <Cell><Data ss:Type="String">Conley</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">221</Data></Cell>
+    <Cell><Data ss:Type="String">Mount Washington Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1801 Sulgrave Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21209</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6354</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Sue</Data></Cell>
+    <Cell><Data ss:Type="String">Torr</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">223</Data></Cell>
+    <Cell><Data ss:Type="String">Pimlico Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">4849 Pimlico Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0876</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Orrester       </Data></Cell>
+    <Cell><Data ss:Type="String">Shaw                </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">224</Data></Cell>
+    <Cell><Data ss:Type="String">Grove Park Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">5545 Kennison Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0822</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Carla          </Data></Cell>
+    <Cell><Data ss:Type="String">Jackson             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">225</Data></Cell>
+    <Cell><Data ss:Type="String">Westport Academy Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2401 Nevada Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21230</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-3396</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Felecia</Data></Cell>
+    <Cell><Data ss:Type="String">Irick</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">226</Data></Cell>
+    <Cell><Data ss:Type="String">Violetville Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1207 Pine Heights Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21229</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1416</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Catherine      </Data></Cell>
+    <Cell><Data ss:Type="String">Reinholdt           </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">228</Data></Cell>
+    <Cell><Data ss:Type="String">John Ruhrah Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">701 S. Rappolla Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21224</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9125</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Mary           </Data></Cell>
+    <Cell><Data ss:Type="String">Donnelly            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">229</Data></Cell>
+    <Cell><Data ss:Type="String">Holabird Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1500 Imla Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21224</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9086</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Lindsay        </Data></Cell>
+    <Cell><Data ss:Type="String">Krey                </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">231</Data></Cell>
+    <Cell><Data ss:Type="String">Brehms Lane Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">3536 Brehms Lane</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9150</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Andre          </Data></Cell>
+    <Cell><Data ss:Type="String">Spencer             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">232</Data></Cell>
+    <Cell><Data ss:Type="String">Thomas Jefferson Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">605 Dryden Drive</Data></Cell>
+    <Cell><Data ss:Type="Number">21229</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0534</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Wendy          </Data></Cell>
+    <Cell><Data ss:Type="String">Leishear            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">233</Data></Cell>
+    <Cell><Data ss:Type="String">Roland Park Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">5207 Roland Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21210</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6420</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Carolyn        </Data></Cell>
+    <Cell><Data ss:Type="String">Cole                </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">234</Data></Cell>
+    <Cell><Data ss:Type="String">Arlington Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">3705 W. Rogers Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0567</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Terrelle       </Data></Cell>
+    <Cell><Data ss:Type="String">Gray                </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">235</Data></Cell>
+    <Cell><Data ss:Type="String">Glenmount Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">6211 Walther Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21206</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6366</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Charlotte      </Data></Cell>
+    <Cell><Data ss:Type="String">Williams            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">236</Data></Cell>
+    <Cell><Data ss:Type="String">Hamilton Elementary/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">6101 Old Harford Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21214</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6375</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">William        </Data></Cell>
+    <Cell><Data ss:Type="String">Murphy              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">237</Data></Cell>
+    <Cell><Data ss:Type="String">Highlandtown Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">231 S.Eaton Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21224</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-2792</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Prentiss       </Data></Cell>
+    <Cell><Data ss:Type="String">Moore               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">239</Data></Cell>
+    <Cell><Data ss:Type="String">Masonville Cove Community Academy</Data></Cell>
+    <Cell><Data ss:Type="String">1201 Cambria Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21225</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1373</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">7 - 9.</Data></Cell>
+    <Cell><Data ss:Type="String">Rosa</Data></Cell>
+    <Cell><Data ss:Type="String">Carmon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+    <Cell><Data ss:Type="String">Graceland-O'Donnell Heights Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">6300 O'Donnell Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21224</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9083</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Wayne</Data></Cell>
+    <Cell><Data ss:Type="String">Law</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">241</Data></Cell>
+    <Cell><Data ss:Type="String">Fallstaff Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">3801 Fallstaff Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0682</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Faith          </Data></Cell>
+    <Cell><Data ss:Type="String">Hibbert             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">242</Data></Cell>
+    <Cell><Data ss:Type="String">Northwood Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">5201 Loch Raven Boulevard</Data></Cell>
+    <Cell><Data ss:Type="Number">21239</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6377</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Edward         </Data></Cell>
+    <Cell><Data ss:Type="String">English             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">243</Data></Cell>
+    <Cell><Data ss:Type="String">Armistead Gardens Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">5001 E. Eager Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21205</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9090</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Sofia          </Data></Cell>
+    <Cell><Data ss:Type="String">Glasson             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">245</Data></Cell>
+    <Cell><Data ss:Type="String">Leith Walk Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1235 Sherwood Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21239</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6380</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Edna</Data></Cell>
+    <Cell><Data ss:Type="String">Greer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">246</Data></Cell>
+    <Cell><Data ss:Type="String">Beechfield Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">301 S. Beechfield Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21229</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0525</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Rene </Data></Cell>
+    <Cell><Data ss:Type="String">Browning</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">247</Data></Cell>
+    <Cell><Data ss:Type="String">Cross Country Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">6100 Cross Country Boulevard</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0602</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew</Data></Cell>
+    <Cell><Data ss:Type="String">Riley Jr.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">248</Data></Cell>
+    <Cell><Data ss:Type="String">Sinclair Lane Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">3880 Sinclair Lane</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9117</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Roxanne        </Data></Cell>
+    <Cell><Data ss:Type="String">Thorn Lumpkins      </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">249</Data></Cell>
+    <Cell><Data ss:Type="String">Medfield Heights Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">4300 Buchanan Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21211</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6460</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Ramon          </Data></Cell>
+    <Cell><Data ss:Type="String">Japzon              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="String">Dr. Bernard Harris, Sr. Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1400 N. Caroline Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1452</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Loren          </Data></Cell>
+    <Cell><Data ss:Type="String">McCaskill           </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">251</Data></Cell>
+    <Cell><Data ss:Type="String">Callaway Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">3701 Fernhill Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0604</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Joyce</Data></Cell>
+    <Cell><Data ss:Type="String">Middleton</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">254</Data></Cell>
+    <Cell><Data ss:Type="String">Dr. Martin Luther King, Jr. Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">3750 Greenspring Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21211</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0756</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Sharon         </Data></Cell>
+    <Cell><Data ss:Type="String">Bullock             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="String">Southeast Middle</Data></Cell>
+    <Cell><Data ss:Type="String">6820 Fait Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21224</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9291</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">Vickie</Data></Cell>
+    <Cell><Data ss:Type="String">Lawson</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">256</Data></Cell>
+    <Cell><Data ss:Type="String">Calvin M. Rodwell Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">3501 Hillsdale Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21207</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0940</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Saundra        </Data></Cell>
+    <Cell><Data ss:Type="String">Spratley Adams      </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">260</Data></Cell>
+    <Cell><Data ss:Type="String">Frederick Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">2501 Frederick Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21223</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0830</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Gwendolyn</Data></Cell>
+    <Cell><Data ss:Type="String">Byrd</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">261</Data></Cell>
+    <Cell><Data ss:Type="String">Lockerman Bundy Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">301 N. Pulaski Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21223</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1364</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Cynthia        </Data></Cell>
+    <Cell><Data ss:Type="String">Cunningham          </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">262</Data></Cell>
+    <Cell><Data ss:Type="String">Empowerment Academy Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">851 Braddish Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-2381</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Carolyn        </Data></Cell>
+    <Cell><Data ss:Type="String">Smith               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">263</Data></Cell>
+    <Cell><Data ss:Type="String">William C. March Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2050 N. Wolfe st</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-3699</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String"> 6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Diane          </Data></Cell>
+    <Cell><Data ss:Type="String">Brown               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">301</Data></Cell>
+    <Cell><Data ss:Type="String">William S. Baer School</Data></Cell>
+    <Cell><Data ss:Type="String">2001 N. Warwick Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0833</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Patrick        </Data></Cell>
+    <Cell><Data ss:Type="String">Crouse              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">303</Data></Cell>
+    <Cell><Data ss:Type="String">Home and Hospital Program</Data></Cell>
+    <Cell><Data ss:Type="String">6900 Park Heights Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0775</Data></Cell>
+    <Cell><Data ss:Type="String">ES</Data></Cell>
+    <Cell><Data ss:Type="String">k - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Florence</Data></Cell>
+    <Cell><Data ss:Type="String">Johnson</Data></Cell>
+    <Cell><Data ss:Type="String">service</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">307</Data></Cell>
+    <Cell><Data ss:Type="String">Claremont High</Data></Cell>
+    <Cell><Data ss:Type="String">5301 Erdman Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21205</Data></Cell>
+    <Cell><Data ss:Type="String">410-545-3380</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">John           </Data></Cell>
+    <Cell><Data ss:Type="String">Butt                </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">313</Data></Cell>
+    <Cell><Data ss:Type="String">Lois T. Murray Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1600 Arlington Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21239</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-7463</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Roslyn       </Data></Cell>
+    <Cell><Data ss:Type="String">Canosa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">314</Data></Cell>
+    <Cell><Data ss:Type="String">Sharp-Leadenhall Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">150 W. West Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21230</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-4325</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">James          </Data></Cell>
+    <Cell><Data ss:Type="String">Linde               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">321</Data></Cell>
+    <Cell><Data ss:Type="String">Midtown Academy Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1398 Mount Royal Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-225-3257</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Kathleen       </Data></Cell>
+    <Cell><Data ss:Type="String">OHanlon             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">322</Data></Cell>
+    <Cell><Data ss:Type="String">New Song Academy Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1530 Presstman Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-728-2091</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Susan          </Data></Cell>
+    <Cell><Data ss:Type="String">Tibbels</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">323</Data></Cell>
+    <Cell><Data ss:Type="String">The Crossroads School Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">802 South Caroline Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21231</Data></Cell>
+    <Cell><Data ss:Type="String">410-276-4924</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">5 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Marc</Data></Cell>
+    <Cell><Data ss:Type="String">Martin</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">324</Data></Cell>
+    <Cell><Data ss:Type="String">KIPP Ujima Village Academy Elem/ Middle</Data></Cell>
+    <Cell><Data ss:Type="String">4701 Greenspring Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21209</Data></Cell>
+    <Cell><Data ss:Type="String">410-545-3669</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">5 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Shawn</Data></Cell>
+    <Cell><Data ss:Type="String">Toler</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">325</Data></Cell>
+    <Cell><Data ss:Type="String">ConneXions Community Leadership Academy Middle/High</Data></Cell>
+    <Cell><Data ss:Type="String">2801 N. Dukeland St.</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-1418</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 11.</Data></Cell>
+    <Cell><Data ss:Type="String">Dana</Data></Cell>
+    <Cell><Data ss:Type="String">Polson</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">326</Data></Cell>
+    <Cell><Data ss:Type="String">City Neighbors Charter Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">4301 Raspe Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21206</Data></Cell>
+    <Cell><Data ss:Type="String">410-325-2627</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Micheal        </Data></Cell>
+    <Cell><Data ss:Type="String">Chalupa             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">327</Data></Cell>
+    <Cell><Data ss:Type="String">Patterson Park Public Charter Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">27 North Lakewood Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21224</Data></Cell>
+    <Cell><Data ss:Type="String">410-558-1230</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Charles</Data></Cell>
+    <Cell><Data ss:Type="String">Kramer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">328</Data></Cell>
+    <Cell><Data ss:Type="String">Southwest Baltimore Charter Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">31 S. Schroeder Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21223</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-3385</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 4.</Data></Cell>
+    <Cell><Data ss:Type="String">Turi</Data></Cell>
+    <Cell><Data ss:Type="String">Nilson</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">329</Data></Cell>
+    <Cell><Data ss:Type="String">Inner Harbor East Academy Elem</Data></Cell>
+    <Cell><Data ss:Type="String">200 N. Central Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21202</Data></Cell>
+    <Cell><Data ss:Type="String">410-537-5890</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Beverly </Data></Cell>
+    <Cell><Data ss:Type="String">Manigo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">330</Data></Cell>
+    <Cell><Data ss:Type="String">Northwood Appold Community Academy Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">4417 Loch Raven Boulevard</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-323-9546</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 5.</Data></Cell>
+    <Cell><Data ss:Type="String">Virginia</Data></Cell>
+    <Cell><Data ss:Type="String">Richardson</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">331</Data></Cell>
+    <Cell><Data ss:Type="String">MD Academy of Technology and Health Sciences Middle/High</Data></Cell>
+    <Cell><Data ss:Type="String">4701 Greenspring Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21209</Data></Cell>
+    <Cell><Data ss:Type="String">410-545-0955</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 10.</Data></Cell>
+    <Cell><Data ss:Type="String">Rebekah        </Data></Cell>
+    <Cell><Data ss:Type="String">Ghosh               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">332</Data></Cell>
+    <Cell><Data ss:Type="String">The Green School Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">2800 Brendan Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-485-2102</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 4.</Data></Cell>
+    <Cell><Data ss:Type="String">Katherine      </Data></Cell>
+    <Cell><Data ss:Type="String">Primm               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">333</Data></Cell>
+    <Cell><Data ss:Type="String">Independence School Local I High</Data></Cell>
+    <Cell><Data ss:Type="String">1250 W. 36th Street                              </Data></Cell>
+    <Cell><Data ss:Type="Number">21211</Data></Cell>
+    <Cell><Data ss:Type="String">410-467-1090</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Cranston</Data></Cell>
+    <Cell><Data ss:Type="String">Dize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">334</Data></Cell>
+    <Cell><Data ss:Type="String">Bluford Drew Jemison MST Academy Middle</Data></Cell>
+    <Cell><Data ss:Type="String">1130 N. Caroline Street                          </Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-276-3095</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Kevin          </Data></Cell>
+    <Cell><Data ss:Type="String">Parsons</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">335</Data></Cell>
+    <Cell><Data ss:Type="String">Baltimore International Academy Elem/Middle</Data></Cell>
+    <Cell><Data ss:Type="String">3515 Taylor Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21236</Data></Cell>
+    <Cell><Data ss:Type="String">410-426-3650</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 6.</Data></Cell>
+    <Cell><Data ss:Type="String">Elena</Data></Cell>
+    <Cell><Data ss:Type="String">Lokounia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">336</Data></Cell>
+    <Cell><Data ss:Type="String">Baltimore Montessori Public Charter Elementary</Data></Cell>
+    <Cell><Data ss:Type="String">1600 Guilford Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21202</Data></Cell>
+    <Cell><Data ss:Type="String">410-528-5393</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">K - 4.</Data></Cell>
+    <Cell><Data ss:Type="String">Allison</Data></Cell>
+    <Cell><Data ss:Type="String">Shecter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">337</Data></Cell>
+    <Cell><Data ss:Type="String">Afya Public Charter Middle</Data></Cell>
+    <Cell><Data ss:Type="String">2800 Brendan Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-485-2103</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">William</Data></Cell>
+    <Cell><Data ss:Type="String">McKenna</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">338</Data></Cell>
+    <Cell><Data ss:Type="String">Friendship Academy of Science &amp; Technology Middle/High</Data></Cell>
+    <Cell><Data ss:Type="String">801 S Highland Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21202</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-3182</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 &amp; 9.</Data></Cell>
+    <Cell><Data ss:Type="String">Ian</Data></Cell>
+    <Cell><Data ss:Type="String">Roberts</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">339</Data></Cell>
+    <Cell><Data ss:Type="String">Friendship Academy of Engineering &amp; Technology Middle/High</Data></Cell>
+    <Cell><Data ss:Type="String">2500 E. Northern Pkwy</Data></Cell>
+    <Cell><Data ss:Type="Number">21214</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-5616</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 &amp; 9.</Data></Cell>
+    <Cell><Data ss:Type="String">Susan          </Data></Cell>
+    <Cell><Data ss:Type="String">Wheeler</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">341</Data></Cell>
+    <Cell><Data ss:Type="String">The Reach Middle/High</Data></Cell>
+    <Cell><Data ss:Type="String">6820 Fait Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21224</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-2291</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 &amp; 9.</Data></Cell>
+    <Cell><Data ss:Type="String">Michael </Data></Cell>
+    <Cell><Data ss:Type="String">Frederick</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">342</Data></Cell>
+    <Cell><Data ss:Type="String">KASA Middle/High</Data></Cell>
+    <Cell><Data ss:Type="String">201 North bend Rd</Data></Cell>
+    <Cell><Data ss:Type="Number">21229</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-2670</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 &amp; 9.</Data></Cell>
+    <Cell><Data ss:Type="String">Cassandra</Data></Cell>
+    <Cell><Data ss:Type="String">Millette</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">343</Data></Cell>
+    <Cell><Data ss:Type="String">Civitas Middle/High</Data></Cell>
+    <Cell><Data ss:Type="String">4701 Greenspring Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21209</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-2938</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 &amp; 9.</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew</Data></Cell>
+    <Cell><Data ss:Type="String">Wernsdorfer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">344</Data></Cell>
+    <Cell><Data ss:Type="String">Baltimore Rising Star Academy</Data></Cell>
+    <Cell><Data ss:Type="String">900 Woodbourne Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21212</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-2126</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Patricia</Data></Cell>
+    <Cell><Data ss:Type="String">Shaw</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">345</Data></Cell>
+    <Cell><Data ss:Type="String">New Hope Academy</Data></Cell>
+    <Cell><Data ss:Type="String">900 Druid Hill Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21201</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0774</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">James</Data></Cell>
+    <Cell><Data ss:Type="String">Young</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">370</Data></Cell>
+    <Cell><Data ss:Type="String">Eager Street Academy</Data></Cell>
+    <Cell><Data ss:Type="String">401 E. Eager Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21202</Data></Cell>
+    <Cell><Data ss:Type="String">410-209-4091</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">James</Data></Cell>
+    <Cell><Data ss:Type="String">Scofield</Data></Cell>
+    <Cell><Data ss:Type="String">service</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="String">Edmondson-Westside High</Data></Cell>
+    <Cell><Data ss:Type="String">501 Athol Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21229</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0685</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Patricia</Data></Cell>
+    <Cell><Data ss:Type="String">Lowe Gould</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">401</Data></Cell>
+    <Cell><Data ss:Type="String">Northwestern High</Data></Cell>
+    <Cell><Data ss:Type="String">6900 Park Heights Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21215</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0646</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Jason</Data></Cell>
+    <Cell><Data ss:Type="String">Hartling</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">403</Data></Cell>
+    <Cell><Data ss:Type="String">Baltimore Polytechnic Institute</Data></Cell>
+    <Cell><Data ss:Type="String">1400 W Cold Spring Lane</Data></Cell>
+    <Cell><Data ss:Type="Number">21209</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-7026</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Barney         </Data></Cell>
+    <Cell><Data ss:Type="String">Wilson              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">405</Data></Cell>
+    <Cell><Data ss:Type="String">Patterson High</Data></Cell>
+    <Cell><Data ss:Type="String">100 Kane Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21224</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9276</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Laura          </Data></Cell>
+    <Cell><Data ss:Type="String">D'Anna              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">406</Data></Cell>
+    <Cell><Data ss:Type="String">Forest Park High</Data></Cell>
+    <Cell><Data ss:Type="String">3701 Eldorado Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21207</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0753</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Lamarge</Data></Cell>
+    <Cell><Data ss:Type="String">Wyatt</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">407</Data></Cell>
+    <Cell><Data ss:Type="String">Western High</Data></Cell>
+    <Cell><Data ss:Type="String">4600 Falls Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21209</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-7040</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Eleanor        </Data></Cell>
+    <Cell><Data ss:Type="String">Matthews            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">410</Data></Cell>
+    <Cell><Data ss:Type="String">Mergenthaler Vocational-Technical High</Data></Cell>
+    <Cell><Data ss:Type="String">3500 Hillen Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6496</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Magdalen       </Data></Cell>
+    <Cell><Data ss:Type="String">Reyment             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">413</Data></Cell>
+    <Cell><Data ss:Type="String">Achievement Academy @ Harbor City High</Data></Cell>
+    <Cell><Data ss:Type="String">2555 Harford Road</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6241</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Tajah</Data></Cell>
+    <Cell><Data ss:Type="String">Gross</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">414</Data></Cell>
+    <Cell><Data ss:Type="String">Paul Laurence Dunbar High</Data></Cell>
+    <Cell><Data ss:Type="String">601 N. Central Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21202</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-4478</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Stephen</Data></Cell>
+    <Cell><Data ss:Type="String">Colbert</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">415</Data></Cell>
+    <Cell><Data ss:Type="String">Baltimore School For The Arts High</Data></Cell>
+    <Cell><Data ss:Type="String">712 Cathedral Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21201</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-5165</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Leslie         </Data></Cell>
+    <Cell><Data ss:Type="String">Shepard             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">416</Data></Cell>
+    <Cell><Data ss:Type="String">Digital Harbor High School</Data></Cell>
+    <Cell><Data ss:Type="String">1100 Covington St.</Data></Cell>
+    <Cell><Data ss:Type="Number">21230</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-1256</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Brian          </Data></Cell>
+    <Cell><Data ss:Type="String">Eyer                </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">418</Data></Cell>
+    <Cell><Data ss:Type="String">W.E.B. DuBois High</Data></Cell>
+    <Cell><Data ss:Type="String">2201 Pinewood Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21214</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6435</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Delores        </Data></Cell>
+    <Cell><Data ss:Type="String">Berry               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">419</Data></Cell>
+    <Cell><Data ss:Type="String">Reginald F. Lewis High School</Data></Cell>
+    <Cell><Data ss:Type="String">6401 Pioneer Drive</Data></Cell>
+    <Cell><Data ss:Type="Number">21214</Data></Cell>
+    <Cell><Data ss:Type="String">410-545-1746</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Sylvia</Data></Cell>
+    <Cell><Data ss:Type="String">Hall</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">420</Data></Cell>
+    <Cell><Data ss:Type="String">Dr. Samuel L. Banks High</Data></Cell>
+    <Cell><Data ss:Type="String">5001 Sinclair Lane</Data></Cell>
+    <Cell><Data ss:Type="Number">21206</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-1541</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Tony           </Data></Cell>
+    <Cell><Data ss:Type="String">Edwards             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">421</Data></Cell>
+    <Cell><Data ss:Type="String">National Academy Foundation High</Data></Cell>
+    <Cell><Data ss:Type="String">1100 Covington Street                       </Data></Cell>
+    <Cell><Data ss:Type="Number">21230</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-1594</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Karen</Data></Cell>
+    <Cell><Data ss:Type="String">Webber-Ndour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">422</Data></Cell>
+    <Cell><Data ss:Type="String">New Era Academy High</Data></Cell>
+    <Cell><Data ss:Type="String">2700 Seamon Avenue                             </Data></Cell>
+    <Cell><Data ss:Type="Number">21225</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-2415</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Paul</Data></Cell>
+    <Cell><Data ss:Type="String">Covington</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">423</Data></Cell>
+    <Cell><Data ss:Type="String">Baltimore Freedom Academy Middle/High</Data></Cell>
+    <Cell><Data ss:Type="String">1601 E. Lombard Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21231</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-2158</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6,7.</Data></Cell>
+    <Cell><Data ss:Type="String">Pamela</Data></Cell>
+    <Cell><Data ss:Type="String">Caple</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">423</Data></Cell>
+    <Cell><Data ss:Type="String">Baltimore Freedom Academy Middle/High</Data></Cell>
+    <Cell><Data ss:Type="String">1601 E. Lombard Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21231</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-2158</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Pamela</Data></Cell>
+    <Cell><Data ss:Type="String">Caple</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">424</Data></Cell>
+    <Cell><Data ss:Type="String">Thurgood Marshall High</Data></Cell>
+    <Cell><Data ss:Type="String">5000 Truesdale Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21206</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-5938</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">James</Data></Cell>
+    <Cell><Data ss:Type="String">Dudley (Acting)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">425</Data></Cell>
+    <Cell><Data ss:Type="String">Heritage High School</Data></Cell>
+    <Cell><Data ss:Type="String">2801 Saint Lo Drive</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6637</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Karen          </Data></Cell>
+    <Cell><Data ss:Type="String">Lawrence            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">426</Data></Cell>
+    <Cell><Data ss:Type="String">Doris M. Johnson High</Data></Cell>
+    <Cell><Data ss:Type="String">2801 Saint Lo Drive</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6643</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Sandra</Data></Cell>
+    <Cell><Data ss:Type="String">Powell</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">427</Data></Cell>
+    <Cell><Data ss:Type="String">Academy for College and Career Exploration High</Data></Cell>
+    <Cell><Data ss:Type="String">1300 W. 36th Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21211</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-7607</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Ivor           </Data></Cell>
+    <Cell><Data ss:Type="String">Mitchell            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">428</Data></Cell>
+    <Cell><Data ss:Type="String">Baltimore Talent Development High</Data></Cell>
+    <Cell><Data ss:Type="String">1500 Harlem Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-2744</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Jeffrey        </Data></Cell>
+    <Cell><Data ss:Type="String">Robinson            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">429</Data></Cell>
+    <Cell><Data ss:Type="String">Vivien T. Thomas Medical Arts Academy High</Data></Cell>
+    <Cell><Data ss:Type="String">100 N. Calhoun Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21223</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-2831</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Starletta      </Data></Cell>
+    <Cell><Data ss:Type="String">Jackson             </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">430</Data></Cell>
+    <Cell><Data ss:Type="String">Augusta Fells Savage Institute of Visual Arts High</Data></Cell>
+    <Cell><Data ss:Type="String">1500 Harlem Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-7701</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Michael</Data></Cell>
+    <Cell><Data ss:Type="String">Manning</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">431</Data></Cell>
+    <Cell><Data ss:Type="String">Maritime Industries Academy High</Data></Cell>
+    <Cell><Data ss:Type="String">790 W. North Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0242</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Joy</Data></Cell>
+    <Cell><Data ss:Type="String">Savage</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">432</Data></Cell>
+    <Cell><Data ss:Type="String">Coppin Academy High</Data></Cell>
+    <Cell><Data ss:Type="String">2500 W. North Avenue</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-951-2600</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Ronnel</Data></Cell>
+    <Cell><Data ss:Type="String">Carey</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">433</Data></Cell>
+    <Cell><Data ss:Type="String">Renaissance Academy High</Data></Cell>
+    <Cell><Data ss:Type="String">1301 McCulloh Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-3164</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Karl           </Data></Cell>
+    <Cell><Data ss:Type="String">Perry               </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">434</Data></Cell>
+    <Cell><Data ss:Type="String">Homeland Security High School</Data></Cell>
+    <Cell><Data ss:Type="String">2000 Edgewood St.                                </Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-3327</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Linda</Data></Cell>
+    <Cell><Data ss:Type="String">Johnson Brown(acting)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">435</Data></Cell>
+    <Cell><Data ss:Type="String">Institute of Business and Entrepreneurship High</Data></Cell>
+    <Cell><Data ss:Type="String">2000 Edgewood St.                                </Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">443-984-3330</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Janice         </Data></Cell>
+    <Cell><Data ss:Type="String">Williams            </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">450</Data></Cell>
+    <Cell><Data ss:Type="String">Frederick Douglass High</Data></Cell>
+    <Cell><Data ss:Type="String">2301 Gwynns Falls Parkway</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-7821</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Clark          </Data></Cell>
+    <Cell><Data ss:Type="String">Montgomery          </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">454</Data></Cell>
+    <Cell><Data ss:Type="String">Carver Vocational-Technical High</Data></Cell>
+    <Cell><Data ss:Type="String">2201 W Presstman Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-0553</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Kirk</Data></Cell>
+    <Cell><Data ss:Type="String">Sykes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">480</Data></Cell>
+    <Cell><Data ss:Type="String">Baltimore City College High</Data></Cell>
+    <Cell><Data ss:Type="String">3220 The Alameda</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-6557</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Timothy        </Data></Cell>
+    <Cell><Data ss:Type="String">Dawson              </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">734</Data></Cell>
+    <Cell><Data ss:Type="String">Middle Alternative Program @ Lombard</Data></Cell>
+    <Cell><Data ss:Type="String">1601 E. Lombard Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21231</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-1720</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Ara</Data></Cell>
+    <Cell><Data ss:Type="String">Shishmanian</Data></Cell>
+    <Cell><Data ss:Type="String">service</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">854</Data></Cell>
+    <Cell><Data ss:Type="String">Career Academy</Data></Cell>
+    <Cell><Data ss:Type="String">101 W. 24th St</Data></Cell>
+    <Cell><Data ss:Type="Number">21218</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-7454</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">11 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Gus</Data></Cell>
+    <Cell><Data ss:Type="String">Herrington</Data></Cell>
+    <Cell><Data ss:Type="String">service</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">855</Data></Cell>
+    <Cell><Data ss:Type="String">Success Academy Program</Data></Cell>
+    <Cell><Data ss:Type="String">200 E. North Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21202</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-2101</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 7.</Data></Cell>
+    <Cell><Data ss:Type="String">Kevin</Data></Cell>
+    <Cell><Data ss:Type="String">Brooks</Data></Cell>
+    <Cell><Data ss:Type="String">service</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">856</Data></Cell>
+    <Cell><Data ss:Type="String">Baltimore City Community College</Data></Cell>
+    <Cell><Data ss:Type="String">710 E. Lombard St</Data></Cell>
+    <Cell><Data ss:Type="Number">21202</Data></Cell>
+    <Cell><Data ss:Type="String">410-986-5449</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Anthony</Data></Cell>
+    <Cell><Data ss:Type="String">McFarlene</Data></Cell>
+    <Cell><Data ss:Type="String">service</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">857</Data></Cell>
+    <Cell><Data ss:Type="String">Learning Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">1234 W. 36th St</Data></Cell>
+    <Cell><Data ss:Type="Number">21211</Data></Cell>
+    <Cell><Data ss:Type="String">410-662-8049</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Judith</Data></Cell>
+    <Cell><Data ss:Type="String">Friedman</Data></Cell>
+    <Cell><Data ss:Type="String">service</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">858</Data></Cell>
+    <Cell><Data ss:Type="String">Youth Opportunity</Data></Cell>
+    <Cell><Data ss:Type="String">1510 W. Lafayette Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21217</Data></Cell>
+    <Cell><Data ss:Type="String">410-962-1905</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">9 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Rhonda</Data></Cell>
+    <Cell><Data ss:Type="String">Alexander</Data></Cell>
+    <Cell><Data ss:Type="String">service</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">859</Data></Cell>
+    <Cell><Data ss:Type="String">Alternative Elementary School</Data></Cell>
+    <Cell><Data ss:Type="String">3301 Carlisle Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">443-642-3536</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Sonya</Data></Cell>
+    <Cell><Data ss:Type="String">Goodwin</Data></Cell>
+    <Cell><Data ss:Type="String">service</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">860</Data></Cell>
+    <Cell><Data ss:Type="String">Middle Alternative Program @ Lemmel</Data></Cell>
+    <Cell><Data ss:Type="String">2801 N. Dukeland Street</Data></Cell>
+    <Cell><Data ss:Type="Number">21216</Data></Cell>
+    <Cell><Data ss:Type="String">410-361-9445</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 8.</Data></Cell>
+    <Cell><Data ss:Type="String">Ara</Data></Cell>
+    <Cell><Data ss:Type="String">Shishmanian</Data></Cell>
+    <Cell><Data ss:Type="String">service</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">861</Data></Cell>
+    <Cell><Data ss:Type="String">Laurence G. Paquin Middle/High</Data></Cell>
+    <Cell><Data ss:Type="String">2200 Sinclair Lane</Data></Cell>
+    <Cell><Data ss:Type="Number">21213</Data></Cell>
+    <Cell><Data ss:Type="String">410-396-9399</Data></Cell>
+    <Cell><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">6 - 12.</Data></Cell>
+    <Cell><Data ss:Type="String">Rosetta        </Data></Cell>
+    <Cell><Data ss:Type="String">Stith               </Data></Cell>
+    <Cell><Data ss:Type="String">service</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

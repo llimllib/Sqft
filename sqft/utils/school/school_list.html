@@ -1,0 +1,1462 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML>
+	<!--HTML HEAD-->
+<!-- Begin: UserControls/HtmlHead.ascx -->
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<meta content="alpha(opacity=100)" http-equiv="page-enter" />
+    <title>
+		2008 Maryland Report Card: Baltimore City                                                                                      
+	</title>
+<meta http-equiv="Pragma" content="no-cache" /> 
+<meta http-equiv="Cache-Control" content="no-cache, must-validate" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="Last-Modified" content="now" />
+<link rel="stylesheet" type="text/css" href="/css/msp_px.css" />
+<link rel="stylesheet" type="text/css" href="/css/subpages.css" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" />
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/css/singleimage.css" />
+<script type="text/javascript" src="/js/popup.js"></script>
+<script src="/js/subgroups.js" type="text/javascript"></script>
+<script src="/js/header.js" type="text/javascript"></script>
+<script type="text/javascript"><!-- 
+document.write('<link rel="stylesheet" type="text/css" href="/css/turnSubgroupsOff.css" />'); 
+// --></script>
+<script language="javascript" type="text/javascript">
+
+	function popup(url) {
+		mywin = window.open(url,"windef",'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars,resizable=yes,width=500,height=500');
+		mywin.focus();
+	}
+	function closePopup() {
+		top.close();
+	}
+	var browserName=navigator.appName; 
+	//var browserVer=parseInt(navigator.appVersion); 
+	var browserVer = parseFloat(navigator.appVersion.split("MSIE")[1]);
+	if (browserName=="Microsoft Internet Explorer" && browserVer < 7) {
+		document.write('<link rel="stylesheet" href="/css/subpages_IE6.css" type="text/css" />');
+	} else {	
+		document.write('<link rel="stylesheet" href="/css/subpages_all.css" type="text/css" />');
+	}
+	function preloadImages() {
+		if (document.images) { 
+			var loadedImages = new Array;
+			for( arg=0; arg<preloadImages.arguments.length; arg++ ) {
+				loadedImages[arg] = new Image();
+				loadedImages[arg].src = preloadImages.arguments[arg];
+			}
+		} 
+	}
+function img_hot(imgName) {
+	var id = 'botnav_' + imgName
+	document.getElementById(id).src = '/images/botnav_' + imgName + '_white.gif'; 
+} 
+function img_cool(imgName){
+	var id = 'botnav_' + imgName;
+	var link = 'botnav_' + imgName + '_link';
+	//alert("class " + document.getElementById(link).className);
+	var classname = document.getElementById(link).className;
+	if (classname == 'ayppassive'){
+		document.getElementById(id).src = '/images/botnav_ayp_grey.gif';
+	}
+	else if (classname == 'assessmentspassive'){
+		document.getElementById(id).src = '/images/botnav_assessments_grey.gif';
+	} 
+	else if (classname == 'demographicspassive'){
+		document.getElementById(id).src = '/images/botnav_demographics_grey.gif';
+	} 
+	else {
+		document.getElementById(id).src = '/images/botnav_' + imgName + '_yellow.gif';
+	}
+}
+function img_active(imgName){
+	if (imgName == 'ayp'){
+		document.getElementById("botnav_ayp").src = '/images/botnav_ayp_grey.gif'; 
+		document.getElementById("botnav_assessments").src = '/images/botnav_assessments_white.gif';
+		document.getElementById("botnav_demographics").src = '/images/botnav_demographics_white.gif';
+	}
+	if (imgName == 'assessments'){
+		document.getElementById("botnav_ayp").src = '/images/botnav_ayp_white.gif'; 
+		document.getElementById("botnav_assessments").src = '/images/botnav_assessments_grey.gif';		
+		document.getElementById("botnav_demographics").src = '/images/botnav_demographics_white.gif'; 
+	}
+	if (imgName == 'demographics'){
+		document.getElementById("botnav_ayp").src = '/images/botnav_ayp_white.gif'; 
+		document.getElementById("botnav_assessments").src = '/images/botnav_assessments_white.gif';
+		document.getElementById("botnav_demographics").src = '/images/botnav_demographics_grey.gif'; 
+	}
+} 
+</script>
+</head>
+<!-- End: UserControls/HtmlHead.ascx -->
+
+	<body bgcolor="#ffffff" onload="if (parseInt(navigator.appVersion) > 2) {top.focus();};preloadImages('/i/pa0000.gif','/i/pa0001.gif','/i/pa0020.gif','/i/pa0100.gif','/i/pa0101.gif','/i/pa0102.gif','/i/pa0103.gif','/i/pa0104.gif','/i/pa0105.gif','/i/pa0106.gif','/i/pa0107.gif','/i/pa0108.gif','/i/pa0109.gif','/i/pa0110.gif','/i/pa0111.gif','/i/pa0112.gif','/i/pa0113.gif','/i/pa0114.gif','/i/pa0115.gif','/i/pa0116.gif','/i/pa0117.gif','/i/pa0118.gif','/i/pa0119.gif','/i/pa0201.gif','/i/pa0203.gif','/i/pa0205.gif','/i/pa0207.gif','/i/pa0209.gif','/i/pa0211.gif','/i/pa0213.gif','/i/pa0215.gif','/i/pa0217.gif','/i/pa0301.gif','/i/pa0302.gif','/i/pa0304.gif','/i/pa0305.gif','/i/pa0307.gif','/i/pa0308.gif','/i/pa0310.gif','/i/pa0311.gif','/i/pa0313.gif','/i/pa0314.gif','/i/pa0316.gif','/i/pa0317.gif','/i/pa0401.gif','/i/pa0403.gif','/i/pa0405.gif','/i/pa0407.gif','/i/pa0409.gif','/i/pa0411.gif','/i/pa0413.gif','/i/pa0415.gif','/i/pa0501.gif','/i/pa0502.gif','/i/pa0503.gif','/i/pa0504.gif','/i/pa0506.gif','/i/pa0507.gif','/i/pa0508.gif','/i/pa0509.gif','/i/pa0511.gif','/i/pa0512.gif','/i/pa0513.gif','/i/pa0514.gif','/i/pa0601.gif','/i/pa0605.gif','/i/pa0607.gif','/i/pa0611.gif','/i/pa0613.gif','/i/pa0701.gif','/i/pa0702.gif','/i/pa0703.gif','/i/pa0704.gif','/i/pa0705.gif','/i/pa0706.gif','/i/pa0708.gif','/i/pa0709.gif','/i/pa0710.gif','/i/pa0711.gif','/i/pa0712.gif','/i/pa0713.gif','/i/pa0801.gif','/i/pa0803.gif','/i/pa0805.gif','/i/pa0807.gif','/i/pa0809.gif','/i/pa0811.gif','/i/pa0901.gif','/i/pa0902.gif','/i/pa0904.gif','/i/pa0905.gif','/i/pa0907.gif','/i/pa0908.gif','/i/pa0910.gif','/i/pa0911.gif','/i/pa1001.gif','/i/pa1003.gif','/i/pa1007.gif','/i/pa1009.gif','/i/pa1101.gif','/i/pa1102.gif','/i/pa1103.gif','/i/pa1104.gif','/i/pa1105.gif','/i/pa1106.gif','/i/pa1107.gif','/i/pa1108.gif','/i/pa1109.gif','/i/pa1201.gif','/i/pa1205.gif','/i/pa1207.gif','/i/pa1301.gif','/i/pa1302.gif','/i/pa1303.gif','/i/pa1304.gif','/i/pa1305.gif','/i/pa1306.gif','/i/pa1307.gif','/i/pa1401.gif','/i/pa1403.gif','/i/pa1405.gif','/i/pa1501.gif','/i/pa1502.gif','/i/pa1504.gif','/i/pa1601.gif','/i/pa1603.gif','/i/pa1701.gif','/i/pa1702.gif','/i/pa1703.gif','/i/pa1801.gif','/i/pa1901.gif','/i/pa2000.gif')">
+	<div id="container">		
+				<!--Header-->
+				<P>
+<!-- Begin: Header2.ascx -->
+<noscript><link href="/css/subpages_all.css" rel="stylesheet" type="text/css" /></noscript>
+<div id="wrapper">
+	<div class="forscreen">
+				<div class="subtopheader" style="padding: 0px; margin: 0px 0px -1px 0px;"><a href="/index.aspx"><img class="noborder" style="*margin-bottom: 0px;" alt="2008 Maryland Report Card" src="/images/sub_header.gif" /></a>
+		</div>
+	</div>
+	<div class="submenu" id="submenu" title="State of Maryland Links" style="margin-bottom: -25px">
+	<ul><li><img height="1" alt="Results By:" src="/i/s.gif" width="98" /></li>
+	<li><a class="stmd" href="/ImprovementIntroEMH.aspx?AypPV=41|0|99|AAAA|1|000000|A"><img height="1" alt="State of Maryland" src="/i/s.gif" width="161" />
+	<!--[if IE 7]><!--></a><!--<![endif]-->
+		<table><tbody><tr><td>
+		<ul class="endstopc">
+		<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|99|AAAA|1|000000|A">AYP</a></li>
+		<li><a href="/Assessments.aspx?WDATA=State&amp;K=99AAAA">Assessments</a></li>
+		<li class="botborder"><a href="/Demographics.aspx?WDATA=State&amp;K=99AAAA">Demographics</a></li>
+		</ul>
+		</td></tr></tbody></table>
+	<!--[if lte IE 6]></a><![endif]-->
+	</li>
+		<li><a class="cnty" href="/rcounty.aspx?WDATA=Local+School+System"><img height="1" alt="County" src="/i/s.gif" width="78" />
+	<!--[if IE 7]><!--></a><!--<![endif]-->
+		<table><tr><td>
+		<ul class="endstopa">
+		<li><a class="drop" href="/rcounty.aspx?K=01AAAA">Allegany County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|01|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=01AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=01AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=02AAAA">Anne Arundel County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|02|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=02AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=02AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=30AAAA">Baltimore City
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|30|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="Assessments.aspx?K=30AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="Demographics.aspx?K=30AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=03AAAA">Baltimore County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|03|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=03AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=03AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=04AAAA">Calvert County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|04|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=04AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=04AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=05AAAA">Caroline County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|05|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=05AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=05AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=06AAAA">Carroll County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|06|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=06AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=06AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=07AAAA">Cecil County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|07|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=07AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=07AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=08AAAA">Charles County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|08|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=08AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=08AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=09AAAA">Dorchester County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|09|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=09AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=09AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=10AAAA">Frederick County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|10|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=10AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=10AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=11AAAA">Garrett County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|11|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=11AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=11AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=12AAAA">Harford County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|12|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=12AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=12AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=13AAAA">Howard County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|13|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=13AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=13AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=14AAAA">Kent County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|14|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=14AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=14AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=15AAAA">Montgomery County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|15|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=15AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=15AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=16AAAA">Prince George's County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|16|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=16AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=16AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=17AAAA">Queen Anne's County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|17|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=17AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=17AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=18AAAA">St. Mary's County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|18|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=18AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=18AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=19AAAA">Somerset County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|19|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=19AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=19AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=20AAAA">Talbot County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|20|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=20AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=20AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=21AAAA">Washington County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|21|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=21AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=21AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=22AAAA">Wicomico County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|22|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=22AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=22AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li class="botborder"><a class="drop" href="/rcounty.aspx?K=23AAAA">Worcester County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|23|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=23AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=23AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		</ul>
+		</td></tr></table><!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="sch" href="/rcounty.aspx?WDATA=School"><img height="1" alt="School" src="/i/s.gif" width="77" />
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tbody><tr><td>
+			<ul class="endstopb">
+			<li><a href="/rschool.aspx?K=01AAAA">Allegany County</a></li>
+			<li><a href="/rschool.aspx?K=02AAAA">Anne Arundel County</a></li>
+			<li><a href="/rschool.aspx?K=30AAAA">Baltimore City</a></li>
+			<li><a href="/rschool.aspx?K=03AAAA">Baltimore County</a></li>
+			<li><a href="/rschool.aspx?K=04AAAA">Calvert County</a></li>
+			<li><a href="/rschool.aspx?K=05AAAA">Caroline County</a></li>
+			<li><a href="/rschool.aspx?K=06AAAA">Carroll County</a></li>
+			<li><a href="/rschool.aspx?K=07AAAA">Cecil County</a></li>
+			<li><a href="/rschool.aspx?K=08AAAA">Charles County</a></li>
+			<li><a href="/rschool.aspx?K=09AAAA">Dorchester County</a></li>
+			<li><a href="/rschool.aspx?K=10AAAA">Frederick County</a></li>
+			<li><a href="/rschool.aspx?K=11AAAA">Garrett County</a></li>
+			<li><a href="/rschool.aspx?K=12AAAA">Harford County</a></li>
+			<li><a href="/rschool.aspx?K=13AAAA">Howard County</a></li>
+			<li><a href="/rschool.aspx?K=14AAAA">Kent County</a></li>
+			<li><a href="/rschool.aspx?K=15AAAA">Montgomery County</a></li>
+			<li><a href="/rschool.aspx?K=16AAAA">Prince George's County</a></li>
+			<li><a href="/rschool.aspx?K=17AAAA">Queen Anne's County</a></li>
+			<li><a href="/rschool.aspx?K=18AAAA">St. Mary's County</a></li>
+			<li><a href="/rschool.aspx?K=19AAAA">Somerset County</a></li>
+			<li><a href="/rschool.aspx?K=20AAAA">Talbot County</a></li>
+			<li><a href="/rschool.aspx?K=21AAAA">Washington County</a></li>
+			<li><a href="/rschool.aspx?K=22AAAA">Wicomico County</a></li>
+			<li class="botborder"><a href="/rschool.aspx?K=23AAAA">Worcester County</a></li>
+			</ul>
+			</td></tr></tbody></table>
+	<!--[if lte IE 6]></a><![endif]-->
+	</li>
+	</ul>
+	</div> <!-- class=submenu -->
+	<div class="forprint"><img src="/images/sub_header.gif" width="600" height="32" alt="" /><br /><img src="/images/sub_all_headers.gif" width="600" height="20" alt="" /><br /><img src="/images/sub_body.jpg" width="600" height="52" alt="" />
+		<div class="subbotbodyprint" style="margin-top: -15px"><span class="headertype"></span><span class="countytype"><br />
+				
+			</span>
+		</div>
+		<div class="schoolrefprint"><span class="schooltype">Baltimore City                                                                                      </span></div>
+	</div>
+	<div class="forscreen">
+		<div class="subbotbody">
+			<span class="countytype">
+				
+			</span>
+			
+				<a href=""><img alt="" src="/images/trans.gif" /></a>
+			
+			
+		</div>
+		<div id="Header1_greenbarentityname">
+	
+			<div class="schoolref"><span class="schooltype">Baltimore City                                                                                      </span></div>
+		
+</div>
+		<div id="Header1_pnlShowNavigation">
+	
+			<div class="botnav">
+<div class="special"><a class='aypactive' href="ImprovementIntroEMH.aspx?AypPV=41|0|30|AAAA|3|000000"><img src="/i/s.gif" alt="AYP" width="47" height="22" /></a><a 
+class='assessmentsactive' href="Assessments.aspx?K=30AAAA&WDATA=school"><img src="/i/s.gif" alt="Assessments" width="110" height="22" /></a><a 
+class='demographicsactive' href="Demographics.aspx?K=30AAAA&WDATA=school"><img src="/i/s.gif" alt="Demographics" width="120" height="22" /></a></div> <!--[if IE 6]>
+<div class="IE6background"><img src="/images/botnav_left.gif" alt="" width="9" height="22" /><img src="/images/botnav_middle.gif" alt="" width="6" height="22" /><a class='aypactive' id="botnav_ayp_link" onmouseover="img_hot('ayp')" onmouseout="img_cool('ayp')" href="ImprovementIntroEMH.aspx?AypPV=41|0|30|AAAA|3|000000"><img src="/images/botnav_ayp_yellow.gif" alt="" name="botnav_ayp" id="botnav_ayp" width="47" height="22" /></a><img src="/images/botnav_middle.gif" alt="" width="10" height="22" /><a class='assessmentsactive' id="botnav_assessments_link" onmouseover="img_hot('assessments')" onmouseout="img_cool('assessments')" href="Assessments.aspx?K=30AAAA&WDATA=school"><img src="/images/botnav_assessments_yellow.gif" alt="" name="botnav_assessments" id="botnav_assessments" width="110" height="22" /></a><img src="/images/botnav_middle.gif" alt="" width="8" height="22" /><a class='demographicsactive' id="botnav_demographics_link" onmouseover="img_hot('demographics')" onmouseout="img_cool('demographics')" href="Demographics.aspx?K=30AAAA&WDATA=school"><img src="/images/botnav_demographics_yellow.gif" alt="" name="botnav_demographics" id="botnav_demographics" width="120" height="22" /></a><img src="/images/botnav_middle.gif" alt="" width="5" height="22" /><img src="/images/botnav_right.gif" alt="" width="9" height="22" /></div><![endif]--></div>
+		
+</div>
+	</div> <!-- forscreen -->
+</div> <!-- wrapper -->
+<!-- End: Header2.ascx --> &nbsp;
+</P>
+<div id="wrapperbody">				<!--MAIN TABLE--><a name="toppage"></a>
+				
+				<table cellSpacing="0" cellPadding="0" width="600" border="0">
+					<TR vAlign="top">
+						<TD rowSpan="2"><IMG height="1" alt="" src="/images/spacer.gif" width="150" border="0"><br />
+							<a class="clearLink" href="rSchool.aspx?SortOrder=NUMBER&K=30AAAA"><img src="/images/sortschool_number.gif" width=106 height=38 border=0 alt="Sort Schools By Number"></a>
+						</TD>
+						<td><b>Choose a school from Baltimore City                                                                                      </b><br /><IMG height="2" src="/images/blue.gif" width="450" border="0"></td>
+					</TR>
+					<tr vAlign="top">
+						<TD width="450"><div id="pnlSortByGrade">
+	
+								<TABLE cellSpacing="0" cellPadding="0" width="450" border="0">
+									<TR vAlign="top">
+										<TD vAlign="top" class="forcebackwhite" style="line-height: 1.75em">
+											<div id="pnlElementarySchool">
+		
+												<A href="#elementaryschools"><big><i><b>Elementary Schools</b></i></big></A>
+	</div>
+											<div id="pnlMiddleSchools">
+		
+												<A href="#middleschools"><big><i><b>Middle Schools</b></i></big></A>
+	</div>
+											<div id="pnlHighSchools">
+		
+												<A href="#highschools"><big><i><b>High Schools</b></i></big></A>
+	</div>
+											<div id="pnlk12schools">
+		
+												<A href="#k-12schools"><big><i><b>&quot;K through 12 Schools&quot;</b></i></big></A>
+	</div>
+											<div id="pnlEMSchools">
+		
+												<A href="#emschools"><big><i><b>Elementary/Middle Schools</b></i></big></A>
+	</div>
+											<div id="pnlMHSchools">
+		
+												<A href="#mhschools"><big><i><b>Middle/High Schools</b></i></big></A>
+	</div>
+											
+											<div id="pnlSpAltSchools">
+		
+												<A href="#spaltschools"><big><i><b>Special/Alternative Schools</b></i></big></A>
+	</div>
+										</TD>
+									</TR>
+									<TR>
+										<TD>
+											<div id="pnlLstSchool_E">
+		
+												
+<table cellSpacing="0" cellPadding="0" width="450" border="0">
+	<tr>
+		<td>
+			<br />&nbsp;<br /><b><a name="elementaryschools">Elementary Schools</a></b><br /><IMG height="2" src="/images/blue.gif" width="450"><br />
+			
+			<!--<table width="500">-->
+			
+			<table cellpadding="0" cellspacing="0" border="0">
+				
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Abbottston Elementary (0050)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300050&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300050&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0050|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Alexander Hamilton Elementary (0145)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300145&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300145&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0145|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Alternative Elementary School (0288)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300288&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300288&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0288|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Arlington Elementary (0234)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300234&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300234&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0234|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Baltimore International Academy (0335)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300335&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300335&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0335|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Belmont Elementary (0217)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300217&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300217&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0217|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Bentalou Elementary (0150)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300150&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300150&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0150|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Brehms Lane Elementary (0231)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300231&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300231&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0231|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Callaway Elementary (0251)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300251&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300251&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0251|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Calvin M. Rodwell Elementary (0256)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300256&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300256&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0256|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Cecil Elementary (0007)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300007&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300007&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0007|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Charles Carroll Barrister Elementary (0034)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300034&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300034&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0034|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Coldstream Park Elementary (0031)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300031&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300031&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0031|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Curtis Bay Elementary (0207)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300207&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300207&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0207|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Dallas F. Nicholas Sr. Elementary (0039)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300039&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300039&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0039|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Dr. Bernard Harris, Sr. Elementary (0250)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300250&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300250&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0250|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Edgecombe Circle Elementary (0062)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300062&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300062&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0062|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Edgewood Elementary (0067)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300067&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300067&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0067|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Empowerment Academy (0262)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300262&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300262&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0262|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Eutaw-Marshburn Elementary (0011)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300011&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300011&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0011|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Fort Worthington Elementary (0085)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300085&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300085&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0085|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Franklin Square Elementary (0095)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300095&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300095&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0095|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Frederick Elementary (0260)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300260&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300260&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0260|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Furley Elementary (0206)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300206&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300206&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0206|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Furman L. Templeton Elementary (0125)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300125&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300125&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0125|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Gardenville Elementary (0211)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300211&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300211&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0211|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Garrett Heights Elementary (0212)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300212&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300212&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0212|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">General Wolfe Elementary (0023)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300023&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300023&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0023|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">George Washington Elementary (0022)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300022&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300022&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0022|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Gilmor Elementary (0107)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300107&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300107&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0107|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Govans Elementary (0213)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300213&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300213&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0213|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Grove Park Elementary (0224)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300224&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300224&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0224|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Gwynns Falls Elementary (0060)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300060&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300060&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0060|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Harford Heights Intermediate (0037)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300037&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300037&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0037|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Harford Heights Primary (0036)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300036&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300036&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0036|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Harriet Tubman Elementary (0138)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300138&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300138&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0138|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Highlandtown Elementary #0237 (0237)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300237&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300237&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0237|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Hilton Elementary (0021)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300021&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300021&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0021|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Holabird Elementary (0229)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300229&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300229&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0229|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Inner Harbor East Academy (0329)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300329&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300329&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0329|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">James McHenry Elementary (0010)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300010&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300010&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0010|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">James Mosher Elementary (0144)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300144&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300144&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0144|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">John Eager Howard Elementary (0061)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300061&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300061&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0061|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">John Ruhrah Elementary (0228)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300228&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300228&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0228|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Johnston Square Elementary (0016)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300016&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300016&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0016|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Langston Hughes Elementary (0005)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300005&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300005&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0005|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Leith Walk Elementary (0245)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300245&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300245&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0245|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Liberty Elementary (0064)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300064&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300064&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0064|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Lockerman Bundy Elementary (0261)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300261&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300261&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0261|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Lyndhurst Elementary (0088)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300088&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300088&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0088|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Maree Garnett Farring Elementary (0203)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300203&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300203&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0203|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Mary E. Rodman Elementary (0204)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300204&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300204&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0204|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Matthew A. Henson Elementary (0029)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300029&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300029&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0029|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Medfield Heights Elementary (0249)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300249&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300249&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0249|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Montebello Elementary (0044)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300044&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300044&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0044|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Mount Washington Elementary (0221)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300221&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300221&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0221|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Northwood Community Academy (0330)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300330&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300330&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0330|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Northwood Elementary (0242)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300242&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300242&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0242|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Patterson Park Public Charter School (0327)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300327&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300327&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0327|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Robert W. Coleman Elementary (0142)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300142&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300142&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0142|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Samuel F. B. Morse Elementary (0098)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300098&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300098&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0098|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Sarah M. Roach Elementary (0073)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300073&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300073&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0073|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Sharp-Leadenhall Elementary (0314)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300314&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300314&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0314|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Sinclair Lane Elementary (0248)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300248&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300248&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0248|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Southwest Baltimore Charter School (0328)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300328&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300328&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0328|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">The Green School (0332)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300332&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300332&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0332|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">The Historic Samuel Coleridge-Taylor Elementary (0122)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300122&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300122&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0122|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Thomas Johnson Elementary (0084)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300084&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300084&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0084|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Walter P. Carter Elementary (0134)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300134&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300134&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0134|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Westside Elementary (0024)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300024&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300024&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0024|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">William Paca Elementary (0083)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300083&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300083&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0083|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">William Pinderhughes Elementary (0028)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300028&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300028&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0028|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Windsor Hills Elementary (0087)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300087&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300087&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0087|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Yorkwood Elementary (0219)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300219&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300219&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0219|3|000000>AYP</a></div></td>
+					</tr>
+					
+			</table>
+		</td>
+	</tr>
+</table>
+
+											
+	</div>
+											<div id="pnlLstSchool_M">
+		
+												
+<table cellSpacing="0" cellPadding="0" width="450" border="0">
+	<tr>
+		<td>
+			<br />&nbsp;<br /><b><a name="middleschools">Middle Schools</a></b><br /><IMG height="2" src="/images/blue.gif" width="450"><br />
+			
+			<!--<table width="500">-->
+			
+			<table cellpadding="0" cellspacing="0" border="0">
+				
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Alternative Learning Center (0488)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300488&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300488&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0488|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Benjamin Franklin Jr. Middle (0239)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300239&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300239&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0239|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Bluford Drew Jemison MST Academy (0334)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300334&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300334&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0334|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Booker T. Washington Middle (0130)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300130&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300130&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0130|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Canton Middle (0230)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300230&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300230&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0230|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Chinquapin Middle (0046)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300046&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300046&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0046|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Diggs-Johnson Middle (0162)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300162&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300162&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0162|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Dr. Roland N. Patterson Sr. Academy (0082)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300082&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300082&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0082|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Garrison Middle (0042)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300042&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300042&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0042|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Hamilton Middle (0041)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300041&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300041&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0041|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Harford Heights Middle (0263)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300263&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300263&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0263|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Harlem Park Middle (0078)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300078&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300078&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0078|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Lombard Middle (0057)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300057&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300057&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0057|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">MD Academy of Technology and Health Sciences (0331)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300331&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300331&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0331|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Northeast Middle (0049)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300049&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300049&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0049|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Paul Laurence Dunbar Middle (0133)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300133&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300133&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0133|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Robert Poole Middle (0056)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300056&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300056&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0056|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Southeast Middle (0255)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300255&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300255&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0255|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">The Crossroads School (0323)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300323&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300323&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0323|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Thurgood Marshall Middle School (0170)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300170&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300170&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0170|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">West Baltimore Middle (0080)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300080&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300080&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0080|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">William H. Lemmel Middle (0079)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300079&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300079&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0079|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Winston Middle (0209)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300209&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300209&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0209|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Woodbourne Day School (0372)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300372&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300372&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0372|3|000000>AYP</a></div></td>
+					</tr>
+					
+			</table>
+		</td>
+	</tr>
+</table>
+
+											
+	</div>
+											<div id="pnlLstSchool_H">
+		
+												
+<table cellSpacing="0" cellPadding="0" width="450" border="0">
+	<tr>
+		<td>
+			<br />&nbsp;<br /><b><a name="highschools">High Schools</a></b><br /><IMG height="2" src="/images/blue.gif" width="450"><br />
+			
+			<!--<table width="500">-->
+			
+			<table cellpadding="0" cellspacing="0" border="0">
+				
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Academy for College and Career Exploration (0427)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300427&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300427&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0427|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Augusta Fells Savage Institute of Visual Arts (0430)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300430&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300430&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0430|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Baltimore City College (0480)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300480&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300480&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0480|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Baltimore Freedom Academy (0423)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300423&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300423&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0423|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Baltimore Polytechnic Institute (0403)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300403&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300403&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0403|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Baltimore School For The Arts (0415)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300415&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300415&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0415|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Baltimore Talent Development (0428)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300428&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300428&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0428|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Carver Vocational-Technical High (0454)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300454&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300454&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0454|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Central Career Center at Briscoe (0451)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300451&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300451&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0451|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Claremont School (0307)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300307&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300307&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0307|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Coppin Academy (0432)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300432&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300432&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0432|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Digital Harbor High School (0416)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300416&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300416&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0416|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Doris M. Johnson High (0426)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300426&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300426&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0426|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Dr. Samuel L. Banks High (0420)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300420&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300420&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0420|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Edmondson-Westside High (0400)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300400&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300400&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0400|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Forest Park High (0406)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300406&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300406&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0406|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Francis M. Wood Alternative High (0178)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300178&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300178&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0178|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Frederick Douglass High (0450)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300450&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300450&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0450|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">George W. F. McMechen Middle/High (0177)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300177&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300177&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0177|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Heritage High School (0425)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300425&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300425&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0425|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Homeland Security High School (0434)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300434&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300434&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0434|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Independence School Local I (0333)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300333&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300333&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0333|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Institute of Business and Entrepreneurship (0435)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300435&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300435&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0435|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Maritime Industries Academy (0431)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300431&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300431&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0431|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Mergenthaler Vocational-Technical High (0410)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300410&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300410&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0410|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">National Academy Foundation (0421)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300421&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300421&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0421|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">New Era Academy (0422)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300422&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300422&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0422|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Northwestern High (0401)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300401&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300401&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0401|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Patterson High (0405)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300405&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300405&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0405|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Paul Laurence Dunbar High (0414)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300414&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300414&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0414|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Reginald F. Lewis High School (0419)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300419&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300419&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0419|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Renaissance Academy (0433)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300433&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300433&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0433|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Southside Academy (0181)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300181&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300181&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0181|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Thurgood Marshall High (0424)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300424&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300424&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0424|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Vivien T. Thomas Medical Arts Academy (0429)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300429&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300429&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0429|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">W.E.B. DuBois High (0418)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300418&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300418&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0418|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Western High (0407)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300407&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300407&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0407|3|000000>AYP</a></div></td>
+					</tr>
+					
+			</table>
+		</td>
+	</tr>
+</table>
+
+											
+	</div>
+											<div id="pnlLstSchool_EMH">
+		
+												
+<table cellSpacing="0" cellPadding="0" width="450" border="0">
+	<tr>
+		<td>
+			<br />&nbsp;<br /><b><a name="k-12schools">"K through 12" Schools</a></b><br /><IMG height="2" src="/images/blue.gif" width="450"><br />
+			
+			<!--<table width="500">-->
+			
+			<table cellpadding="0" cellspacing="0" border="0">
+				
+					<tr>
+					<td class=bluebackground><div class="schoolBox">William S. Baer School (0301)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300301&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300301&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0301|3|000000>AYP</a></div></td>
+					</tr>
+					
+			</table>
+		</td>
+	</tr>
+</table>
+
+											
+	</div>
+											<div id="pnlLstSchool_EM">
+		
+												
+<table cellSpacing="0" cellPadding="0" width="450" border="0">
+	<tr>
+		<td>
+			<br />&nbsp;<br /><b><a name="emschools">Elementary/Middle Schools</a></b><br /><IMG height="2" src="/images/blue.gif" width="450"><br />
+			
+			<!--<table width="500">-->
+			
+			<table cellpadding="0" cellspacing="0" border="0">
+				
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Armistead Gardens Elementary (0243)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300243&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300243&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0243|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Arundel Elementary/Middle (0164)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300164&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300164&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0164|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Barclay Elementary/Middle (0054)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300054&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300054&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0054|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Bay-Brook Elementary (0124)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300124&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300124&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0124|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Beechfield Elementary (0246)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300246&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300246&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0246|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Calverton (0075)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300075&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300075&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0075|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Cherry Hill Elementary/Middle (0159)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300159&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300159&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0159|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">City Neighbors Charter School (0326)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300326&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300326&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0326|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">City Springs Elementary (0008)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300008&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300008&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0008|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Collington Square Elementary (0097)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300097&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300097&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0097|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Commodore John Rogers Elementary (0027)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300027&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300027&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0027|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Cross Country Elementary (0247)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300247&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300247&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0247|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Dickey Hill Elementary/Middle (0201)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300201&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300201&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0201|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Dr. Carter Godwin Woodson Prek through 8 (0160)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300160&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300160&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0160|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Dr. Martin Luther King, Jr. Elementary (0254)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300254&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300254&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0254|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Dr. Nathan A. Pitts Ashburton Elementary/Middle (0058)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300058&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300058&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0058|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Dr. Rayner Browne Elementary (0025)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300025&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300025&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0025|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Fallstaff Elementary (0241)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300241&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300241&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0241|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Federal Hill Preparatory School (0045)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300045&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300045&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0045|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Francis Scott Key Elementary/Middle (0076)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300076&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300076&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0076|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">George G. Kelson Elementary (0157)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300157&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300157&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0157|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Glenmount Elementary/Middle (0235)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300235&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300235&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0235|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Graceland Park Elementary (0240)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300240&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300240&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0240|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Guilford Elementary/Middle (0214)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300214&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300214&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0214|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Hamilton Elementary/Middle (0236)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300236&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300236&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0236|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Hampden Elementary (0055)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300055&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300055&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0055|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Hampstead Hill Academy (0047)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300047&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300047&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0047|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Harlem Park Elementary (0035)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300035&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300035&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0035|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Hazelwood Elementary/Middle (0210)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300210&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300210&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0210|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Highlandtown Elementary #215 (0215)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300215&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300215&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0215|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">KIPP Ujima Village Academy (0324)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300324&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300324&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0324|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Lakeland Elementary/Middle (0012)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300012&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300012&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0012|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Lois T. Murray Elementary (0313)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300313&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300313&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0313|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Margaret Brent Elementary (0053)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300053&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300053&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0053|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Midtown Academy (0321)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300321&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300321&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0321|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Moravia Park Primary (0105)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300105&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300105&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0105|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Morrell Park Elementary/Middle (0220)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300220&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300220&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0220|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Mount Royal Elementary/Middle (0066)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300066&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300066&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0066|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">New Song Academy (0322)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300322&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300322&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0322|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">North Bend Elementary (0081)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300081&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300081&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0081|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Patapsco Elementary/Middle (0163)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300163&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300163&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0163|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Pimlico Elementary (0223)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300223&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300223&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0223|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Rognel Heights Elementary/Middle (0089)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300089&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300089&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0089|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Roland Park Elementary/Middle (0233)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300233&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300233&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0233|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Rosemont Elementary (0063)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300063&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300063&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0063|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Stadium School (0015)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300015&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300015&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0015|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Steuart Hill Academic Academy (0004)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300004&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300004&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0004|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Tench Tilghman Elementary (0013)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300013&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300013&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0013|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Thomas Jefferson Elementary (0232)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300232&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300232&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0232|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Violetville Elementary/Middle (0226)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300226&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300226&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0226|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Waverly Elementary (0051)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300051&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300051&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0051|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Westport Academy (0225)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300225&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300225&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0225|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Woodhome Elementary/Middle (0205)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300205&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300205&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0205|3|000000>AYP</a></div></td>
+					</tr>
+					
+			</table>
+		</td>
+	</tr>
+</table>
+
+											
+	</div>
+											<div id="pnlLstSchool_MH">
+		
+												
+<table cellSpacing="0" cellPadding="0" width="450" border="0">
+	<tr>
+		<td>
+			<br />&nbsp;<br /><b><a name="mhschools">Middle/High Schools</a></b><br /><IMG height="2" src="/images/blue.gif" width="450"><br />
+			
+			<!--<table width="500">-->
+			
+			<table cellpadding="0" cellspacing="0" border="0">
+				
+					<tr>
+					<td class=bluebackground><div class="schoolBox">ConneXions Community Leadership Academy (0325)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300325&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300325&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0325|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Eager Street Academy (0884)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300884&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300884&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0884|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Harbor City High School (0413)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300413&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300413&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0413|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Laurence G. Paquin Middle/High (0457)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300457&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300457&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0457|3|000000>AYP</a></div></td>
+					</tr>
+					
+			</table>
+		</td>
+	</tr>
+</table>
+
+											
+	</div>
+											
+											<div id="pnlLstSchool_UC">
+		
+												
+<table cellSpacing="0" cellPadding="0" width="450" border="0">
+	<tr>
+		<td>
+			<br />&nbsp;<br /><b><a name="spaltschools">Special/Alternative Schools</a></b><br /><IMG height="2" src="/images/blue.gif" width="450"><br />
+			
+			<!--<table width="500">-->
+			
+			<table cellpadding="0" cellspacing="0" border="0">
+				
+					<tr>
+					<td class=bluebackground><div class="schoolBox">Dr. Lillie M. Jackson Elementary (0315)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300315&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300315&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0315|3|000000>AYP</a></div></td>
+					</tr>
+					
+					<tr>
+					<td class=whitebackground><div class="schoolBox">Lakewood Elementary (0086)</div><div class="demographicsBox"><a href="Demographics.aspx?K=300086&WDATA=School ">Demographics</a></div><div class="assessmentsBox"><a href="Assessments.aspx?K=300086&WDATA=School">Assessments</a></div><div class="aypBox"><a href=AypIntro.aspx?AypPV=14|0|30|0086|3|000000>AYP</a></div></td>
+					</tr>
+					
+			</table>
+		</td>
+	</tr>
+</table>
+
+											
+	</div>
+											
+											<br />&nbsp;<br />
+											<P><A href="#toppage">TOP OF LIST</A></P>
+										</TD>
+									</TR>
+								</TABLE>
+							
+</div>
+							</TD>
+					</tr>
+				</table>
+</div>
+				<!--Footer-->
+				<P>
+<!-- Begin: Footer.ascx -->
+<div id="foot" class="backfoot">
+	<table width="600" border="0" cellspacing="0" cellpadding="0" class="footerlink" style="margin-left:2px; margin-top:4px;">
+		<tr>
+			<td>
+				<a href="/introduction/index.aspx?WDATA=intro">Introduction</a> | 
+				<a href="/introduction/feedbackpopup.aspx?WDATA=feedback" onclick="maxMAN(this); return false;">Feedback</a> | 
+				<a href="/downloadindex.aspx">Data Downloads</a> | 
+				<a href="/supporting/index.aspx?WDATA=def">Definitions</a>
+			</td>
+		</tr>
+		<tr>
+			<td title="11.04.00.01">
+				<small>
+					<!-- Web Site: Last updated 05/05/2009 | -->
+					Release 11.04 <!-- , &#169;1998-2008 -->
+				</small>
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- End: Footer.ascx -->
+</P>
+			
+</div>
+	</body>
+</HTML>

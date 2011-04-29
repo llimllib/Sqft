@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <!-- This Line will output the doctype we set inside the bootstrap file -->
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>SquareFeet</title>
+  <link href="/public/css/sqft.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/public/js/themes/sqft/ui.all.css" media="screen" rel="stylesheet" type="text/css" />
+  
+  <script type="text/javascript" src="/public/js/jquery-1.3.min.js"></script>
+  <script type="text/javascript" src="/public/js/jquery-ui-1.6rc6.min.js"></script>        
+  <script type="text/javascript" src="/public/js/sqft.js"></script>    
+  
+
+</head> 
+<body>
+
+  <div id="container">
+    <div id="centerContainer"> 
+      <div id="header">
+        <div id="accountLinks">
+                  <a href="/public/search">Home</a>
+                            <a href="/public/user/login">Register / Sign In</a>
+                            </div>
+
+        
+        <hr>
+        
+        <div id="searchDisplay">
+          <span id="searchDesc">Your search: 2 bed, 1 bath from $1500 to $2000 <a href="#">[refine]</a></span>
+          <br />
+          <input type="text" id="mainSearch">
+          <input type="button" value="Search" id="mainSearchButton">
+        </div>
+        
+        <div id="bannerAd"><img src="/public/img/banner.gif" width="468" height="60" /></div>
+
+        
+        <br style="clear: both;">
+        <hr style="margin-top: .8em;">
+      </div>
+      
+      <div id="content">
+{% block content %}{% endblock %}
+         </div>
+    </div>
+  </div>
+</body>
+</html>

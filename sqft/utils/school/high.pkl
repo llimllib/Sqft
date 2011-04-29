@@ -1,0 +1,319 @@
+(dp1
+S'Western High'
+p2
+(lp3
+(S'math'
+p4
+F99.400000000000006
+tp5
+a(S'reading'
+p6
+F98.900000000000006
+tp7
+asS'Heritage High School'
+p8
+(lp9
+(g4
+F49.5
+tp10
+a(g6
+F40.600000000000001
+tp11
+asS'Renaissance Academy'
+p12
+(lp13
+(g4
+F68.400000000000006
+tp14
+a(g6
+F47.399999999999999
+tp15
+asS'Francis M. Wood Alternative High'
+p16
+(lp17
+(g4
+F22.199999999999999
+tp18
+a(g6
+F0
+tp19
+asS'Frederick Douglass High'
+p20
+(lp21
+(g4
+F38.799999999999997
+tp22
+a(g6
+F40.5
+tp23
+asS'Central Career Center at Briscoe'
+p24
+(lp25
+sS'George W. F. McMechen Middle/High'
+p26
+(lp27
+sS'Baltimore Freedom Academy'
+p28
+(lp29
+(g4
+F82.400000000000006
+tp30
+a(g6
+F54.899999999999999
+tp31
+asS'Mergenthaler Vocational-Technical High'
+p32
+(lp33
+(g4
+F86.400000000000006
+tp34
+a(g6
+F73.5
+tp35
+asS'Paul Laurence Dunbar High'
+p36
+(lp37
+(g4
+F100
+tp38
+a(g6
+F92.599999999999994
+tp39
+asS'Baltimore Talent Development'
+p40
+(lp41
+(g4
+F58.299999999999997
+tp42
+a(g6
+F57.399999999999999
+tp43
+asS'Patterson High'
+p44
+(lp45
+(g4
+F58.899999999999999
+tp46
+a(g6
+F49.600000000000001
+tp47
+asS'W.E.B. DuBois High'
+p48
+(lp49
+(g4
+F53.5
+tp50
+a(g6
+F42.600000000000001
+tp51
+asS'Dr. Samuel L. Banks High'
+p52
+(lp53
+(g4
+F48.700000000000003
+tp54
+a(g6
+F46.5
+tp55
+asS'Forest Park High'
+p56
+(lp57
+(g4
+F39.5
+tp58
+a(g6
+F55.299999999999997
+tp59
+asS'Institute of Business and Entrepreneurship'
+p60
+(lp61
+(g4
+F35.399999999999999
+tp62
+a(g6
+F41.899999999999999
+tp63
+asS'Claremont School'
+p64
+(lp65
+sS'Maritime Industries Academy'
+p66
+(lp67
+(g4
+F37
+tp68
+a(g6
+F60.5
+tp69
+asS'New Era Academy'
+p70
+(lp71
+(g4
+F76.099999999999994
+tp72
+a(g6
+F70.099999999999994
+tp73
+asS'Doris M. Johnson High'
+p74
+(lp75
+(g4
+F45.600000000000001
+tp76
+a(g6
+F52.899999999999999
+tp77
+asS'Baltimore School For The Arts'
+p78
+(lp79
+(g4
+F94.799999999999997
+tp80
+a(g6
+F97.5
+tp81
+asS'Coppin Academy'
+p82
+(lp83
+(g4
+F94.400000000000006
+tp84
+a(g6
+F73.200000000000003
+tp85
+asS'Augusta Fells Savage Institute of Visual Arts'
+p86
+(lp87
+(g4
+F27
+tp88
+a(g6
+F45.100000000000001
+tp89
+asS'Thurgood Marshall High'
+p90
+(lp91
+(g4
+F37
+tp92
+a(g6
+F33
+tp93
+asS'Reginald F. Lewis High School'
+p94
+(lp95
+(g4
+F51.100000000000001
+tp96
+a(g6
+F56.799999999999997
+tp97
+asS'National Academy Foundation'
+p98
+(lp99
+(g4
+F79.599999999999994
+tp100
+a(g6
+F84.799999999999997
+tp101
+asS'Independence School Local I'
+p102
+(lp103
+(g4
+F25
+tp104
+a(g6
+F25
+tp105
+asS'Baltimore Polytechnic Institute'
+p106
+(lp107
+(g4
+F99.700000000000003
+tp108
+a(g6
+F99.700000000000003
+tp109
+asS'Homeland Security High School'
+p110
+(lp111
+(g4
+F25
+tp112
+a(g6
+F35.600000000000001
+tp113
+asS'Baltimore City College'
+p114
+(lp115
+(g4
+F89.599999999999994
+tp116
+a(g6
+F93.900000000000006
+tp117
+asS'Academy for College and Career Exploration'
+p118
+(lp119
+(g4
+F51.700000000000003
+tp120
+a(g6
+F45.600000000000001
+tp121
+asS'Southside Academy'
+p122
+(lp123
+(g4
+F64.400000000000006
+tp124
+a(g6
+F51.100000000000001
+tp125
+asS'Edmondson-Westside High'
+p126
+(lp127
+(g4
+F71.5
+tp128
+a(g6
+F72.299999999999997
+tp129
+asS'Northwestern High'
+p130
+(lp131
+(g4
+F38.799999999999997
+tp132
+a(g6
+F42.200000000000003
+tp133
+asS'Digital Harbor High School'
+p134
+(lp135
+(g4
+F73.700000000000003
+tp136
+a(g6
+F69.099999999999994
+tp137
+asS'Carver Vocational-Technical High'
+p138
+(lp139
+(g4
+F67.400000000000006
+tp140
+a(g6
+F73.5
+tp141
+asS'Vivien T. Thomas Medical Arts Academy'
+p142
+(lp143
+(g4
+F40.700000000000003
+tp144
+a(g6
+F53.299999999999997
+tp145
+as.

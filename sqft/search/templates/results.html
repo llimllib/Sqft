@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Squarefeet - Rental apartments, houses, rooms</title>
+
+<link href="/public/css/jquery-ui/sqft/ui.all.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/sqft.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/results.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/npicker.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/jquery.autocomplete.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/galleria.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/info-window/window.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key={{ gmaps_key }}" type="text/javascript"></script>
+<script src="http://www.google.com/jsapi?key={{ gmaps_key }}"></script>  
+<script src="/public/js/search.js"></script>
+<script src="/public/js/sqft.js"></script>
+<script src="/public/js/results.js"></script>
+<script src="/public/js/map.js"></script>
+<script src="/public/js/extInfoWindow.js"></script>
+<script src="/public/js/jquery.modal.js"></script>
+<script src="/public/js/jquery.autocomplete.min.js"></script>
+<script src="/public/js/jquery.galleria.js"></script>
+<script>			
+{% autoescape off %}
+	var neighborhoodData = {{ hood_data }};
+	var fullHoodList = {{ hood_names }};	
+	var hoodList = createList(fullHoodList);
+	var neighborhoodTotal = hoodList.length;
+    var features = {{ features }};
+	var featureList = createList(features);
+	{% if rentals_list %}var rentals = {{ aptsjson }};{% endif %}
+{% endautoescape %}
+
+</script>	
+</head>
+
+<body>
+	<div id="container">
+
+    {% include "header.html" %}
+ 
+    <div id="body">
+        <div id="listingsContainer">        	           
+            <div id="resultsHeader">
+            	<div class="pad">                	                	
+                    <div class="floatLeft">
+                        <div class="searchBtnContainer">
+                            <a class="ui-state-default ui-corner-all" id="edit_search" href="#">
+                                <span class="ui-icon ui-icon-search floatLeft"></span>
+                                <strong>&nbsp;Edit Your Search:  
+                                {% ifequal search_request.bedFloor "0" %} Studio
+                                {% else %}{{ search_request.bedFloor }} Bed{{ search_request.bedFloor|pluralize }}
+                                {%endifequal %}, 
+                                {{ search_request.bathFloor }} Bath{{ search_request.bathFloor|pluralize }}, 
+                                ${{ search_request.priceFloor }} - ${{ search_request.priceCeiling }}</strong>
+                            </a>                           
+                        </div>
+                    </div>    
+                                                           
+                    <br clear="all" />
+                    <hr />
+                    
+                    <div class="floatLeft" style="width: 35%;">{{ rentals_list|length }} Results</div>                    
+                    <div class="floatRight">
+                    	{% if rentals_list %}
+                    	Sort by 
+                        <select name="sort">
+                            <option>Neighborhood > Cost</option>
+                            <option>Neighborhood > Size</option>
+                            <option>Neighborhood > Date</option>
+                            <option>Neighborhood > Beds</option>
+                            <option>Neighborhood > Baths</option>
+                            <option>Cost</option>
+                            <option>Size</option>
+                            <option>Date</option>
+                            <option>Beds</option>
+                            <option>Baths</option>
+                        </select>
+                        {% else %}
+                        Try editing your search.
+                        {% endif %}
+                    </div>                   
+                </div>
+            </div>			
+
+            <div id="resultsContainer">
+            	{% for hood, apts in hood_apts.items %}
+                <div class="groupTitleBar ui-state-default" id="cv">
+                    <div class="floatLeft" style="width:70%">
+                        <span class="ui-icon ui-icon-triangle-1-s floatLeft"></span>
+                        {{ hood }}
+                    </div>
+                    <div class="floatRight"><a href="#" rel="{{ apts|first }}"><span class="ui-icon ui-icon-pin-s"></span></a></div>
+                </div>
+                
+                <div class="groupResultsContainer">
+                	{% for rental in apts %}
+                    {% if not forloop.first %}
+                	<!-- unit -->
+                	<div class="listing floatLeft" id="listing_{{ rental.rental_id }}">
+                    	<img src="{{ rental.first_photo_url }}" width="125" border="0" class="thumb floatLeft" />
+                        <div class="floatLeft text">
+                            <a href="/rental?id={{ rental.rental_id }}" target="_blank">{{ rental.address1 }} {{ rental.address2 }}<br />
+                            {{ rental.city }}, {{ rental.state }} {{ rental.zip }}</a>
+                            <br />
+                            <br />
+                            {% ifequal rental.bedrooms "0" %} Studio
+                            {% else %}{{ rental.bedrooms }} bed{{ rental.bedrooms|pluralize }}
+                            {% endifequal %}, {{ rental.full_bathrooms }} bath{{ rental.full_bathrooms|pluralize }} - {{ rental.square_footage }} sq.ft.<br />
+                            Est. Total: ${{ rental.estimated_total_cost|floatformat }} | Rent: ${{ rental.monthly_rent }}<br />
+                            Listed: 04-04-2009
+						</div>
+                        <div class="floatRight">                        	
+                            <div class="ui-state-default ui-corner-all floatLeft">
+	                        	<span class="ui-icon ui-icon-tag"></span>
+                            </div>
+                        </div>
+                    </div>                    
+					<!-- end unit -->
+                    {% endif %}
+                    {% endfor %}
+                                        
+                </div>
+                {% endfor %}                                
+           	</div>
+            
+            <!--- full search options --->
+			<div id="searchContainer" style="display:none;"> 
+            	<div class="pad">
+                    
+                    {% include "searchForm.html" %}             
+                	               	                                    
+                </div>
+                
+                <div class="ui-state-active ui-corner-all closeModalBtn closeSearchBtn"><span class="ui-icon ui-icon-close"></span></div>
+            </div>
+      	</div>
+        <div id="mapContainer">
+        	<div id="map" style="width:100%;"></div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">&nbsp; &nbsp; About | Listing with Us | Contact</div>
+
+<!-- Neighborhood Listing -->
+{% include "hoodList.html" %}
+
+<!-- Features listing -->
+{% include "featureList.html" %}
+
+<!-- Neighborhood Chooser code -->
+{% include "hoodExplorer.html" %}
+
+</body>
+</html>

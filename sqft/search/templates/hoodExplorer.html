@@ -1,0 +1,88 @@
+<!--Preferences -->
+<div id="nPrefsDialog" class="jqmWindow">
+	<div id="prefsContainer">
+        <h1 class="colTitle">Tell us what you're looking for and we'll find the neighborhoods you'll like.</h1>
+        <div class="preference extra ui-corner-all">Close to work
+            <div style="display:none"> 
+                <label>Your work address</label>
+                <input type="text" class="extraInput geocode">
+            </div>
+        </div>
+        <div class="preference extra ui-corner-all">Close to school
+        	<div style="display:none"> 
+                <label>Your school address</label>
+                <input type="text" class="extraInput geocode">
+            </div>
+        </div>
+        <div class="preference extra ui-corner-all">Close to ...
+        	<div style="display:none"> 
+                <label>An address</label>
+                <input type="text" class="extraInput geocode">
+            </div>
+        </div>
+        <div class="preference ui-corner-all">Close to friends</div>
+        <div class="preference ui-corner-all">Close to transit</div>
+        <div class="preference ui-corner-all">Close to dining</div>
+        <div class="preference ui-corner-all">Close to services</div>
+        <div class="preference ui-corner-all">Close to gym</div>    
+        <div class="preference ui-corner-all">Close to nightlife</div>
+        <div class="preference ui-corner-all">Close to parks</div>
+        <div class="preference ui-corner-all">Close to shopping</div>
+        <div class="preference ui-corner-all">Quiet</div>
+        <br clear="all" />
+    </div>
+     
+    <div class="bottomBar">
+    	<div class="floatRight">                
+            <input type="button" value="Find Neighborhoods" class="finish" id="submitPrefs" />
+        </div>
+        <div class="floatRight" id="prefsErrorMessage" style="display:none;">
+            <div class="ui-widget" style="margin-top:10px; margin-right: 10px;">
+                <div class="ui-state-error ui-corner-all" style="padding: 6px; font-size:.7em;">
+                    <span class="ui-icon ui-icon-alert" style="float: left; margin-right: 0.3em;"></span>
+                        <strong>Uh oh!</strong>
+                        Look's like there's a typo.
+                </div>
+            </div>
+        </div>
+    </div> 
+       
+    <div class="ui-state-active ui-corner-all closeModalBtn"><span class="ui-icon ui-icon-close"></span></div>
+</div>
+
+<!--Hoods -->
+<div id="nChooserDialog" class="jqmWindow">
+    <div id="middleColumn" class="column">
+        <h1 class="colTitle">Neighborhoods you'll like</h1>
+        <p>Click on a neighborhood to learn more about it. If you like the neighborhood, use the checkbox to search for apartments there.</p>
+        
+        <div id="hoodContainer"></div>
+
+        <br clear="all" />
+		<div class="floatLeft" id="pagerContainer">
+	        <a href="#" class="smPager" id="prev">&laquo;</a> <a href="#" class="smPager" id="next">&raquo;</a> <span id="hoodPage"></span>
+        </div>
+    </div>
+    <div id="rightColumn" class="column">
+        <h1 class="colTitle"></h1>
+        <div id="map" style="width:100%; height: 256px;"></div>
+        <div id="hoodDesc">
+            <br clear="all" />
+        </div>
+    </div>
+    
+    <div class="bottomBar"> 
+    	<div class="floatLeft">
+        	<a href="#" id="editPrefs">Edit your preferences</a>
+        </div>
+        <div class="floatRight">                
+            <input type="button" value="I'm finished picking neighborhoods" class="finish" id="explorerBtn" />
+        </div>
+        <div class="floatRight small" style="width:50%;">
+            Neighborhoods picked:<br />
+            <span id="selectedNeighborhoods">None</span>
+        </div>
+    </div>
+    
+   <div class="ui-state-active ui-corner-all closeModalBtn"><span class="ui-icon ui-icon-close"></span></div>
+</div>

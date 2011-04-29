@@ -1,0 +1,35 @@
+<div id="featureList" class="jqmWindow">
+    
+    <div class="floatLeft col"></div>
+    <div class="floatLeft col"></div>
+    <div class="floatLeft col"></div>
+	<script language="javascript">
+		var colcount = Math.round(objLength(features) / 3);
+		var divIndex = 0;
+		var count = 0;
+		$.each(features, function(i, el){	
+			$("#featureList > div.col:eq("+divIndex+")").append('<div class="menu"><span>'+ i +'</span><div class="areaHoods" style="display:none;"></div></div>');
+			
+			$.each(el, function(f, feature){				
+				$("div.menu:last > .areaHoods").append('<span class="featureMenuLink" id="menu_feature_'+ feature.feature_id +'">'+ feature.name +'</span>');
+			});
+			
+			if((count+1) % colcount == 0){			
+				divIndex++;
+			}
+			
+			count++;			
+		});			
+	</script>
+    
+    <br clear="all" />	    
+    <div style="margin-bottom: 62px;"></div>
+    
+	<div class="bottomBar">    	    
+    	<div class="floatRight">                
+            <input type="button" value="I'm done" class="finish" /></a>
+        </div>                
+    </div>
+    
+    <div class="ui-state-active ui-corner-all closeModalBtn"><span class="ui-icon ui-icon-close"></span></div>
+</div>

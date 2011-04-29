@@ -1,0 +1,608 @@
+(dp1
+S'middle_high'
+p2
+(lp3
+(S'ConneXions Community Leadership Academy'
+S'0325'
+tp4
+a(S'Eager Street Academy'
+S'0884'
+tp5
+a(S'Harbor City High School'
+S'0413'
+tp6
+a(S'Laurence G. Paquin Middle/High'
+S'0457'
+tp7
+asS'k12'
+p8
+(lp9
+(S'William S. Baer School'
+S'0301'
+tp10
+asS'high'
+p11
+(lp12
+(S'Academy for College and Career Exploration'
+S'0427'
+tp13
+a(S'Augusta Fells Savage Institute of Visual Arts'
+S'0430'
+tp14
+a(S'Baltimore City College'
+S'0480'
+tp15
+a(S'Baltimore Freedom Academy'
+S'0423'
+tp16
+a(S'Baltimore Polytechnic Institute'
+S'0403'
+tp17
+a(S'Baltimore School For The Arts'
+S'0415'
+tp18
+a(S'Baltimore Talent Development'
+S'0428'
+tp19
+a(S'Carver Vocational-Technical High'
+S'0454'
+tp20
+a(S'Central Career Center at Briscoe'
+S'0451'
+tp21
+a(S'Claremont School'
+S'0307'
+tp22
+a(S'Coppin Academy'
+S'0432'
+tp23
+a(S'Digital Harbor High School'
+S'0416'
+tp24
+a(S'Doris M. Johnson High'
+S'0426'
+tp25
+a(S'Dr. Samuel L. Banks High'
+S'0420'
+tp26
+a(S'Edmondson-Westside High'
+S'0400'
+tp27
+a(S'Forest Park High'
+S'0406'
+tp28
+a(S'Francis M. Wood Alternative High'
+S'0178'
+tp29
+a(S'Frederick Douglass High'
+S'0450'
+tp30
+a(S'George W. F. McMechen Middle/High'
+S'0177'
+tp31
+a(S'Heritage High School'
+S'0425'
+tp32
+a(S'Homeland Security High School'
+S'0434'
+tp33
+a(S'Independence School Local I'
+S'0333'
+tp34
+a(S'Institute of Business and Entrepreneurship'
+S'0435'
+tp35
+a(S'Maritime Industries Academy'
+S'0431'
+tp36
+a(S'Mergenthaler Vocational-Technical High'
+S'0410'
+tp37
+a(S'National Academy Foundation'
+S'0421'
+tp38
+a(S'New Era Academy'
+S'0422'
+tp39
+a(S'Northwestern High'
+S'0401'
+tp40
+a(S'Patterson High'
+S'0405'
+tp41
+a(S'Paul Laurence Dunbar High'
+S'0414'
+tp42
+a(S'Reginald F. Lewis High School'
+S'0419'
+tp43
+a(S'Renaissance Academy'
+S'0433'
+tp44
+a(S'Southside Academy'
+S'0181'
+tp45
+a(S'Thurgood Marshall High'
+S'0424'
+tp46
+a(S'Vivien T. Thomas Medical Arts Academy'
+S'0429'
+tp47
+a(S'W.E.B. DuBois High'
+S'0418'
+tp48
+a(S'Western High'
+S'0407'
+tp49
+asS'middle'
+p50
+(lp51
+(S'Alternative Learning Center'
+S'0488'
+tp52
+a(S'Benjamin Franklin Jr. Middle'
+S'0239'
+tp53
+a(S'Bluford Drew Jemison MST Academy'
+S'0334'
+tp54
+a(S'Booker T. Washington Middle'
+S'0130'
+tp55
+a(S'Canton Middle'
+S'0230'
+tp56
+a(S'Chinquapin Middle'
+S'0046'
+tp57
+a(S'Diggs-Johnson Middle'
+S'0162'
+tp58
+a(S'Dr. Roland N. Patterson Sr. Academy'
+S'0082'
+tp59
+a(S'Garrison Middle'
+S'0042'
+tp60
+a(S'Hamilton Middle'
+S'0041'
+tp61
+a(S'Harford Heights Middle'
+S'0263'
+tp62
+a(S'Harlem Park Middle'
+S'0078'
+tp63
+a(S'Lombard Middle'
+S'0057'
+tp64
+a(S'MD Academy of Technology and Health Sciences'
+S'0331'
+tp65
+a(S'Northeast Middle'
+S'0049'
+tp66
+a(S'Paul Laurence Dunbar Middle'
+S'0133'
+tp67
+a(S'Robert Poole Middle'
+S'0056'
+tp68
+a(S'Southeast Middle'
+S'0255'
+tp69
+a(S'The Crossroads School'
+S'0323'
+tp70
+a(S'Thurgood Marshall Middle School'
+S'0170'
+tp71
+a(S'West Baltimore Middle'
+S'0080'
+tp72
+a(S'William H. Lemmel Middle'
+S'0079'
+tp73
+a(S'Winston Middle'
+S'0209'
+tp74
+a(S'Woodbourne Day School'
+S'0372'
+tp75
+asS'elementary'
+p76
+(lp77
+(S'Abbottston Elementary'
+S'0050'
+tp78
+a(S'Alexander Hamilton Elementary'
+S'0145'
+tp79
+a(S'Alternative Elementary School'
+S'0288'
+tp80
+a(S'Arlington Elementary'
+S'0234'
+tp81
+a(S'Baltimore International Academy'
+S'0335'
+tp82
+a(S'Belmont Elementary'
+S'0217'
+tp83
+a(S'Bentalou Elementary'
+S'0150'
+tp84
+a(S'Brehms Lane Elementary'
+S'0231'
+tp85
+a(S'Callaway Elementary'
+S'0251'
+tp86
+a(S'Calvin M. Rodwell Elementary'
+S'0256'
+tp87
+a(S'Cecil Elementary'
+S'0007'
+tp88
+a(S'Charles Carroll Barrister Elementary'
+S'0034'
+tp89
+a(S'Coldstream Park Elementary'
+S'0031'
+tp90
+a(S'Curtis Bay Elementary'
+S'0207'
+tp91
+a(S'Dallas F. Nicholas Sr. Elementary'
+S'0039'
+tp92
+a(S'Dr. Bernard Harris, Sr. Elementary'
+S'0250'
+tp93
+a(S'Edgecombe Circle Elementary'
+S'0062'
+tp94
+a(S'Edgewood Elementary'
+S'0067'
+tp95
+a(S'Empowerment Academy'
+S'0262'
+tp96
+a(S'Eutaw-Marshburn Elementary'
+S'0011'
+tp97
+a(S'Fort Worthington Elementary'
+S'0085'
+tp98
+a(S'Franklin Square Elementary'
+S'0095'
+tp99
+a(S'Frederick Elementary'
+S'0260'
+tp100
+a(S'Furley Elementary'
+S'0206'
+tp101
+a(S'Furman L. Templeton Elementary'
+S'0125'
+tp102
+a(S'Gardenville Elementary'
+S'0211'
+tp103
+a(S'Garrett Heights Elementary'
+S'0212'
+tp104
+a(S'General Wolfe Elementary'
+S'0023'
+tp105
+a(S'George Washington Elementary'
+S'0022'
+tp106
+a(S'Gilmor Elementary'
+S'0107'
+tp107
+a(S'Govans Elementary'
+S'0213'
+tp108
+a(S'Grove Park Elementary'
+S'0224'
+tp109
+a(S'Gwynns Falls Elementary'
+S'0060'
+tp110
+a(S'Harford Heights Intermediate'
+S'0037'
+tp111
+a(S'Harford Heights Primary'
+S'0036'
+tp112
+a(S'Harriet Tubman Elementary'
+S'0138'
+tp113
+a(S'Highlandtown Elementary #0237'
+S'0237'
+tp114
+a(S'Hilton Elementary'
+S'0021'
+tp115
+a(S'Holabird Elementary'
+S'0229'
+tp116
+a(S'Inner Harbor East Academy'
+S'0329'
+tp117
+a(S'James McHenry Elementary'
+S'0010'
+tp118
+a(S'James Mosher Elementary'
+S'0144'
+tp119
+a(S'John Eager Howard Elementary'
+S'0061'
+tp120
+a(S'John Ruhrah Elementary'
+S'0228'
+tp121
+a(S'Johnston Square Elementary'
+S'0016'
+tp122
+a(S'Langston Hughes Elementary'
+S'0005'
+tp123
+a(S'Leith Walk Elementary'
+S'0245'
+tp124
+a(S'Liberty Elementary'
+S'0064'
+tp125
+a(S'Lockerman Bundy Elementary'
+S'0261'
+tp126
+a(S'Lyndhurst Elementary'
+S'0088'
+tp127
+a(S'Maree Garnett Farring Elementary'
+S'0203'
+tp128
+a(S'Mary E. Rodman Elementary'
+S'0204'
+tp129
+a(S'Matthew A. Henson Elementary'
+S'0029'
+tp130
+a(S'Medfield Heights Elementary'
+S'0249'
+tp131
+a(S'Montebello Elementary'
+S'0044'
+tp132
+a(S'Mount Washington Elementary'
+S'0221'
+tp133
+a(S'Northwood Community Academy'
+S'0330'
+tp134
+a(S'Northwood Elementary'
+S'0242'
+tp135
+a(S'Patterson Park Public Charter School'
+S'0327'
+tp136
+a(S'Robert W. Coleman Elementary'
+S'0142'
+tp137
+a(S'Samuel F. B. Morse Elementary'
+S'0098'
+tp138
+a(S'Sarah M. Roach Elementary'
+S'0073'
+tp139
+a(S'Sharp-Leadenhall Elementary'
+S'0314'
+tp140
+a(S'Sinclair Lane Elementary'
+S'0248'
+tp141
+a(S'Southwest Baltimore Charter School'
+S'0328'
+tp142
+a(S'The Green School'
+S'0332'
+tp143
+a(S'The Historic Samuel Coleridge-Taylor Elementary'
+S'0122'
+tp144
+a(S'Thomas Johnson Elementary'
+S'0084'
+tp145
+a(S'Walter P. Carter Elementary'
+S'0134'
+tp146
+a(S'Westside Elementary'
+S'0024'
+tp147
+a(S'William Paca Elementary'
+S'0083'
+tp148
+a(S'William Pinderhughes Elementary'
+S'0028'
+tp149
+a(S'Windsor Hills Elementary'
+S'0087'
+tp150
+a(S'Yorkwood Elementary'
+S'0219'
+tp151
+asS'elem_middle'
+p152
+(lp153
+(S'Armistead Gardens Elementary'
+S'0243'
+tp154
+a(S'Arundel Elementary/Middle'
+S'0164'
+tp155
+a(S'Barclay Elementary/Middle'
+S'0054'
+tp156
+a(S'Bay-Brook Elementary'
+S'0124'
+tp157
+a(S'Beechfield Elementary'
+S'0246'
+tp158
+a(S'Calverton'
+S'0075'
+tp159
+a(S'Cherry Hill Elementary/Middle'
+S'0159'
+tp160
+a(S'City Neighbors Charter School'
+S'0326'
+tp161
+a(S'City Springs Elementary'
+S'0008'
+tp162
+a(S'Collington Square Elementary'
+S'0097'
+tp163
+a(S'Commodore John Rogers Elementary'
+S'0027'
+tp164
+a(S'Cross Country Elementary'
+S'0247'
+tp165
+a(S'Dickey Hill Elementary/Middle'
+S'0201'
+tp166
+a(S'Dr. Carter Godwin Woodson Prek through 8'
+S'0160'
+tp167
+a(S'Dr. Martin Luther King, Jr. Elementary'
+S'0254'
+tp168
+a(S'Dr. Nathan A. Pitts Ashburton Elementary/Middle'
+S'0058'
+tp169
+a(S'Dr. Rayner Browne Elementary'
+S'0025'
+tp170
+a(S'Fallstaff Elementary'
+S'0241'
+tp171
+a(S'Federal Hill Preparatory School'
+S'0045'
+tp172
+a(S'Francis Scott Key Elementary/Middle'
+S'0076'
+tp173
+a(S'George G. Kelson Elementary'
+S'0157'
+tp174
+a(S'Glenmount Elementary/Middle'
+S'0235'
+tp175
+a(S'Graceland Park Elementary'
+S'0240'
+tp176
+a(S'Guilford Elementary/Middle'
+S'0214'
+tp177
+a(S'Hamilton Elementary/Middle'
+S'0236'
+tp178
+a(S'Hampden Elementary'
+S'0055'
+tp179
+a(S'Hampstead Hill Academy'
+S'0047'
+tp180
+a(S'Harlem Park Elementary'
+S'0035'
+tp181
+a(S'Hazelwood Elementary/Middle'
+S'0210'
+tp182
+a(S'Highlandtown Elementary #215'
+S'0215'
+tp183
+a(S'KIPP Ujima Village Academy'
+S'0324'
+tp184
+a(S'Lakeland Elementary/Middle'
+S'0012'
+tp185
+a(S'Lois T. Murray Elementary'
+S'0313'
+tp186
+a(S'Margaret Brent Elementary'
+S'0053'
+tp187
+a(S'Midtown Academy'
+S'0321'
+tp188
+a(S'Moravia Park Primary'
+S'0105'
+tp189
+a(S'Morrell Park Elementary/Middle'
+S'0220'
+tp190
+a(S'Mount Royal Elementary/Middle'
+S'0066'
+tp191
+a(S'New Song Academy'
+S'0322'
+tp192
+a(S'North Bend Elementary'
+S'0081'
+tp193
+a(S'Patapsco Elementary/Middle'
+S'0163'
+tp194
+a(S'Pimlico Elementary'
+S'0223'
+tp195
+a(S'Rognel Heights Elementary/Middle'
+S'0089'
+tp196
+a(S'Roland Park Elementary/Middle'
+S'0233'
+tp197
+a(S'Rosemont Elementary'
+S'0063'
+tp198
+a(S'Stadium School'
+S'0015'
+tp199
+a(S'Steuart Hill Academic Academy'
+S'0004'
+tp200
+a(S'Tench Tilghman Elementary'
+S'0013'
+tp201
+a(S'Thomas Jefferson Elementary'
+S'0232'
+tp202
+a(S'Violetville Elementary/Middle'
+S'0226'
+tp203
+a(S'Waverly Elementary'
+S'0051'
+tp204
+a(S'Westport Academy'
+S'0225'
+tp205
+a(S'Woodhome Elementary/Middle'
+S'0205'
+tp206
+asS'special'
+p207
+(lp208
+(S'Dr. Lillie M. Jackson Elementary'
+S'0315'
+tp209
+a(S'Lakewood Elementary'
+S'0086'
+tp210
+as.

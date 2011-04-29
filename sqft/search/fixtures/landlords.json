@@ -1,0 +1,1 @@
+[{"pk": 1, "model": "search.landlord", "fields": {"city": "Baltimore", "zip": "21211", "firstname": "Bill", "lastname": "\"Crazy Legs\" Mill", "address2": "", "state": "MD", "address1": "4138 Falls Rd", "country": "us"}}]

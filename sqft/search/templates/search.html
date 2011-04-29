@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Squarefeet - Rental apartments, houses, rooms</title>
+
+<link href="/public/css/jquery-ui/sqft/ui.all.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/search.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/npicker.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/jquery.autocomplete.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/galleria.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/info-window/window.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key={{ gmaps_key }}" type="text/javascript"></script>
+<script src="http://www.google.com/jsapi?key={{ gmaps_key }}"></script>  
+
+<script src="/public/js/search.js"></script>
+<script src="/public/js/map.js"></script>
+<script src="/public/js/extInfoWindow.js"></script>
+<script src="/public/js/sqft.js"></script>
+<script src="/public/js/jquery.modal.js"></script>
+<script src="/public/js/jquery.autocomplete.min.js"></script>
+<script src="/public/js/jquery.galleria.js"></script>
+<script>		
+{% autoescape off %}
+	var neighborhoodData = {{ hood_data }};
+	var fullHoodList = {{ hood_names }};	
+	var hoodList = createList(fullHoodList);
+	var neighborhoodTotal = hoodList.length;
+    var features = {{ features }};
+	var featureList = createList(features);
+{% endautoescape %}
+</script>
+
+
+</head>
+
+<body>
+	<div id="centerContainer">
+    	<div id="container">
+        	<div id="header">
+            	
+            </div>
+        
+            <div id="logo">SquareFeet - Find your place.</div>
+            <!--- ad needs to go here -->
+            
+            <div id="searchOptionsContainer">            	
+            	<div id="formContainer">
+                {% include "searchForm.html" %}    
+                </div>
+            </div>                        
+		</div>
+	</div>
+    
+    
+    
+    <!-- Neighborhood Listing -->
+	{% include "hoodList.html" %}
+    
+    <!-- Features listing -->
+    {% include "featureList.html" %}
+    
+    <!-- Neighborhood Chooser code -->
+    {% include "hoodExplorer.html" %}
+</body>
+</html>

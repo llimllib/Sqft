@@ -1,0 +1,952 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	
+<!-- Begin: UserControls/HtmlHead.ascx -->
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<meta content="alpha(opacity=100)" http-equiv="page-enter" />
+    <title>
+		2008 Maryland Report Card: Baltimore City                                                                                       - Alternative Elementary School                                              
+	</title>
+<meta http-equiv="Pragma" content="no-cache" /> 
+<meta http-equiv="Cache-Control" content="no-cache, must-validate" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="Last-Modified" content="now" />
+<link rel="stylesheet" type="text/css" href="/css/msp_px.css" />
+<link rel="stylesheet" type="text/css" href="/css/subpages.css" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" />
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/css/singleimage.css" />
+<script type="text/javascript" src="/js/popup.js"></script>
+<script src="/js/subgroups.js" type="text/javascript"></script>
+<script src="/js/header.js" type="text/javascript"></script>
+<script type="text/javascript"><!-- 
+document.write('<link rel="stylesheet" type="text/css" href="/css/turnSubgroupsOff.css" />'); 
+// --></script>
+<script language="javascript" type="text/javascript">
+
+	function popup(url) {
+		mywin = window.open(url,"windef",'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars,resizable=yes,width=500,height=500');
+		mywin.focus();
+	}
+	function closePopup() {
+		top.close();
+	}
+	var browserName=navigator.appName; 
+	//var browserVer=parseInt(navigator.appVersion); 
+	var browserVer = parseFloat(navigator.appVersion.split("MSIE")[1]);
+	if (browserName=="Microsoft Internet Explorer" && browserVer < 7) {
+		document.write('<link rel="stylesheet" href="/css/subpages_IE6.css" type="text/css" />');
+	} else {	
+		document.write('<link rel="stylesheet" href="/css/subpages_all.css" type="text/css" />');
+	}
+	function preloadImages() {
+		if (document.images) { 
+			var loadedImages = new Array;
+			for( arg=0; arg<preloadImages.arguments.length; arg++ ) {
+				loadedImages[arg] = new Image();
+				loadedImages[arg].src = preloadImages.arguments[arg];
+			}
+		} 
+	}
+function img_hot(imgName) {
+	var id = 'botnav_' + imgName
+	document.getElementById(id).src = '/images/botnav_' + imgName + '_white.gif'; 
+} 
+function img_cool(imgName){
+	var id = 'botnav_' + imgName;
+	var link = 'botnav_' + imgName + '_link';
+	//alert("class " + document.getElementById(link).className);
+	var classname = document.getElementById(link).className;
+	if (classname == 'ayppassive'){
+		document.getElementById(id).src = '/images/botnav_ayp_grey.gif';
+	}
+	else if (classname == 'assessmentspassive'){
+		document.getElementById(id).src = '/images/botnav_assessments_grey.gif';
+	} 
+	else if (classname == 'demographicspassive'){
+		document.getElementById(id).src = '/images/botnav_demographics_grey.gif';
+	} 
+	else {
+		document.getElementById(id).src = '/images/botnav_' + imgName + '_yellow.gif';
+	}
+}
+function img_active(imgName){
+	if (imgName == 'ayp'){
+		document.getElementById("botnav_ayp").src = '/images/botnav_ayp_grey.gif'; 
+		document.getElementById("botnav_assessments").src = '/images/botnav_assessments_white.gif';
+		document.getElementById("botnav_demographics").src = '/images/botnav_demographics_white.gif';
+	}
+	if (imgName == 'assessments'){
+		document.getElementById("botnav_ayp").src = '/images/botnav_ayp_white.gif'; 
+		document.getElementById("botnav_assessments").src = '/images/botnav_assessments_grey.gif';		
+		document.getElementById("botnav_demographics").src = '/images/botnav_demographics_white.gif'; 
+	}
+	if (imgName == 'demographics'){
+		document.getElementById("botnav_ayp").src = '/images/botnav_ayp_white.gif'; 
+		document.getElementById("botnav_assessments").src = '/images/botnav_assessments_white.gif';
+		document.getElementById("botnav_demographics").src = '/images/botnav_demographics_grey.gif'; 
+	}
+} 
+</script>
+</head>
+<!-- End: UserControls/HtmlHead.ascx -->
+
+
+<body> 
+<!-- the below should really be inside the head section -->
+<!-- it will work from here but won't validate -->
+
+<!-- override erroneous col widths so they total to 350px test-->
+<style type="text/css">
+.w112 { width: 102px; }
+.w160 { width: 158px; }
+.w153 { width: 152px }
+</style>
+
+<div id="container">
+
+<div style="display:none;">
+<img src="/i/mag3.gif" alt="" />
+<img src="/i/caret_all2.gif" alt="" />
+</div>
+
+<!-- Begin: Header2.ascx -->
+<noscript><link href="/css/subpages_all.css" rel="stylesheet" type="text/css" /></noscript>
+<div id="wrapper">
+	<div class="forscreen">
+				<div class="subtopheader" style="padding: 0px; margin: 0px 0px -1px 0px;"><a href="/index.aspx"><img class="noborder" style="*margin-bottom: 0px;" alt="2008 Maryland Report Card" src="/images/sub_header.gif" /></a>
+		</div>
+	</div>
+	<div class="submenu" id="submenu" title="State of Maryland Links" style="margin-bottom: -25px">
+	<ul><li><img height="1" alt="Results By:" src="/i/s.gif" width="98" /></li>
+	<li><a class="stmd" href="/ImprovementIntroEMH.aspx?AypPV=41|0|99|AAAA|1|000000|A"><img height="1" alt="State of Maryland" src="/i/s.gif" width="161" />
+	<!--[if IE 7]><!--></a><!--<![endif]-->
+		<table><tbody><tr><td>
+		<ul class="endstopc">
+		<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|99|AAAA|1|000000|A">AYP</a></li>
+		<li><a href="/Assessments.aspx?WDATA=State&amp;K=99AAAA">Assessments</a></li>
+		<li class="botborder"><a href="/Demographics.aspx?WDATA=State&amp;K=99AAAA">Demographics</a></li>
+		</ul>
+		</td></tr></tbody></table>
+	<!--[if lte IE 6]></a><![endif]-->
+	</li>
+		<li><a class="cnty" href="/rcounty.aspx?WDATA=Local+School+System"><img height="1" alt="County" src="/i/s.gif" width="78" />
+	<!--[if IE 7]><!--></a><!--<![endif]-->
+		<table><tr><td>
+		<ul class="endstopa">
+		<li><a class="drop" href="/rcounty.aspx?K=01AAAA">Allegany County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|01|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=01AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=01AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=02AAAA">Anne Arundel County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|02|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=02AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=02AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=30AAAA">Baltimore City
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|30|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="Assessments.aspx?K=30AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="Demographics.aspx?K=30AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=03AAAA">Baltimore County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|03|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=03AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=03AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=04AAAA">Calvert County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|04|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=04AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=04AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=05AAAA">Caroline County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|05|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=05AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=05AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=06AAAA">Carroll County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|06|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=06AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=06AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=07AAAA">Cecil County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|07|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=07AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=07AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=08AAAA">Charles County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|08|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=08AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=08AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=09AAAA">Dorchester County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|09|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=09AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=09AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=10AAAA">Frederick County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|10|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=10AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=10AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=11AAAA">Garrett County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|11|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=11AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=11AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=12AAAA">Harford County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|12|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=12AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=12AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=13AAAA">Howard County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|13|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=13AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=13AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=14AAAA">Kent County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|14|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=14AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=14AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=15AAAA">Montgomery County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|15|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=15AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=15AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=16AAAA">Prince George's County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|16|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=16AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=16AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=17AAAA">Queen Anne's County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|17|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=17AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=17AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=18AAAA">St. Mary's County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|18|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=18AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=18AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=19AAAA">Somerset County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|19|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=19AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=19AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=20AAAA">Talbot County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|20|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=20AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=20AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=21AAAA">Washington County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|21|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=21AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=21AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="drop" href="/rcounty.aspx?K=22AAAA">Wicomico County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|22|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=22AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=22AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li class="botborder"><a class="drop" href="/rcounty.aspx?K=23AAAA">Worcester County
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tr><td>
+			<ul>
+			<li><a href="/ImprovementIntroEMH.aspx?AypPV=41|0|23|AAAA|1|000000|A">AYP</a></li>
+			<li><a href="/Assessments.aspx?K=23AAAA&amp;WDATA=Local+School+System">Assessments</a></li>
+			<li class="botborder"><a href="/Demographics.aspx?K=23AAAA&amp;WDATA=Local+School+System">Demographics</a></li>
+			</ul>
+			</td></tr></table>
+		<!--[if lte IE 6]></a><![endif]-->
+		</li>
+		</ul>
+		</td></tr></table><!--[if lte IE 6]></a><![endif]-->
+		</li>
+		<li><a class="sch" href="/rcounty.aspx?WDATA=School"><img height="1" alt="School" src="/i/s.gif" width="77" />
+		<!--[if IE 7]><!--></a><!--<![endif]-->
+			<table><tbody><tr><td>
+			<ul class="endstopb">
+			<li><a href="/rschool.aspx?K=01AAAA">Allegany County</a></li>
+			<li><a href="/rschool.aspx?K=02AAAA">Anne Arundel County</a></li>
+			<li><a href="/rschool.aspx?K=30AAAA">Baltimore City</a></li>
+			<li><a href="/rschool.aspx?K=03AAAA">Baltimore County</a></li>
+			<li><a href="/rschool.aspx?K=04AAAA">Calvert County</a></li>
+			<li><a href="/rschool.aspx?K=05AAAA">Caroline County</a></li>
+			<li><a href="/rschool.aspx?K=06AAAA">Carroll County</a></li>
+			<li><a href="/rschool.aspx?K=07AAAA">Cecil County</a></li>
+			<li><a href="/rschool.aspx?K=08AAAA">Charles County</a></li>
+			<li><a href="/rschool.aspx?K=09AAAA">Dorchester County</a></li>
+			<li><a href="/rschool.aspx?K=10AAAA">Frederick County</a></li>
+			<li><a href="/rschool.aspx?K=11AAAA">Garrett County</a></li>
+			<li><a href="/rschool.aspx?K=12AAAA">Harford County</a></li>
+			<li><a href="/rschool.aspx?K=13AAAA">Howard County</a></li>
+			<li><a href="/rschool.aspx?K=14AAAA">Kent County</a></li>
+			<li><a href="/rschool.aspx?K=15AAAA">Montgomery County</a></li>
+			<li><a href="/rschool.aspx?K=16AAAA">Prince George's County</a></li>
+			<li><a href="/rschool.aspx?K=17AAAA">Queen Anne's County</a></li>
+			<li><a href="/rschool.aspx?K=18AAAA">St. Mary's County</a></li>
+			<li><a href="/rschool.aspx?K=19AAAA">Somerset County</a></li>
+			<li><a href="/rschool.aspx?K=20AAAA">Talbot County</a></li>
+			<li><a href="/rschool.aspx?K=21AAAA">Washington County</a></li>
+			<li><a href="/rschool.aspx?K=22AAAA">Wicomico County</a></li>
+			<li class="botborder"><a href="/rschool.aspx?K=23AAAA">Worcester County</a></li>
+			</ul>
+			</td></tr></tbody></table>
+	<!--[if lte IE 6]></a><![endif]-->
+	</li>
+	</ul>
+	</div> <!-- class=submenu -->
+	<div class="forprint"><img src="/images/sub_header.gif" width="600" height="32" alt="" /><br /><img src="/images/sub_all_headers.gif" width="600" height="20" alt="" /><br /><img src="/images/sub_body.jpg" width="600" height="52" alt="" />
+		<div class="subbotbodyprint" style="margin-top: -15px"><span class="headertype">Assessments</span><span class="countytype"><br />
+				Baltimore City                                                                                      
+			</span>
+		</div>
+		<div class="schoolrefprint"><span class="schooltype">Alternative Elementary School                                               (ID:0288)</span></div>
+	</div>
+	<div class="forscreen">
+		<div class="subbotbody">
+			<span class="countytype">
+				Baltimore City                                                                                      
+			</span>
+			
+				<a href="Assessments.aspx?K=300288&WDATA=school"><img alt="Assessments" src="/images/sub_Assessments_head.gif" /></a>
+			
+			
+		</div>
+		<div id="Header_greenbarentityname">
+	
+			<div class="schoolref"><span class="schooltype">Alternative Elementary School                                               (ID:0288)</span></div>
+		
+</div>
+		<div id="Header_pnlShowNavigation">
+	
+			<div class="botnav">
+<div class="special"><a class='aypactive' href="AYPIntro.aspx?AypPV=14|0|30|0288|3|000000"><img src="/i/s.gif" alt="AYP" width="47" height="22" /></a><a 
+class='assessmentspassive' href="Assessments.aspx?K=300288&WDATA=school"><img src="/i/s.gif" alt="Assessments" width="110" height="22" /></a><a 
+class='demographicsactive' href="Demographics.aspx?K=300288&WDATA=school"><img src="/i/s.gif" alt="Demographics" width="120" height="22" /></a></div> <!--[if IE 6]>
+<div class="IE6background"><img src="/images/botnav_left.gif" alt="" width="9" height="22" /><img src="/images/botnav_middle.gif" alt="" width="6" height="22" /><a class='aypactive' id="botnav_ayp_link" onmouseover="img_hot('ayp')" onmouseout="img_cool('ayp')" href="AYPIntro.aspx?AypPV=14|0|30|0288|3|000000"><img src="/images/botnav_ayp_yellow.gif" alt="" name="botnav_ayp" id="botnav_ayp" width="47" height="22" /></a><img src="/images/botnav_middle.gif" alt="" width="10" height="22" /><a class='assessmentspassive' id="botnav_assessments_link" onmouseover="img_hot('assessments')" onmouseout="img_cool('assessments')" href="Assessments.aspx?K=300288&WDATA=school"><img src="/images/botnav_assessments_grey.gif" alt="" name="botnav_assessments" id="botnav_assessments" width="110" height="22" /></a><img src="/images/botnav_middle.gif" alt="" width="8" height="22" /><a class='demographicsactive' id="botnav_demographics_link" onmouseover="img_hot('demographics')" onmouseout="img_cool('demographics')" href="Demographics.aspx?K=300288&WDATA=school"><img src="/images/botnav_demographics_yellow.gif" alt="" name="botnav_demographics" id="botnav_demographics" width="120" height="22" /></a><img src="/images/botnav_middle.gif" alt="" width="5" height="22" /><img src="/images/botnav_right.gif" alt="" width="9" height="22" /></div><![endif]--></div>
+		
+</div>
+	</div> <!-- forscreen -->
+</div> <!-- wrapper -->
+<!-- End: Header2.ascx --> &nbsp;
+
+
+
+<div id="bodywrapper"><div id="content">
+
+ <!-- plc_HSA -->
+
+
+<div id="MSAsnapshot"><!-- start MSA div -->
+
+<!-- start msa description -->
+<h1 class="h1margina">Maryland School Assessment (MSA)</h1>
+<p>The Maryland School Assessment is an annual assessment
+program that tests grades 3 through 8 in reading and mathematics.
+Two tests are also required at the high school level
+to measure reading and mathematics. The MSA results are
+used in the calculation of whether a school met the AYP target.
+<!-- todo: uncomment the below sentence when Science goes live -->
+Science scores are represented here for the first time at
+grades 5 and 8 and the high school level but are not a part of
+AYP. 
+<!-- todo: delete the below sentence when Science goes live -->
+<!-- In the next few months we will be reporting the results of our science assessment at grades 5 and 8 and at the high school level. Science results are not part of the AYP calculation. -->
+</p>
+<!-- /end msa description -->
+
+<h1 class="h1marginb">MSA Snapshot</h1>
+    <p><img src="i/msaheader_key.gif" width="155" height="10" alt="MSA Proficient/Advanced Key" class="key" />
+        <a class="toggle" href="#MSAsnapshot" onclick="openAllGrades('MSA');" onmouseover="navimg2.src='i/subheader_on.gif';" onmouseout="mymouseout('MSA','sub');" style="float:right;"><img src="i/subheader_off.gif" alt="Subgroups" id="navimg2" title="Expand for subgroup data" /></a><a class="toggle" href="#MSAsnapshot" onclick="closeAllGrades('MSA');" onmouseover="navimg1.src='i/allheader_on.gif';" onmouseout="mymouseout('MSA','all');" style="float:right; padding:right:73px;"><img src="i/allheader_on.gif" alt="All Students" id="navimg1" title="Display 'All Students' data only" /></a><br /><img src="i/msaheader_bot3subj.gif" alt="Math/Reading/Science" class="subjects" />
+    </p>
+	
+<!-- MSA grade 3 -->
+
+<div id="MSAgrade3all" class="columnformatgradeodd"><table summary="Percent Passing MSA (proficient plus advanced) for All Grade 3 students. Each row identifies the student group tested and 3 data points in this order: Mathematics, Reading, and Science." class="i">
+<col class="w160" />
+<col class="w64" />
+<col class="w64" />
+<col class="w64" />
+<tr>
+<td class="links"><a href="#MSAgrade3all" onclick="toggleGrade('MSA',3);"><img src="i/s.gif" width="8" height="8" alt="" /> Grade 3</a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=1|3|30|0288|3|N|6|1|2|1|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="7" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=1|3|30|0288|3|N|6|1|1|1|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="10" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" border ="1" /></a></td>
+<td class="r">&nbsp;</td>
+</tr></table></div>
+
+
+<!-- start MSA grade 3 subgroups -->
+<div id="MSAgrade3subgroups">
+
+<div><table summary="Percent Passing MSA (proficient plus advanced) for each Grade 3 subgroup. Each row identifies the student group tested and 3 data points in this order: Mathematics, Reading and Science." class="i subgroupstable">
+<col class="w160" />
+<col class="w64" />
+<col class="w64" />
+<col class="w64" />
+<tr id="MSAgrade3americanindian">
+<td class="dash">Am. Indian/AK Native</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3africanamerican">
+<td class="dash">African American</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|6|1|2|2|1|1|1|1|3%>" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="7" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|6|1|1|2|1|1|1|1|3%>" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="10" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3asian">
+<td class="dash">Asian/Pac. Islander</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3white">
+<td class="dash">White</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3hispanic">
+<td class="dash">Hispanic</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3male">
+<td class="dash">Male</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|7|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="7" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|7|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="10" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3female">
+<td class="dash">Female</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|7|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|3|30|0288|3|N|7|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3special">
+<td class="dash">Special Ed</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3lep">
+<td class="dash">LEP</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|3|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|3|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3504">
+<td class="dash">504</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|7|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|7|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3farms">
+<td class="dash">FARMS</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|5|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="8" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|5|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="8" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3title">
+<td class="dash">Title I</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|9|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|9|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade3migrant">
+<td class="dash">Migrant</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|11|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|3|30|0288|3|N|6|11|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr></table>
+</div>
+</div>
+
+<!-- end MSA grade 3 -->
+
+<!-- MSA grade 4 -->
+
+<div id="MSAgrade4all" class="columnformatgradeeven"><table summary="Percent Passing MSA (proficient plus advanced) for All Grade 4 students. Each row identifies the student group tested and 3 data points in this order: Mathematics, Reading and Science." class="i">
+<col class="w160" />
+<col class="w64" />
+<col class="w64" />
+<col class="w64" />
+<tr>
+<td class="links"><a href="#MSAgrade4all" onclick="toggleGrade('MSA',4);"><img src="i/s.gif" width="8" height="8" alt="" /> Grade 4</a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=1|4|30|0288|3|N|6|1|2|1|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="3" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" border ="1" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=1|4|30|0288|3|N|6|1|1|1|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="6" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr></table></div>
+
+<!-- start MSA grade 4 subgroups -->
+<div id="MSAgrade4subgroups">
+
+<div><table summary="Percent Passing MSA (proficient plus advanced) for each Grade 4 subgroup. Each row identifies the student group tested and 3 data points in this order: Mathematics, Reading and Science." class="i subgroupstable">
+<col class="w160" />
+<col class="w64" />
+<col class="w64" />
+<col class="w64" />
+<tr id="MSAgrade4americanindian">
+<td class="dash">Am. Indian/AK Native</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4africanamerican">
+<td class="dash">African American</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="3" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="6" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4asian">
+<td class="dash">Asian/Pac. Islander</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4white">
+<td class="dash">White</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4hispanic">
+<td class="dash">Hispanic</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4male">
+<td class="dash">Male</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|7|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|7|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="4" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4female">
+<td class="dash">Female</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|7|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|4|30|0288|3|N|7|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4special">
+<td class="dash">Special Ed</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4lep">
+<td class="dash">LEP</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|3|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|3|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4504">
+<td class="dash">504</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|7|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|7|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4farms">
+<td class="dash">FARMS</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|5|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="3" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|5|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/pa0100.gif" alt="" width="4" height="7" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4title">
+<td class="dash">Title I</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|9|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|9|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr>
+
+<tr id="MSAgrade4migrant">
+<td class="dash">Migrant</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|11|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|4|30|0288|3|N|6|11|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r">&nbsp;</td>
+</tr></table>
+</div>
+
+</div>
+
+<!-- end MSA grade 4 -->
+
+<!-- MSA grade 5 -->
+
+<div id="MSAgrade5all" class="columnformatgradeodd"><table summary="Percent Passing MSA (proficient plus advanced) for All Grade 5 students. Each row identifies the student group tested and 3 data points in this order: Mathematics, Reading and Science." class="i">
+<col class="w160" />
+<col class="w64" />
+<col class="w64" />
+<col class="w64" />
+<tr>
+<td class="links"><a href="#MSAgrade5all" onclick="toggleGrade('MSA',5);"><img src="i/s.gif" width="8" height="8" alt="" /> Grade 5</a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=1|5|30|0288|3|N|6|1|2|1|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" border ="1" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=1|5|30|0288|3|N|6|1|1|1|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=1|5|30|0288|3|N|6|1|3|1|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" border ="1" /></a></td>
+</tr></table></div>
+
+<!-- start MSA grade 5 subgroups -->
+<div id="MSAgrade5subgroups">
+
+<div><table summary="Percent Passing MSA (proficient plus advanced) for each Grade 5 subgroup. Each row identifies the student group tested and 3 data points in this order: Mathematics, Reading and Science." class="i subgroupstable">
+<col class="w160" />
+<col class="w64" />
+<col class="w64" />
+<col class="w64" />
+<tr id="MSAgrade5americanindian">
+<td class="dash">Am. Indian/AK Native</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5africanamerican">
+<td class="dash">African American</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5asian">
+<td class="dash">Asian/Pac. Islander</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5white">
+<td class="dash">White</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5hispanic">
+<td class="dash">Hispanic</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|6|1|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5male">
+<td class="dash">Male</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|7|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|7|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|7|1|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5female">
+<td class="dash">Female</td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|7|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|7|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=2|5|30|0288|3|N|7|1|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;*<img src='i/s.gif' alt='' width='16' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5special">
+<td class="dash">Special Ed</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|1|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|1|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|1|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5lep">
+<td class="dash">LEP</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|3|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|3|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|3|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5504">
+<td class="dash">504</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|7|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|7|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|7|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5farms">
+<td class="dash">FARMS</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|5|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|5|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|5|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5title">
+<td class="dash">Title I</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|9|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|9|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|9|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+<tr id="MSAgrade5migrant">
+<td class="dash">Migrant</td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|11|2|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|11|1|2|1|1|1|1|3" class="r"><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+<td class="r"><a href="StatDisplay.aspx?PV=3|5|30|0288|3|N|6|11|3|2|1|1|1|1|3" class="r"><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/pa0000.gif" alt="" width="4" height="20" /><img src="i/a.gif" alt="" width="4" height="20" />&nbsp;--<img src='i/s.gif' alt='' width='14' height='13' /><img src="i/s.gif" alt="" width="14" height="13" /></a></td>
+</tr>
+</table>
+</div>
+
+</div>
+
+<!-- end MSA grade 5 -->
+
+<!-- MSA grade 6 -->
+
+<!-- end MSA grade 6 -->
+
+<!-- MSA grade 7 -->
+
+
+<!-- MSA grade 8 -->
+
+
+<!-- MSA HSA algebra -->
+
+<!-- end MSA algebra -->
+
+<!-- MSA HSA English -->
+
+<!-- end MSA english -->
+
+<!-- MSA HSA Biology (use this section for the new Biology MSA ) -->
+
+<!-- end MSA Biology -->
+
+</div><!-- end MSA div-->
+
+<div id="Other">
+<h1 class="h1marginb">Related Graphs on mdk12.org</h1>
+<img src="i/otherheader_bot2.gif" alt="" />
+<div class="otherinfo columnformatrelated">
+<p><b>How does our performance compare to selected schools?</b><br />&nbsp;&nbsp;<a href='http://mdk12.org/data/BenchmarkingsSelectedSchools.aspx?Nav=1.2|5.3|2.15|60.0|20.2|15.99|10.30|11.0288' target=msp onclick='graphsMAN(this); return false;'>Mathematics</a> &#8226; <a href='http://mdk12.org/data/BenchmarkingsSelectedSchools.aspx?Nav=1.2|5.3|2.15|60.0|20.1|15.99|10.30|11.0288' target=msp onclick='graphsMAN(this); return false;'>Reading</a></p><p><b>Which schools similar to ours outperformed us?</b><br />&nbsp;&nbsp;<a href='http://mdk12.org/data/BenchmarkingSimilarSchools.aspx?Nav=1.2|5.3|2.16|60.0|20.2|15.99|10.30|11.0288' target=msp onclick='graphsMAN(this); return false;'>Mathematics</a> &#8226; <a href='http://mdk12.org/data/BenchmarkingSimilarSchools.aspx?Nav=1.2|5.3|2.16|60.0|20.1|15.99|10.30|11.0288' target=msp onclick='graphsMAN(this); return false;'>Reading</a></p><P><b>How does our performance compare to the state and district performance?</b></P><p>&nbsp;&nbsp;<a href='http://mdk12.org/data/NewGraphCompareDistState.aspx?Nav=1.2|5.3|10.30|11.0288|15.99|2.22|20.2|3.7'target=msp onclick='graphsMAN(this); return false;'>Mathematics</a> &#8226; <a href='http://mdk12.org/data/NewGraphCompareDistState.aspx?Nav=1.2|5.3|10.30|11.0288|15.99|2.22|20.1|3.7'target=msp onclick='graphsMAN(this); return false;'>Reading</a></p> 
+<p>&nbsp;</p>
+</div></div>
+
+
+</div></div>
+
+<div id="relatedgraphs">
+<h3>Graphing Key</h3>
+<div class="moreinfo">
+<p><img src="i/key2008.gif" width="86" height="98" alt="Example of Trend Graph" /></p>
+<p>The colored bars show trend data for each year.<br /><br /><a href="Introduction/aboutthis.aspx" onclick="maxMAN(this); return false;">Find out more about using this page.</a></p>
+<p>&nbsp;</p>
+<p><img src="i/mag.gif" width="15" height="15" alt="" /> Click on data to view details.</p>
+</div>
+</div>
+
+<div id="viewsubgroups">
+<h3>Select Subgroups</h3>
+<div class="checksubgroups">
+<form name="filterForm" action="" method="post" onsubmit="return filterSubgroups();">
+<table summary="Check boxes to display specific subgroups data only">
+<tr><td colspan="2" class="fom">Race/Ethnicity:</td></tr>
+<tr><td><input type="checkbox" name="americanindian" id="checktype0" value="Am. Indian/Nat. Alaskan" class="inputCheckbox" /></td><td><label for="checktype0">Am. Indian/ AK Native</label></td></tr>
+<tr><td><input type="checkbox" name="africanamerican" id="checktype1" class="inputCheckbox" value="African American" /></td><td><label for="checktype1">African American</label></td></tr>
+<tr><td><input type="checkbox" name="asian" id="checktype2" class="inputCheckbox" value="Asian/Pac. Islander" /></td><td><label for="checktype2">Asian/Pac. Islander</label></td></tr>
+<tr><td><input type="checkbox" name="white" id="checktype3" class="inputCheckbox" value="White" /></td><td><label for="checktype3">White</label></td></tr>
+<tr><td><input type="checkbox" name="hispanic" id="checktype4" class="inputCheckbox" value="Hispanic" /></td><td><label for="checktype4">Hispanic</label></td></tr>
+<tr><td colspan="2" class="fom" style="padding-top:10px;">Gender:</td></tr>
+<tr><td><input type="checkbox" name="male" id="checktype5" class="inputCheckbox" value="Male" /></td><td><label for="checktype5">Male</label></td></tr>
+<tr><td><input type="checkbox" name="female" id="checktype6" class="inputCheckbox" value="Female" /></td><td><label for="checktype6">Female</label></td></tr>
+<tr><td colspan="2" class="fom" style="padding-top:10px;">Special Services:</td></tr>
+<tr><td><input type="checkbox" name="special" id="checktype7" class="inputCheckbox" value="Special Education" /></td><td><label for="checktype7">Special Education</label></td></tr>
+<tr><td><input type="checkbox" name="lep" id="checktype8" class="inputCheckbox" value="LEP" /></td><td><label for="checktype8">LEP</label></td></tr>
+<tr><td><input type="checkbox" name="five04" id="checktype9" class="inputCheckbox" value="504" /></td><td><label for="checktype9">504</label></td></tr>
+<tr><td><input type="checkbox" name="farms" id="checktype10" class="inputCheckbox" value="FARMS" /></td><td><label for="checktype10">FARMS</label></td></tr>
+<tr><td><input type="checkbox" name="title" id="checktype11" class="inputCheckbox" value="Title I" /></td><td><label for="checktype11">Title I</label></td></tr>
+<tr><td><input type="checkbox" name="migrant" id="checktype12" class="inputCheckbox" value="Migrant" /></td><td><label for="checktype12">Migrant</label></td></tr>
+<script type="text/javascript">
+document.write('<tr><td colspan="2" style="padding-top:5px;"><input type="image" value="submit" src="i/update.gif" alt="Update" /></td></tr>');
+document.write('<tr><td colspan="2"><a href="#"><img src="i/clearall.gif" onclick="filterSubgroups(\'reset\')" border=0 alt="Clear All" style="padding-left: 6px;" /></a></td></tr>');
+</script>
+<noscript><tr><td colspan="2" style="padding-top:5px;"><strong>JavaScript is required to select subgroups.</strong></td></tr></noscript>
+</table>
+</form>
+
+
+</div>
+</div>
+<div id="footer"><p>
+<!-- Begin: Footer.ascx -->
+<div id="foot" class="backfoot">
+	<table width="600" border="0" cellspacing="0" cellpadding="0" class="footerlink" style="margin-left:2px; margin-top:4px;">
+		<tr>
+			<td>
+				<a href="/introduction/index.aspx?WDATA=intro">Introduction</a> | 
+				<a href="/introduction/feedbackpopup.aspx?WDATA=feedback" onclick="maxMAN(this); return false;">Feedback</a> | 
+				<a href="/downloadindex.aspx">Data Downloads</a> | 
+				<a href="/supporting/index.aspx?WDATA=def">Definitions</a>
+			</td>
+		</tr>
+		<tr>
+			<td title="11.04.00.01">
+				<small>
+					<!-- Web Site: Last updated 05/05/2009 | -->
+					Release 11.04 <!-- , &#169;1998-2008 -->
+				</small>
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- End: Footer.ascx -->
+</p></div> 
+
+</div>
+  </body>
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Squarefeet - Rental apartments, houses, rooms</title>
+
+<link href="/public/css/jquery-ui/sqft/ui.all.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/sqft.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/rental.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/info-window/window.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/public/css/galleria.css" media="screen" rel="stylesheet" type="text/css" />
+
+<!-- Key should be moved into a config file, as it is domain specific -->
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key={{ gmaps_key }}" type="text/javascript"></script>
+<script src="http://www.google.com/jsapi?key={{ gmaps_key }}"></script>
+<script src="/public/js/rental.js"></script>
+<script src="/public/js/sqft.js"></script>
+<script src="/public/js/map.js"></script>
+<script src="/public/js/extInfoWindow.js"></script>
+<script src="/public/js/jquery.modal.js"></script>
+<script src="/public/js/jquery.galleria.js"></script>
+<script type="text/javascript" src="http://w.sharethis.com/button/sharethis.js#publisher=790fd5e0-d6fd-465e-805e-8f6a63f17818&amp;type=website&amp;send_services=email%2Csms%2Caim"></script>
+<script>			
+{% autoescape off %}
+	var rentals = {{ aptjson }};
+{% endautoescape %}
+
+</script>
+
+</head>
+
+<body>
+
+<div id="container">
+
+   {% include "header.html" %}
+ 
+    <div id="body">
+        <div id="listingInfo">
+        	<div class="floatLeft" style="padding-left: 8px;">
+            	<span id="address">{{ rental.address1 }}, {% if rental.address2 %} {{ rental.address2 }},{% endif %}</span> <span id="city">{{ rental.city }}, {{ rental.state }} {{ rental.zip }}</span><br />
+				<span id="mainData">{% ifequal rental.bedrooms "0" %}Studio{% else %}{{ rental.bedrooms }} bed{{ rental.bedrooms|pluralize }}{% endifequal %}, {{ rental.full_bathrooms }} full bath{{ rental.full_bathrooms|pluralize }}  {% if rental.half_bathrooms %}, {{ rental.half_bathrooms }} half bath{{ rental.half_bathrooms|pluralize }}  {% endif %} | ${{ rental.monthly_rent }} / month | {{ rental.square_footage }} sqft |  ${{ rental.cost_per_sqft }} / sqft</span>
+            </div>
+            
+            <div class="floatRight">
+            	<div id="contactLandlordBtn">
+                	Contact the Landlord
+                </div>
+                <br clear="right" />
+
+				<div id="moreOptions">
+					<a class="ui-state-default ui-corner-all" href="#" id="shareBtn">
+                    	<span class="ui-icon ui-icon-mail-closed floatLeft"></span>&nbsp;Share it
+						                    
+                        <script language="javascript" type="text/javascript">
+						var shareObj = SHARETHIS.addEntry({},{button:false, offsetLeft: -284, offSetTop: 8});
+						shareObj.attachButton(document.getElementById("shareBtn"));
+						</script>
+                    </a>
+                    
+                    <a class="ui-state-default ui-corner-all" href="#">
+                        <span class="ui-icon ui-icon-tag floatLeft"></span>
+                        &nbsp;Compare it
+                    </a>
+                                                                                                                     
+                </div>
+            </div>
+        </div>
+        <br clear="all" />
+
+        <div id="leftContainer">
+            <div class="floatRight" id="photoContainer">
+                <ul class="rental_gallery floatRight">
+                    {% for photo in rental.rentalphoto_set.all %}
+                        <li{% if forloop.first %} class="active"{%endif %}><img src="{{ photo.url }}"/></li>
+                    {% endfor %}    
+                </ul>
+            </div>
+        
+        
+          	<div id="costInfo" class="floatLeft">
+                <table>
+                    <tr>
+                        <td id="costContainer">
+                            <h4 class="sectionTitle">Estimated Total Cost</h4>
+                            <span id="estimatedCost">${{ rental.estimated_total_cost|floatformat }}</span><br />
+                            <span id="estimatedCostBySqft">(${{ rental.estimated_cost_per_sqft }} / sqft)</span>
+                        </td>
+                        
+                        <td id="includedCosts" >
+                            <h4 class="sectionTitle">Included in Rent</h4>
+                            <ul>
+                                {% for name, feat in features.iteritems %}
+                                    {% if feat %}
+                                        <li class="ui-state-default">
+                                        <span class="ui-icon ui-icon-check floatLeft"></span> {{ name }}</li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </td>
+                        
+                        <td id="excludedCosts">
+                            <h4 class="sectionTitle">Not Included in Rent</h4>
+                            <ul>
+                                {% for name, feat in features.iteritems %}
+                                    {% if not feat %}
+                                <li class="ui-widget-content"><span class="ui-icon ui-icon-cancel floatLeft"></span> {{ name }}</li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                </table>                     
+          	</div>           
+            
+            <div id="hoodCompGraphs" class="floatLeft">
+                <div class="floatLeft" id="totalCost">
+                    <h4 class="sectionTitle">Total Cost</h4>
+                    <img src="/public/img/pctlines/sparkline{{ cost_pct }}.gif" border="0" width="187" height="28" /><br />
+                    <span class="small">{{ cost_pct }}% of {{ rental.bedrooms }}BD apartments in {{ rental.neighborhood.name }} cost more per month than this apartment.</span>
+              	</div>
+                
+                <div class="floatLeft" id="perSqft">
+                    <h4 class="sectionTitle">Cost per Square Foot</h4>
+                    <img src="/public/img/pctlines/sparkline{{ cost_sqft }}.gif" border="0" width="187" height="28" /><br />
+                    <span class="small">{{ cost_sqft }}% of {{ rental.bedrooms }}BD apartments in {{ rental.neighborhood.name }} cost more per sqft than this apartment.</span>
+              	</div>
+          	</div>                           
+                  	
+            <br clear="left" />
+            
+            <div id="about">
+                <h4 class="sectionTitle">About</h4>
+                <p>{{ rental.description }}</p>
+          	</div>
+        </div>    
+        
+  		<div id="featuresContainer">
+       		<h4 class="sectionTitle">Features</h4>
+            <ul style="padding-left: 0;">
+            	<li class="title">Communal</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check floatLeft"></span> Hardwoods</li>
+                <li class="ui-widget-content"><span class="ui-icon ui-icon-cancel floatLeft"></span> Air Conditioning</li>
+            </ul>
+            
+            <ul>
+            	<li class="title">Living Space</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check floatLeft"></span> Hardwoods</li>
+                <li class="ui-widget-content"><span class="ui-icon ui-icon-cancel floatLeft"></span> Air Conditioning</li>
+            </ul>
+            
+            <ul>
+            	<li class="title">Kitchen</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check floatLeft"></span> Hardwoods</li>
+                <li class="ui-widget-content"><span class="ui-icon ui-icon-cancel floatLeft"></span> Air Conditioning</li>
+            </ul>
+            
+            <ul>
+            	<li class="title">Bedrooms</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check floatLeft"></span> Hardwoods</li>
+                <li class="ui-widget-content"><span class="ui-icon ui-icon-cancel floatLeft"></span> Air Conditioning</li>
+            </ul>
+            
+            <ul>
+            	<li class="title">Bathrooms</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check floatLeft"></span> Hardwoods</li>
+                <li class="ui-widget-content"><span class="ui-icon ui-icon-cancel floatLeft"></span> Air Conditioning</li>
+            </ul>
+            
+            <ul style="border:none;">
+            	<li class="title">Outdoor</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check floatLeft"></span> Hardwoods</li>
+                <li class="ui-widget-content"><span class="ui-icon ui-icon-cancel floatLeft"></span> Air Conditioning</li>
+            </ul>
+            
+            <br clear="left" />
+        </div>
+        
+        
+        <div id="mapContainer">
+         	<h4 class="sectionTitle">Neighborhood Detail: {{ rental.neighborhood.name }} </h4>                                 
+            <div class="floatLeft" style="clear:left;">
+            	<ul id="hoodScoresContainer" class="floatLeft ui-corner-all">
+                    <li>Dining <span class="{{ rental.neighborhood.restaurant_grade|lower }}">{{ rental.neighborhood.restaurant_grade }}</span></li>
+                    <li>Markets <span class="{{ rental.neighborhood.market_grade|lower }}">{{ rental.neighborhood.market_grade }}</span></li>
+                    <li>Fitness <span class="{{ rental.neighborhood.fitness_grade|lower }}">{{ rental.neighborhood.fitness_grade }}</span></li>
+                    <li>Schools <span class="{{ rental.neighborhood.school_grade|lower }}">{{ rental.neighborhood.school_grade }}</span></li>
+                    <li>Nightlife <span class="{{ rental.neighborhood.nightlife_grade|lower }}">{{ rental.neighborhood.nightlife_grade }}</span></li>
+                    <!-- what the heck is services?
+                    <li>Services <span class="{{ rental.neighborhood.services_grade|lower }}">{{ rental.neighborhood.services_grade }}</span></li> -->
+                    <li style="border:none;">Transit <span class="{{ rental.neighborhood.transit_grade|lower }}">{{ rental.neighborhood.transit_grade }}</span></li>                                        
+                </ul>   
+                
+                <br clear="left" />
+            	<hr />
+                
+            	<label>List</label> 
+                <select>
+                	<option>what's well reviewed</option>
+                    <option>what's popular</option>
+                	<option>what's closest</option>                    
+                </select>
+                
+                <hr />
+                
+                <table>                	
+                    <tr>
+                        <th colspan="5">Nearest Restaurants</th>
+                    </tr>
+             
+                    <tr>
+                        <td>Sammy's Trattoria</td>
+                        <td>Italian</td>
+                        <td>0.1 mi</td>
+                        <td><img src="/public/img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="/public/img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>The Helmand</td>
+                        <td>Afghani</td>
+                        <td>0.1 mi</td>
+                        <td><img src="/public/img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="/public/img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Thairish</td>
+                        <td>Thai</td>
+                        <td>0.1 mi</td>
+                        <td><img src="/public/img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="/public/img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+            
+                    <tr>
+                        <th colspan="5">Nearest Nightlife</th>
+                    </tr>
+                    <tr>
+                        <td>Midtown Yacht Club</td>
+                        <td>Pub</td>
+                        <td>0.1 mi</td>
+                        <td><img src="/public/img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="/public/img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Red Maple</td>
+                        <td>Nightclub</td>
+                        <td>0.1 mi</td>
+                        <td><img src="/public/img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="/public/img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>The Hippo</td>
+                        <td>GBLT Nightclub</td>
+                        <td>0.1 mi</td>
+                        <td><img src="/public/img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="/public/img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+					
+                    <tr>
+                        <th colspan="5">Nearest Markets</th>
+                    </tr>
+                    <tr>
+                        <td>Eddie's</td>
+                        <td>Grocery Store</td>
+                        <td>0.1 mi</td>
+                        <td><img src="/public/img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="/public/img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Superfresh</td>
+                        <td>Grocery Store</td>
+                        <td>0.1 mi</td>
+                        <td><img src="/public/img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="/public/img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lexington Market</td>
+                        <td>Market</td>
+                        <td>0.1 mi</td>
+                        <td><img src="/public/img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="/public/img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                </table>                     
+                
+            </div>
+        	<div id="map" style="width:500px; height: 450px; float:right;"></div>
+        </div>
+    </div>
+</div>
+<br clear="all" />
+
+<div id="footer">&nbsp; &nbsp; About | Listing with Us | Contact</div>
+
+<div id="contactManagerForm" class="jqmWindow">
+	<form class="contact">
+	<div class="contactPad">
+        <h1 class="colTitle">Get in touch with the landlord</h1>
+        <label for="name">Name</label>
+        <input type="text" name="name" />
+        
+        <label for="name">Email</label>
+        <input type="text" name="email" />
+        
+        <label for="name">Phone</label>
+        <input type="text" name="phone" />
+        
+        <label for="name">Message</label>
+        <textarea name="message"></textarea>
+    </div>    
+
+	<div class="bottomBar">
+    	<div class="floatLeft">                
+            <input type="button" value="Contact!" class="finish" /> or <a href="#" class="modalCancel">Cancel</a>
+        </div>
+    </div>
+	</form>
+
+    <div class="ui-state-active ui-corner-all closeModalBtn"><span class="ui-icon ui-icon-close"></span></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<form method="post" action="/search/results" id="searchForm">
+<input type="hidden" name="neighborhoods" id="neighborhoods" />
+<input type="hidden" name="features" id="features" />
+    
+<label>City</label>
+<input type="text" name="city" class="mainSearch" value="Baltimore" disabled="disabled" />
+
+<div class="floatLeft" style="clear:left;">
+    <label>From</label>
+    $<input id="priceFloor" name="priceFloor" class="priceInput" value="{{ search_request.priceFloor|default:700 }}">                            
+</div>
+
+<div class="floatLeft" style="padding-left: 30px; margin-bottom: .7em;">
+    <label>To</label>
+    $<input id="priceCeiling" name="priceCeiling" class="priceInput" value="{{ search_request.priceCeiling|default:2000 }}">
+</div>
+
+<div id="priceSlider" style="width:240px; clear:both;"></div>
+
+<div class="floatLeft" style="clear:both">
+    <label>Bedrooms</label>
+    <select id="bedFloor" name="bedFloor">
+        <option value="0" {% ifequal search_request.bedFloor "0" %} selected {% endifequal %} >Studio</option>
+        <option value="1" {% ifequal search_request.bedFloor "1" %} selected {% endifequal %}>1+</option>
+        <option value="2" {% ifequal search_request.bedFloor "2" %} selected {% endifequal %}>2+</option>
+        <option value="3" {% ifequal search_request.bedFloor "3" %} selected {% endifequal %}>3+</option>
+        <option value="4" {% ifequal search_request.bedFloor "4" %} selected {% endifequal %}>4+</option>
+        <option value="5" {% ifequal search_request.bedFloor "5" %} selected {% endifequal %}>5+</option>
+    </select>
+</div>
+
+<div class="floatLeft" style="padding-left: 30px; margin-bottom:.25em;">
+    <label>Bathrooms</label>
+    <select id="bathFloor" name="bathFloor">
+        <option value="1" {% ifequal search_request.bathFloor "1" %} selected {% endifequal %}>1+</option>
+        <option value="2" {% ifequal search_request.bathFloor "2" %} selected {% endifequal %}>2+</option>
+        <option value="3" {% ifequal search_request.bathFloor "3" %} selected {% endifequal %}>3+</option>
+        <option value="4" {% ifequal search_request.bathFloor "4" %} selected {% endifequal %}>4+</option>
+        <option value="5" {% ifequal search_request.bathFloor "5" %} selected {% endifequal %}>5+</option>
+    </select>
+</div>                                        
+
+<div class="floatLeft" style="clear:left;"><label>Neighborhoods</label></div> <a href="#" class="nChooserLink">Find the 'hoods you'll love</a>
+<div class="selectedTagsContainer">
+    <div id="selectedHoods"></div>
+    <input type="text" name="hoodInput" class="tagInput" id="hoodInput"/>
+</div>
+<div class="expandBtn" id="hoodListBtn"></div>
+
+<label style="clear:both">Features</label>
+<div class="selectedTagsContainer">
+    <div id="selectedFeatures"></div>
+    <input type="text" name="featureInput" class="tagInput" id="featureInput"/>
+</div>
+<div class="expandBtn" id="featureListBtn"></div>
+
+<br clear="all" />
+<hr />
+
+<div class="floatLeft">
+    <small>LIVE SEARCH</small><br />
+    <span class="results"><strong>72</strong> apartments found</span>
+</div>
+<input type="submit" id="searchButton" value="View Listings" />
+<br clear="all" />                
+</form>
+
+{% if search_request.neighborhoods %}
+<script language="javascript">
+	$(document).ready(function(){
+		hoodRequest = '{{search_request.neighborhoods}}';
+		tmpArr = hoodRequest.split(",");
+		
+		$.each(tmpArr, function(i, hoodID){			
+			$.each(hoodList, function(){					
+				if(this.neighborhood_id == hoodID){					
+					html = buildTag(this.name, 'hood', hoodID);					
+					$("#selectedHoods").append(html);
+					$("#menu_hood_"+hoodID).addClass("menuSelected");
+				}
+			});
+		});
+	});
+</script>
+{% endif %}

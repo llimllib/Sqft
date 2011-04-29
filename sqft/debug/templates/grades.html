@@ -1,0 +1,96 @@
+<html><head><title>debug grades</title>
+<script type="text/javascript" src="/public/js/jquery-1.3.min.js"></script>
+<script type="text/javascript" src="/public/js/sqft.js"></script>    
+<script type="text/javascript">
+function quintile(grade) {
+    grade *= 100;
+    if (grade > 80) { return "A"; }
+    else if (grade > 60) { return "B"; }
+    else if (grade > 40) { return "C"; }
+    else if (grade > 20) { return "D"; }
+
+    return "F";
+}
+
+function schoolgrade(grade) {
+    grade *= 100;
+    if (grade > 90) { return "A"; }
+    else if (grade > 80) { return "B"; }
+    else if (grade > 70) { return "C"; }
+    else if (grade > 60) { return "D"; }
+
+    return "F";
+}
+
+function grade_inflation(grade) {
+    grade *= 100;
+    if (grade > 80) { return "A"; }
+    else if (grade > 40) { return "B"; }
+    return "C";
+}
+
+function tablefy(obj, props, grade_function) {
+    res = "";
+    $.each(props, function() {
+        res += "<td align=middle>" + grade_function(obj[this]) + "</td>";
+    });
+    res += "</tr>";
+    return res;
+}
+
+function headings(props) {
+    return "<tr><th>neighborhood</th>" +
+           $.map(props, function(x) { return "<th>"+x+"</th>"}).join("") +
+           "</tr>";
+}
+
+function stringify(hood, props, grade_function) {
+    return "<tr><td>" + hood.name + "</td>" + tablefy(hood, props, grade_function);
+}
+
+function maketable(props) {
+    //clear the hoods
+    //XXX: part 2 of the grossness:
+    $("#hoods").html(headings(props));
+    //fill in the new grades
+    $.each(hoods, function(i) {
+        var f = window[$("#grading_algo").val()]
+        $("#hoods").append(stringify(this, props, f));
+    });
+    //and color the squares
+    var colors = {"A": "#00CC00",
+                  "B": "#668500",
+                  "C": "#FFD300",
+                  "D": "#FF7373",
+                  "F": "#CC0000"};
+    $("#hoods td").each(function(i, o) {
+        $(o).css("background-color", colors[o.innerHTML]);
+    });
+}
+
+{% autoescape off %}
+$(document).ready(function() {
+    hoods = {{ hoods }};
+    props = ["crime_rating", "restaurant_rating", "nightlife_rating",
+                 "transit_rating", "park_rating", "school_rating", "market_rating"]
+    maketable(props);
+
+    $("#grading_algo").change(function() {
+        maketable(props);
+    });
+});
+{% endautoescape %}
+</script>
+</head>
+<body>
+<div>
+    Choose a rating algorithm: <select id="grading_algo">
+        <option value="schoolgrade">School Grades</option>
+        <option value="quintile">Quintile</option>
+        <option value="grade_inflation">Grade Inflation</option>
+    </select>
+    <p>
+    <table id="hoods">
+    </table>
+</div>
+</body></html>
