@@ -1,0 +1,469 @@
+/* Markets */
+#market_window{
+  width: 300px;
+}
+#market_window_contents{
+  background: #FFF;
+  font-family: courier new;
+  font-size: 13px;
+  color: #050;
+}
+#market_window_contents div{
+  padding: 3px;
+}
+#market_window_tl{
+  width: 8px;
+  height: 8px;
+  background: #53D4D4;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+#market_window_t{
+  background: #53D4D4;
+  border-top: 1px solid #000;
+}
+
+#market_window_tr{
+  width: 7px;
+  height: 8px;
+  background: #53D4D4;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#market_window_l{
+  background: #53D4D4;
+  width: 8px;
+  border-left: 1px solid #000;
+}
+
+#market_window_r{
+  background: #53D4D4;
+  width: 7px;
+  border-right: 1px solid #000;
+}
+
+#market_window_bl{
+  width: 8px;
+  height: 8px;
+}
+
+#market_window_b{
+  height: 8px;
+  background: #53D4D4;
+  border-bottom: 1px solid #000;
+}
+
+#market_window_br{
+  width: 7px;
+  height: 8px;
+  background: #53D4D4;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#market_window_close{
+  width: 13px;
+  height: 13px;
+  background: url('images/opacity_close.png') top left no-repeat transparent;
+  cursor: pointer;
+  margin: 10px 0 0 -7px;
+}
+
+#market_window_beak{
+	margin-left: 40px;
+	height:0;
+}
+
+/* Crime window */
+
+#crime_window{
+  width: 300px;
+}
+#crime_window_contents{
+  background: #FFF;
+  font-family: courier new;
+  font-size: 13px;
+  color: #050;
+}
+#crime_window_contents div{
+  padding: 3px;
+}
+#crime_window_tl{
+  width: 8px;
+  height: 8px;
+  background: #5680FC;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+#crime_window_t{
+  background: #5680FC;
+  border-top: 1px solid #000;
+}
+
+#crime_window_tr{
+  width: 7px;
+  height: 8px;
+  background: #5680FC;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#crime_window_l{
+  background: #5680FC;
+  width: 8px;
+  border-left: 1px solid #000;
+}
+
+#crime_window_r{
+  background: #5680FC;
+  width: 7px;
+  border-right: 1px solid #000;
+}
+
+#crime_window_bl{
+  width: 8px;
+  height: 8px;
+}
+
+#crime_window_b{
+  height: 8px;
+  background: #5680FC;
+  border-bottom: 1px solid #000;
+}
+
+#crime_window_br{
+  width: 7px;
+  height: 8px;
+  background: #5680FC;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#crime_window_close{
+  width: 13px;
+  height: 13px;
+  background: url('images/opacity_close.png') top left no-repeat transparent;
+  cursor: pointer;
+  margin: 10px 0 0 -7px;
+}
+
+#crime_window_beak{
+	margin-left: 40px;
+	height:0;
+}
+
+/* School window */
+
+#school_window{
+  width: 300px;
+}
+#school_window_contents{
+  background: #FFF;
+  font-family: courier new;
+  font-size: 13px;
+  color: #050;
+}
+#school_window_contents div{
+  padding: 3px;
+}
+#school_window_tl{
+  width: 8px;
+  height: 8px;
+  background: #FE8B11;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+#school_window_t{
+  background: #FE8B11;
+  border-top: 1px solid #000;
+}
+
+#school_window_tr{
+  width: 7px;
+  height: 8px;
+  background: #FE8B11;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#school_window_l{
+  background: #FE8B11;
+  width: 8px;
+  border-left: 1px solid #000;
+}
+
+#school_window_r{
+  background: #FE8B11;
+  width: 7px;
+  border-right: 1px solid #000;
+}
+
+#school_window_bl{
+  width: 8px;
+  height: 8px;
+}
+
+#school_window_b{
+  height: 8px;
+  background: #FE8B11;
+  border-bottom: 1px solid #000;
+}
+
+#school_window_br{
+  width: 7px;
+  height: 8px;
+  background: #FE8B11;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#school_window_close{
+  width: 13px;
+  height: 13px;
+  background: url('images/opacity_close.png') top left no-repeat transparent;
+  cursor: pointer;
+  margin: 10px 0 0 -7px;
+}
+
+#school_window_beak{
+	margin-left: 40px;
+	height:0;
+}
+
+/* Nightlife  window */
+#nightlife_window{
+  width: 300px;
+}
+#nightlife_window_contents{
+  background: #FFF;
+  font-family: courier new;
+  font-size: 13px;
+  color: #050;
+}
+#nightlife_window_contents div{
+  padding: 3px;
+}
+#nightlife_window_tl{
+  width: 8px;
+  height: 8px;
+  background: #7D54FC;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+#nightlife_window_t{
+  background: #7D54FC;
+  border-top: 1px solid #000;
+}
+
+#nightlife_window_tr{
+  width: 7px;
+  height: 8px;
+  background: #7D54FC;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#nightlife_window_l{
+  background: #7D54FC;
+  width: 8px;
+  border-left: 1px solid #000;
+}
+
+#nightlife_window_r{
+  background: #7D54FC;
+  width: 7px;
+  border-right: 1px solid #000;
+}
+
+#nightlife_window_bl{
+  width: 8px;
+  height: 8px;
+}
+
+#nightlife_window_b{
+  height: 8px;
+  background: #7D54FC;
+  border-bottom: 1px solid #000;
+}
+
+#nightlife_window_br{
+  width: 7px;
+  height: 8px;
+  background: #7D54FC;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#nightlife_window_close{
+  width: 13px;
+  height: 13px;
+  background: url('images/opacity_close.png') top left no-repeat transparent;
+  cursor: pointer;
+  margin: 10px 0 0 -7px;
+}
+
+#nightlife_window_beak{
+	margin-left: 40px;
+	height:0;
+}
+
+/* Rental */
+#rental_window{
+  width: 300px;
+}
+#rental_window_contents{
+  background: #FFF;
+  font-family: courier new;
+  font-size: 13px;
+  color: #050;
+}
+#rental_window_contents div{
+  padding: 3px;
+}
+#rental_window_tl{
+  width: 8px;
+  height: 8px;
+  background: #75B024;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+#rental_window_t{
+  background: #75B024;
+  border-top: 1px solid #000;
+}
+
+#rental_window_tr{
+  width: 7px;
+  height: 8px;
+  background: #75B024;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#rental_window_l{
+  background: #75B024;
+  width: 8px;
+  border-left: 1px solid #000;
+}
+
+#rental_window_r{
+  background: #75B024;
+  width: 7px;
+  border-right: 1px solid #000;
+}
+
+#rental_window_bl{
+  width: 8px;
+  height: 8px;
+}
+
+#rental_window_b{
+  height: 8px;
+  background: #75B024;
+  border-bottom: 1px solid #000;
+}
+
+#rental_window_br{
+  width: 7px;
+  height: 8px;
+  background: #75B024;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#rental_window_close{
+  width: 13px;
+  height: 13px;
+  background: url('images/opacity_close.png') top left no-repeat transparent;
+  cursor: pointer;
+  margin: 10px 0 0 -7px;
+}
+
+#rental_window_beak{
+	margin-left: 40px;
+	height:0;
+}
+
+/* Dining */
+#dining_window{
+  width: 300px;
+}
+#dining_window_contents{
+  background: #FFF;
+  font-family: courier new;
+  font-size: 13px;
+  color: #050;
+}
+#dining_window_contents div{
+  padding: 3px;
+}
+#dining_window_tl{
+  width: 8px;
+  height: 8px;
+  background: #7D54FC;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+#dining_window_t{
+  background: #7D54FC;
+  border-top: 1px solid #000;
+}
+
+#dining_window_tr{
+  width: 7px;
+  height: 8px;
+  background: #7D54FC;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#dining_window_l{
+  background: #7D54FC;
+  width: 8px;
+  border-left: 1px solid #000;
+}
+
+#dining_window_r{
+  background: #7D54FC;
+  width: 7px;
+  border-right: 1px solid #000;
+}
+
+#dining_window_bl{
+  width: 8px;
+  height: 8px;
+}
+
+#dining_window_b{
+  height: 8px;
+  background: #7D54FC;
+  border-bottom: 1px solid #000;
+}
+
+#dining_window_br{
+  width: 7px;
+  height: 8px;
+  background: #7D54FC;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+#dining_window_close{
+  width: 13px;
+  height: 13px;
+  background: url('images/opacity_close.png') top left no-repeat transparent;
+  cursor: pointer;
+  margin: 10px 0 0 -7px;
+}
+
+#dining_window_beak{
+	margin-left: 40px;
+	height:0;
+}

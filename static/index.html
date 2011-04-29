@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Squarefeet - Rental apartments, houses, rooms</title>
+
+<link href="js/themes/sqft/ui.all.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/sqft.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/listing.css" media="screen" rel="stylesheet" type="text/css" />
+
+<!-- Key should be moved into a config file, as it is domain specific -->
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAECSOuji4TOtiVE7-cPlT4RTIHgV_2kPRe_gnvXU2bjJhIdFg3RSIAuz-a8zxn55wcoVB6fTdHvKApA" type="text/javascript"></script>
+<script src="http://www.google.com/jsapi?key=ABQIAAAAECSOuji4TOtiVE7-cPlT4RTIHgV_2kPRe_gnvXU2bjJhIdFg3RSIAuz-a8zxn55wcoVB6fTdHvKApA"></script>  
+<script src="js/map.js"></script>
+<script src="js/jquery.modal.js"></script>
+
+</head>
+
+<body>
+
+<div id="container">
+
+    <div id="header">
+    	<ul id="tabs">
+            <li id="searchTab" class="tab active">Search</li>
+            <li id="compareTab" class="tab">Compare</li>
+            <li id="neighborhoodsTab" class="tab">Neighborhoods</li>
+            <li id="favoritesTab" class="tab">Favorites</li>            
+        </ul>
+        <br clear="all" />
+        <div id="topRight">
+        	steve@livesqft | Settings | Logout
+        </div>
+    </div>
+ 
+    <div id="body">
+        <div id="listingInfo">
+        	<div class="floatLeft" style="padding-left: 8px;">
+            	<span id="address">713 Saint Paul Street,</span> <span id="city">Baltimore, MD 21218</span><br />
+				<span id="mainData">2 beds, 1 bath | $1,100 / month | 800 sqft |  $1.38 / sqft</span>
+            </div>
+            
+            <div class="floatRight">
+            	<div id="contactLandlord">
+                	Contact the Landlord
+                </div>
+                <br clear="right" />
+
+				<div id="moreOptions">
+					<a class="ui-state-default ui-corner-all" href="#">
+                        <span class="ui-icon ui-icon-comment"></span>
+                        Share it
+                    </a>
+                    
+                    <a class="ui-state-default ui-corner-all" href="#">
+                        <span class="ui-icon ui-icon-tag"></span>
+                        Compare it
+                    </a>
+                    
+                    <a class="ui-state-default ui-corner-all" href="#">
+                        <span class="ui-icon ui-icon-star"></span>
+                        Favorite it
+                    </a>                                                                                
+                </div>
+            </div>
+        </div>
+        <br clear="all" />
+
+        <div id="leftContainer">
+            <div class="floatRight" id="photoContainer">
+            	<img src="photos/interior.jpg" width="500" height="375" />
+            </div>
+        
+        
+          	<div id="costInfo" class="floatLeft">
+                <div id="costContainer" class="floatLeft">
+                    <h4 class="sectionTitle">Estimated Total Cost</h4>
+                    <span id="estimatedCost">$1,470</span><br />
+                    <span id="estimatedCostBySqft">($1.84 / sqft)</span>
+                </div>
+                
+                <div id="includedCosts" class="floatLeft">
+                    <h4 class="sectionTitle">Included in Rent</h4>
+                    <ul>
+                        <li class="ui-state-default"><span class="ui-icon ui-icon-check"></span> Water</li>
+                        <li class="ui-state-default"><span class="ui-icon ui-icon-check"></span> Parking</li>
+                    </ul>
+                </div>
+                
+                <div id="excludedCosts" class="floatLeft">
+                    <h4 class="sectionTitle">Not Included in Rent</h4>
+                    <ul>
+                        <li class="ui-state-active"><span class="ui-icon ui-icon-cancel"></span> Electric</li>
+                        <li class="ui-state-active"><span class="ui-icon ui-icon-cancel"></span> Heat</li>
+                        <li class="ui-state-active"><span class="ui-icon ui-icon-cancel"></span> Cable</li>
+                        <li class="ui-state-active"><span class="ui-icon ui-icon-cancel"></span> Internet</li>
+                    </ul>
+                </div>                        
+          	</div>           
+            
+            <div id="hoodCompGraphs" class="floatLeft">
+                <div class="floatLeft" id="totalCost">
+                    <h4 class="sectionTitle">Total Cost</h4>
+                    <img src="img/spark_35.gif" border="0" width="185" height="23" /><br />
+                    <span class="small">65% of 2BD apartments in  Mt. Vernon cost more per month than this apartment.</span>
+              	</div>
+                
+                <div class="floatLeft" id="perSqft">
+                    <h4 class="sectionTitle">Cost per Square Foot</h4>
+                    <img src="img/spark_72.gif" border="0" width="185" height="23" /><br />
+                    <span class="small">28% of 2BD apartments in  Mt. Vernon cost more per sqft than this apartment.</span>
+              	</div>
+          	</div>                           
+                  	
+            <br clear="left" />
+            
+            <div id="about">
+                <h4 class="sectionTitle">About 713 Saint Paul Street</h4>
+                <p>
+   				Settled on the shores of Blue Hill Bay, with 225 feet of deep-water frontage, the waterside is quite literally a wall of glass. From each room one watches the changing mood of the sea and sky, yet is cozy and deeply insulated by the solid construction and southern exposure.
+                </p>
+				
+                <p>
+				While densely built, this house has a light, airy, warm feeling about it. It is 3200 square feet with large volume spaces, three bedrooms, two and a half baths, open kitchen and dining room, double height living room with large soapstone fireplace, hang space (TV room), library, mud-room, laundry, two car garage with heated slab, extensive covered porches and decks, and two outdoor showers (both with ocean views).
+				</p>
+
+				<p>
+                Second floor master suite has amazing 'pilot house' views, walk-in closet with attached laundry room, huge bathroom including a shower without walls, oversize soaking bathtub, 'partner' double sink, bidet, extensive glass front cabinets, dressing table, and an integral exterior deck with shower looking out onto the bay.
+				</p>
+				<p>
+                Designed by a LEED accredited architect, this modern home utilizes traditional materials in a non-traditional way, and is boldly out front in ecological and energy efficient design.             
+                </p>
+          	</div>
+        </div>    
+        
+  		<div id="featuresContainer">
+       		<h4 class="sectionTitle">Features</h4>
+            <ul style="padding-left: 0;">
+            	<li class="title">Communal</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check"></span> Hardwoods</li>
+                <li class="ui-state-active"><span class="ui-icon ui-icon-cancel"></span> Air Conditioning</li>
+            </ul>
+            
+            <ul>
+            	<li class="title">Living Space</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check"></span> Hardwoods</li>
+                <li class="ui-state-active"><span class="ui-icon ui-icon-cancel"></span> Air Conditioning</li>
+            </ul>
+            
+            <ul>
+            	<li class="title">Kitchen</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check"></span> Hardwoods</li>
+                <li class="ui-state-active"><span class="ui-icon ui-icon-cancel"></span> Air Conditioning</li>
+            </ul>
+            
+            <ul>
+            	<li class="title">Bedrooms</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check"></span> Hardwoods</li>
+                <li class="ui-state-active"><span class="ui-icon ui-icon-cancel"></span> Air Conditioning</li>
+            </ul>
+            
+            <ul>
+            	<li class="title">Bathrooms</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check"></span> Hardwoods</li>
+                <li class="ui-state-active"><span class="ui-icon ui-icon-cancel"></span> Air Conditioning</li>
+            </ul>
+            
+            <ul style="border:none;">
+            	<li class="title">Outdoor</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-check"></span> Hardwoods</li>
+                <li class="ui-state-active"><span class="ui-icon ui-icon-cancel"></span> Air Conditioning</li>
+            </ul>
+            
+            <br clear="left" />
+        </div>
+        
+        
+        <div id="mapContainer">
+         	<h4 class="sectionTitle">Neighborhood Detail: Mt. Vernon </h4>                                 
+            <div class="floatLeft" style="clear:left;">
+            	<ul id="hoodScoresContainer" class="floatLeft">
+                    <li>Dining <span class="a">A</span></li>
+                    <li>Markets <span class="b">B</span></li>
+                    <li>Fitness <span class="c">C</span></li>
+                    <li>Schools <span class="d">D</span></li>
+                    <li>Nightlife <span class="f">F</span></li>
+                    <li>Services <span class="a">A</span></li>
+                    <li style="border:none;">Transit <span class="a">A</span></li>                                        
+                </ul>   
+                
+                <br clear="left" />
+            	<hr />
+                
+            	<label>List</label> 
+                <select>
+                	<option>what's well reviewed</option>
+                    <option>what's popular</option>
+                	<option>what's closest</option>                    
+                </select>
+                
+                <hr />
+                
+                <table>                	
+                    <tr>
+                        <th colspan="5">Nearest Restaurants</th>
+                    </tr>
+             
+                    <tr>
+                        <td>Sammy's Trattoria</td>
+                        <td>Italian</td>
+                        <td>0.1 mi</td>
+                        <td><img src="img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>The Helmand</td>
+                        <td>Afghani</td>
+                        <td>0.1 mi</td>
+                        <td><img src="img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Thairish</td>
+                        <td>Thai</td>
+                        <td>0.1 mi</td>
+                        <td><img src="img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+            
+                    <tr>
+                        <th colspan="5">Nearest Nightlife</th>
+                    </tr>
+                    <tr>
+                        <td>Midtown Yacht Club</td>
+                        <td>Pub</td>
+                        <td>0.1 mi</td>
+                        <td><img src="img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Red Maple</td>
+                        <td>Nightclub</td>
+                        <td>0.1 mi</td>
+                        <td><img src="img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>The Hippo</td>
+                        <td>GBLT Nightclub</td>
+                        <td>0.1 mi</td>
+                        <td><img src="img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+					
+                    <tr>
+                        <th colspan="5">Nearest Markets</th>
+                    </tr>
+                    <tr>
+                        <td>Eddie's</td>
+                        <td>Grocery Store</td>
+                        <td>0.1 mi</td>
+                        <td><img src="img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Superfresh</td>
+                        <td>Grocery Store</td>
+                        <td>0.1 mi</td>
+                        <td><img src="img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lexington Market</td>
+                        <td>Market</td>
+                        <td>0.1 mi</td>
+                        <td><img src="img/map_point.gif" width="22" height="25" border="0" alt="Show on the map" /></td>
+                        <td><img src="img/stars.gif" width="106" height="19" border="0" alt="4 star rating" /></td>
+                    </tr>
+                    
+                </table>                     
+                
+            </div>
+        	<div id="map" style="width:500px; height: 450px; float:right;"></div>
+        </div>
+    </div>
+</div>
+<br clear="all" />
+
+<div id="footer">&nbsp; &nbsp; About | Listing with Us | Contact</div>
+
+
+</body>
+</html>

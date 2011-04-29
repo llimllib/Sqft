@@ -1,0 +1,66 @@
+div#mapContainer {
+    margin: 0px 40% 0px 0px;
+    padding: 0 20px;
+	height: 100%;
+}
+
+#map{ border: 1px solid #C8CCBE;}
+
+div#listingsContainer {
+    width: 38%;
+    float: right;
+    padding: 0 20px;
+	min-width: 380px;
+}
+
+div.pad{ padding: 10px; float:left; width: 95%; min-width: 360px;}
+
+a.ui-state-default{ float:left; padding: 4px; text-decoration:none; margin-right: 4px;}
+.searchBtnContainer{ float: left; clear:both;}
+.closeSearchBtn{position: absolute; top: -11px; right: -10px; cursor: pointer;}
+#edit_search{font-size: .85em; padding: 8px;}
+.closeSearchBtn .ui-icon{ margin-right: 1px;}
+.ui-slider .ui-slider-handle { height: .5em;}
+
+#resultsHeader{
+	width:98%;	
+	float:left;
+	border-left: 1px solid #C8CCBE;
+	border-right: 1px solid #C8CCBE;
+	border-top: 1px solid #C8CCBE;
+	background-color: #ECF4DB;
+	background-repeat: no-repeat;
+	background-position: 15px -5px;
+	color: #527320;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+#resultsContainer{
+	overflow-y:auto;
+	overflow-x: hidden;
+	width: 98%;
+	border-left: 1px solid #C8CCBE;
+	border-right: 1px solid #C8CCBE;
+	border-bottom: 1px solid #C8CCBE;
+	float:left;
+}
+
+.groupTitleBar{ float:left; border-right: 0; border-left: 0; width: 100%; padding: 6px 0; font-weight: bold; font-size:.9em;}
+.groupTitleBar .floatLeft{ cursor:pointer;}
+.groupTitleBar .floatRight{padding-right: 12px;}
+.groupResultsContainer{ float:left; width:100%;}
+.listing{ border-bottom: 1px solid #EBEBEB; padding: 8px 4px; font-size: .75em; width:97%;}
+.listing .text{ padding-left: 12px;}
+.listing a{ font-weight: bold; color: #527320;}
+.listing .ui-icon{ margin-right: 1px;}
+.listing .ui-corner-all{ margin-bottom: 3px; padding:2px;}
+#listingsContainer .selected{ background-color: #ECF4DB;}
+
+#searchContainer{
+	position: absolute;
+	float:left;
+	background: #FFF;
+	border: 1px solid #C8CCBE;
+	font-size: .75em;
+}

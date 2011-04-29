@@ -1,0 +1,39 @@
+@charset "utf-8";
+#nChooserDialog{height: 80%; width: 90%;min-width: 650px;}
+#nChooserDialog .column{text-align:left; float:left; padding: 24px 1% 24px 2%;}
+#nChooserDialog .column p{ font-size: .7em; padding-right: 4px;}
+#nChooserDialog #middleColumn{width: 30%; border-right: 2px solid #527630; padding-right: 0; background:url(../img/gray_rt_arrow.gif) no-repeat 0px 22px; }
+#nChooserDialog #rightColumn{width:64.5%; overflow:auto; position:relative; height:83%;}
+.bottomBar{background-color:#C8CCBE; width:100%; float:left; bottom: 0px; left:0; position:absolute;}
+h1.colTitle{color: #527320; font-family:Arial, Helvetica, sans-serif; font-size: 1.1em; font-weight: normal; margin-top:0px; }
+#nChooserDialog .hood{border-bottom: 1px solid #C8CCBE; padding: 10px 0px; float:left; width:100%; cursor:pointer; }
+#nChooserDialog .detailed{border-top: 1px solid #527630;border-left: 2px solid #527630;border-bottom: 2px solid #527630;background-color:#FFFFFF;background-image: url(../img/green_rt_arrow.gif);background-repeat: no-repeat;background-position: right center;}
+#nChooserDialog .selected{ background-color: #ECF4DB;}
+#nChooserDialog .hoodText{ padding-left: 6px; cursor:pointer;}
+#nChooserDialog .hoodName{ font-size: .9em; font-weight:bold;}
+#nChooserDialog .smallGray{ color: #686868; font-size:.7em;}
+#nChooserDialog .small{ font-size: .7em; padding: 10px 10px 0px 3px; text-align:right;}
+input.finish{padding: 3px; margin-top: 10px;}
+#editPrefs{background:url(../img/sm_gr_rt_arrow.gif) no-repeat 0px 15px; padding-left: 10px; font-weight:bold; padding-top: 12px; display:block; font-size: .8em;}
+.smPager{ border:2px solid #C8CCBE; display:block;float:left;height:10px;line-height:7px;padding:3px;width:10px; margin-top: 4px;}
+.smPager:hover{background-color: #76B125; color: white; text-decoration:none;}
+#nChooserDialog #next{margin-left: 4px;}
+#hoodPage{ float:left; display:block; margin-top: 7px; margin-left: 6px; font-size: .75em; font-weight:bold;}
+.jqmOverlay { background-color: #000; }
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {position: absolute;top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');}
+/* Preferences Dialog */
+#nPrefsDialog{width:65%;min-width: 650px;}
+#prefsContainer{background:url(../img/gray_rt_arrow.gif) no-repeat 0px 22px; padding: 24px 24px 0 24px; margin-bottom: 62px;}
+#nPrefsDialog .preference{ width: 170px; font-size: .9em; float:left; padding: 3px 18px; background: #F1F4E9; margin: 4px; cursor:pointer;}
+#nPrefsDialog .pSelected{border: 1px solid #76B125; color:#527630; font-weight:500; margin:3px; background:#ECF4DB;}
+#nPrefsDialog .extra{background-image: url(../img/sm_gr_rt_arrow.gif);background-repeat: no-repeat;background-position: 8px 6px;}
+#nPrefsDialog .expanded{background-image: url(../img/sm_gr_down_arrow.gif); background-repeat: no-repeat;background-position: 8px 6px;}
+#nPrefsDialog .extraInput { font-size:.8em; width:168px; margin-bottom: 4px;}
+div.preference label{ font-size: .8em; margin-top: 12px;}
+.prefError{background-color: #FEF8F6; border: 1px solid #CD0A0A; color: #CD0A0A; background-image: url(../img/sm_red_down_arrow.gif); background-repeat: no-repeat;background-position: 8px 6px;}
+div.prefError label{ color: #CD0A0A;}
+
+#hoodDesc{ margin-top: 12px; font-size: .9em;}

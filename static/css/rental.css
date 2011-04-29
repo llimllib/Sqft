@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#header{ width: 960px; margin: 0 auto; border-bottom: 1px solid #76B125;}
+div#container{ margin-bottom: 0;}
+div#body{ width: 960px; margin: 14px auto; }
+div#footer { width: 960px; margin: 20px auto; border-top: 1px solid #76B125;}
+a.ui-state-default{ float:right; padding: 4px 10px 4px 4px; text-decoration:none; margin-right: 4px; font-size: .7em;}
+.ui-icon{ margin-top: -1px;}
+.sectionTitle{ font-size: .8em; font-weight: bold; width:auto; color: #76B125;}
+span.small{ font-size: .65em;}
+
+#listingInfo{ float: left; border-bottom: 1px solid #C9CAC2; width: 100%; padding-bottom: 14px; color: #76B125;}
+#listingInfo #address{ font-size: 1.8em; line-height: 1.5em;}
+#listingInfo #city, #mainData{ font-size: 1.1em; }
+#contactLandlordBtn{
+	width: 232px;
+	height: 47px;
+	background-image: url(../img/contact_LL.gif);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	margin-bottom: 8px;
+	float:right;
+}
+#contactLandlordBtn:hover{ background-position: 0px -47px;}
+
+
+h4{ margin-bottom: 6px; margin-top: 0; }
+
+#costInfo table{padding: 0; margin: 0;}
+#costInfo table tr{ vertical-align:top;}
+#costContainer, #includedCosts, #excludedCosts{ padding: 8px;}
+#costContainer, #includedCosts{ border-right: 1px solid #C9CAC2; }
+#estimatedCost{ font-size: 2.3em; color: #76B125; font-weight:bold;}
+#estimatedCostBySqft{ color: #76B125; font-size: .8em;}
+
+#excludedCosts h4{ color: #C9CAC2;}
+#includedCosts ul, #excludedCosts ul{ list-style: none; margin: 0; padding: 0;}
+#includedCosts ul li, #excludedCosts ul li { font-size: .8em; font-weight: bold;}
+#body ul li.ui-state-default{ color: #76B125; background: none; border: none;}
+#body ul li.ui-widget-content{ color: #C9CAC2; background:none; border:none; }
+
+#photoContainer{ width: 500px; border-left: 1px solid #C9CAC2; border-bottom: 1px solid #C9CAC2; padding: 8px; background-color:#FFF; margin-left: 5px;}
+
+#hoodCompGraphs{border-top: 1px solid #C9CAC2;}
+#hoodScores, #about, #featuresContainer, #mapContainer{ border-top: 1px solid #C9CAC2; padding: 8px;}
+#totalCost{ border-right: 1px solid #C9CAC2; padding: 8px; width:202px;}
+#perSqft{ padding: 8px; width:203px;}
+#hoodScores{ width: 427px;}
+ul#hoodScoresContainer{ background-color: #FCF7D9; 
+	border: 1px solid #F9E455; 
+	list-style:none;
+	margin:0;
+	padding: 4px;
+}
+
+ul#hoodScoresContainer li{
+	float: left;
+	font-size:.65em; 
+	padding: 4px 6px;
+	border-right: 1px dotted #999999;
+}
+
+#hoodScoresContainer li span{ display: block; font-size: 2em; font-weight: bold; text-align:center; }
+#hoodScoresContainer li span.a{ color: #76B125;}
+#hoodScoresContainer li span.b{ color: #527630;}
+#hoodScoresContainer li span.c{ color: #000000;}
+#hoodScoresContainer li span.d{ color: #EBD31C;}
+#hoodScoresContainer li span.f{ color: #CD0A0A;}
+
+#about p{ margin:0 0 10px 0; font-size:.8em;}
+
+#featuresContainer ul{ list-style: none; margin:0; padding:0 8px; float:left; border-right: 1px dotted #999999;}
+#featuresContainer ul li{ font-size: .8em;}
+ul li.title{ font-weight: bold;}
+
+#mapContainer table { width: 430px;}
+#mapContainer tr th{ border-bottom: 1px solid #C9CAC2; text-align:left; padding-top:12px;}
+#mapContainer tr td{ border-bottom: 1px solid #DEDFD6;}
+#mapContainer td, #mapContainer th{ font-size: .8em;}
+
+.contactPad{background:url(../img/gray_rt_arrow.gif) no-repeat 0px 22px; padding: 24px 24px 0 24px; margin-bottom: 62px;}
+form.contact label{ display: block; padding-top: 12px;}
+form.contact textarea{ height: 150px; width: 250px;}

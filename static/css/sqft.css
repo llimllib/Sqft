@@ -1,0 +1,69 @@
+html, body {width: 100%;height: 100%;padding: 0px;margin: 0px;font: 100% "Helvetica Neue",Arial,Helvetica,sans-serif}
+div#container {height: 100%;height: auto !important;min-height: 100%;margin-bottom: -60px;min-width: 960px;}
+div#header {background-color: #FFF;background-image: url(../img/textLogo.gif);background-repeat: no-repeat;background-position: 20px 5px;padding-bottom: 20px;}
+ul#tabs{ margin: 0; padding: 15px 0 0 80px; list-style:none; width: 500px;}
+ul#tabs li{ float: left; margin: 0  0 0 10px; }
+ul#tabs li a{float: left; font-size: .9em; font-weight:bold; background-color:#ECF4DB; color: #527320; padding: 8px 14px;}
+ul#tabs li.active a {color: #FFF; background-color:#76B125;}
+#topRight{ position: absolute; right: 30px; top: 15px; font-size: .9em; border: 1px solid #76B125; padding: 8px 14px; background-color:#ECF4DB; display:none;}
+div#body {overflow: hidden;height: 100%;}
+
+a{color: #527320;text-decoration:none;}
+a:hover{ text-decoration:underline; }
+hr{background:#EBEBEB none repeat scroll 0 0;border:medium none;color:#EBEBEB;height:0.1em;margin:.8em 0;width:100%;}
+#searchContainer label{ display: block; color: #76B125; font-size: 1.2em; margin-bottom: 5px; margin-top:10px;}
+#searchContainer label small{ font-size: .65em; color:#222222; padding-left: 14px;}
+small{color: #C8CCBE; font-size: .7em;}
+input.finish{padding: 3px; margin-top: 10px;}
+
+/* Form styles */
+#searchButton{float:right; padding: 6px; font-weight: bold; margin-right: 10px;}
+.mainSearch{font-size:1.2em;color:#222;padding:5px;width:320px;border:1px solid #C8CCBE;}
+.priceInput, #bedFloor, #bathFloor{ width:80px; font-size: 1.2em; padding: 5px;}
+.nChooserLink{ background-color:#FBE24C; margin-left:15px; margin-top: 6px; padding:3px; float:left; display:block; color: #86791D;}
+span.results{font-size: 1.2em; color:#76B125;}
+
+/* Auto-complete related styles */
+.selectedTagsContainer{padding:5px;width:320px;border:1px solid #C8CCBE; margin-bottom: 14px; float:left; background-color:#FFF; display:block; clear:left;}
+.tagInput{float:left; width: auto; border:0; height:20px;}
+.tagInput:focus {outline: none; border:0;}
+.expandBtn{margin-left:4px;padding:8px 2px;float:left; background: url(../img/listIcon.gif) no-repeat 0px 8px; width: 16px; height: 16px; cursor: pointer;}
+div.tag{ background-color: #ECF4DB; padding: 3px; float:left; margin-right: 3px; margin-bottom:3px; font-size: .8em;}
+
+/* Pop up styles */
+#hoodList, #featureList{padding-left: 10px; }
+.jqmWindow {display: none;position: fixed;margin-bottom: auto;background-color: #FFF;color: #333;border: 10px solid #C8CCBE;padding: 0; text-align: left;}
+.jqmOverlay { background-color: #000; }
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {position: absolute;top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');}
+.bottomBar{background-color:#C8CCBE; width:100%; float:left; bottom: 0px; left:0; position:absolute;}
+h1.colTitle{color: #527320; font-family:Arial, Helvetica, sans-serif; font-size: 1.1em; font-weight: normal; margin-top:0px; }
+.expandedOptions{position: absolute; background-color:#FFF; border: 1px solid #BBBBBB; padding: 5px;}
+.hoodMenuLink, .featureMenuLink{ font-size:.8em; display:block; padding-left: 15px; padding-bottom: 4px; cursor:pointer;}
+.menuSelected{ background: url(../img/greencheck.gif) no-repeat 0 2px; color:#76B125; font-weight:bold;}
+.closeModalBtn{position: absolute; top: -22px; right: -20px; cursor: pointer;}
+.closeModalBtn .ui-icon{ margin-right: 1px;}
+.col{padding-right: 10px; padding-top: 10px;}
+
+.menu{background: url(../img/sm_gr_rt_arrow.gif) no-repeat left 8px; padding: 5px 10px; cursor:pointer;}
+.open{background: url(../img/sm_gr_down_arrow.gif) no-repeat left 8px; }
+.menu > span{font-size:.9em;}
+.areaHoods{padding-top: 4px;}
+#hoodDesc h2{ font-size: .9em; border-bottom:1px solid #C8CCBE; color: #527320;}
+.flickrHoodGallery{ list-style: none; margin:0; padding: 0 10px; float:left;}
+
+.floatLeft{float:left;}
+.floatRight{float:right; text-align:left;}
+
+div#footer {
+	border-top: 1px solid #C8CCBE;
+    background: #fff;
+    padding: 8px 0px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.jqmWindow a.modalCancel{ color: #CD0A0A; text-decoration:underline; }
+.jqmWindow a.modalCancel:hover{ background-color: #CD0A0A; text-decoration:none; color: #FFF; }

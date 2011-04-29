@@ -1,0 +1,60 @@
+@charset "utf-8";
+body { font: 100% 	"Helvetica Neue",Arial,Helvetica,sans-serif; background: #FFF; margin: 0; padding: 0; text-align: center; color: #000000;}
+a{font-size: .8em;color: #527320;text-decoration:none;}
+a:hover{ text-decoration:underline; }
+hr{background:#EBEBEB none repeat scroll 0 0;border:medium none;color:#EBEBEB;height:0.1em;margin:1.2em 0;width:100%;}
+#searchForm label{ display: block; color: #76B125; font-size: 1.2em; margin-bottom: 5px; margin-top:20px;}
+label small{ font-size: .65em; color:#222222; padding-left: 14px;}
+select{font-size:1.2em;color:#222;padding:5px;border:1px solid #C8CCBE; margin-bottom: 6px;}
+small{color: #C8CCBE; font-size: .7em;}
+
+/* Layout Styles */
+#centerContainer { width: 728px; background: #FFFFFF; margin: 0 auto; text-align: left; }
+#container{ position: absolute; padding:0; margin:0;}
+#header{ position: absolute; width: 259px; height: 40px; text-align:right; padding-top: 12px;}
+#header #loginLink{background: url(../img/sm_gr_rt_arrow.gif) no-repeat left center; padding-left: 15px;}
+#logo { position: absolute; width: 259px; height: 259px; top: 40px; background-image:url(../img/homeLogo.gif); text-indent: -9999px;}
+#searchOptionsContainer{position: absolute;left: 307px; top: 40px; border: #C8CCBE solid 12px; width: 423px;}
+#formContainer { padding: 8px 18px 18px 18px; width: 387px;}
+.floatLeft{float:left;}
+.floatRight{float:right; text-align:left;}
+
+/* Form styles */
+#searchButton{float:right; padding: 6px; font-weight: bold;}
+.mainSearch{font-size:1.2em;color:#222;padding:5px;width:375px;border:1px solid #C8CCBE;}
+.priceInput{ width:80px; font-size: 1.2em; padding: 5px;}
+.nChooserLink{
+	width: 233px;
+	height: 38px;
+	background-image: url(../img/find_hoods.gif);
+	background-repeat: no-repeat;
+	background-position: 0px -38px;
+	text-indent: -9999px;
+	margin-top: 6px;
+	float:right;
+}
+.nChooserLink:hover{ background-position: 0px 0px;}
+span.results{font-size: 1.2em; color:#76B125;}
+
+/* Auto-complete related styles */
+.selectedTagsContainer{padding:5px;width:349px;border:1px solid #C8CCBE; margin-bottom: 20px; float:left; background-color:#FFF; display:block;}
+.tagInput{float:left; width: auto; border:0; height:20px;}
+.tagInput:focus {outline: none; border:0;}
+.expandBtn{margin-left:4px;padding:8px 2px;float:left; background: url(../img/listIcon.gif) no-repeat 0px 8px; width: 16px; height: 16px; cursor: pointer;}
+div.tag{ background-color: #ECF4DB; padding: 3px; float:left; margin-right: 3px; margin-bottom:3px; font-size: .8em;}
+
+/* Pop up styles */
+#hoodList, #featureList{padding-left: 10px; }
+.jqmWindow {display: none;position: fixed;margin-bottom: auto;background-color: #FFF;color: #333;border: 10px solid #C8CCBE;padding: 0; text-align: left;}
+.expandedOptions{position: absolute; background-color:#FFF; border: 1px solid #BBBBBB; padding: 5px;}
+.hoodMenuLink, .featureMenuLink{ font-size:.8em; display:block; padding-left: 15px; padding-bottom: 4px; cursor:pointer;}
+.menuSelected{ background: url(../img/greencheck.gif) no-repeat 0 2px; color:#76B125; font-weight:bold;}
+.closeModalBtn{position: absolute; top: -22px; right: -20px; cursor: pointer;}
+.closeModalBtn .ui-icon{ margin-right: 1px;}
+.col{padding-right: 10px; padding-top: 10px;}
+.menu{background: url(../img/sm_gr_rt_arrow.gif) no-repeat left 8px; padding: 5px 10px; cursor:pointer;}
+.open{background: url(../img/sm_gr_down_arrow.gif) no-repeat left 8px; }
+.menu > span{font-size:.9em;}
+.areaHoods{padding-top: 4px;}
+#hoodDesc h2{ font-size: .9em; border-bottom:1px solid #C8CCBE; color: #527320;}
+.flickrHoodGallery{ list-style: none; margin:0; padding: 0 10px; float:left;}
